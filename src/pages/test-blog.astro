@@ -1,0 +1,63 @@
+---
+import { getCollection } from 'astro:content';
+
+const posts = await getCollection('blog');
+
+// newest first
+posts.sort((a, b) => b.data.pubDate - a.data.pubDate);
+---
+
+<html>
+  <head>
+    <title>Test Blog</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+      }
+
+      .card {
+        border: 1px solid #e6efe8;
+        border-radius: 10px;
+        margin-bottom: 16px;
+        transition: border-color 0.2s, box-shadow 0.2s;
+      }
+
+      .card:hover {
+        border-color: #3a6b45;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+      }
+
+      .card-link {
+        display: block;
+        padding: 16px;
+        text-decoration: none;
+        color: inherit;
+      }
+
+      .card h2 {
+        margin: 0 0 8px;
+      }
+
+      .card p {
+        margin: 0;
+        color: #555;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Test Blog</h1>
+
+    {posts.map((post) => (
+      <div class="card">
+        <a href={`/blog/${post.data.slug}/`} class="card-link">
+          <h2>{post.data.title}</h2>
+          <p>{post.data.description}</p>
+        </a>
+      </div>
+    ))}
+  </body>
+</html>
