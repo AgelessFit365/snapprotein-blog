@@ -94,7 +94,7 @@ export const posts = [
     title: "How Much Protein Do Men Over 50 Need?",
     description: "Most men over 50 are eating far less protein than they actually need. Here's what the science says — and the simplest way to fix it.",
     pubDate: "2025-01-05"
-  }
+  },
 
   {
     url: "/blog/why-men-over-50-dont-get-results/",
