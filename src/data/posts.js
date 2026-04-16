@@ -107,5 +107,12 @@ export const posts = [
     title: "Best High-Protein Snacks for Men Over 50 (No Cooking Required)",
     description: "Most snacks do nothing for your protein goals. These do. Here are the best high-protein snacks for men over 50 — fast, simple, and built around foods you'll actually eat.",
     pubDate: "2025-01-05"
+  },
+
+  {
+    url: "/blog/cronometer-alternative-men-over-40/",
+    title: "Cronometer Alternative for Men Over 40 (When Simple Beats Detailed)",
+    description: "Cronometer is one of the most detailed nutrition apps available. That's exactly why it doesn't work for most men over 40 who just need to hit a daily protein target.",
+    pubDate: "2025-01-05"
   }
 ];
