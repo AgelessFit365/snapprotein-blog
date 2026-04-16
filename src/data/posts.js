@@ -114,5 +114,11 @@ export const posts = [
     title: "Cronometer Alternative for Men Over 40 (When Simple Beats Detailed)",
     description: "Cronometer is one of the most detailed nutrition apps available. That's exactly why it doesn't work for most men over 40 who just need to hit a daily protein target.",
     pubDate: "2025-01-05"
+  },
+  {
+    url: "/blog/lose-it-alternative-men-over-40/",
+    title: "Lose It! Alternative for Men Over 40 (The Wrong App for the Right Goal)",
+    description: "Lose It! is built around calorie deficit and weight loss. Most men over 40 need the opposite — more protein to preserve muscle. Here's why the frame matters as much as the features.",
+    pubDate: "2025-01-05"
   }
 ];
