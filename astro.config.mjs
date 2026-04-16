@@ -6,4 +6,4 @@ export default defineConfig({
   integrations: [sitemap({
     filter: (page) => !page.includes('/test-blog/') && !page.includes('/test-post/')
   })],
-});npu
+});
