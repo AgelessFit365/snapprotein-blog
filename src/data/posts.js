@@ -101,5 +101,11 @@ export const posts = [
     title: "Why Most Men Over 50 Don't Get Results (Even When They Try)",
     description: "Most men over 50 who aren't making progress aren't lazy. They're missing one thing. Here's what the research says is actually behind the plateau — and what actually fixes it.",
     pubDate: "2025-01-05"
+  },
+  {
+    url: "/blog/high-protein-snacks-men-over-50/",
+    title: "Best High-Protein Snacks for Men Over 50 (No Cooking Required)",
+    description: "Most snacks do nothing for your protein goals. These do. Here are the best high-protein snacks for men over 50 — fast, simple, and built around foods you'll actually eat.",
+    pubDate: "2025-01-05"
   }
 ];
