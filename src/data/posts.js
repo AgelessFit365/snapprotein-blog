@@ -95,4 +95,11 @@ export const posts = [
     description: "Most men over 50 are eating far less protein than they actually need. Here's what the science says — and the simplest way to fix it.",
     pubDate: "2025-01-05"
   }
+
+  {
+    url: "/blog/why-men-over-50-dont-get-results/",
+    title: "Why Most Men Over 50 Don't Get Results (Even When They Try)",
+    description: "Most men over 50 who aren't making progress aren't lazy. They're missing one thing. Here's what the research says is actually behind the plateau — and what actually fixes it.",
+    pubDate: "2025-01-05"
+  }
 ];
