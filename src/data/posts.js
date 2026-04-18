@@ -126,6 +126,12 @@ export const posts = [
     title: "7-Day High-Protein Meal Plan for Men Over 50 (Simple, Real Food)",
     description: "A practical 7-day high-protein meal plan built for men over 50 — no meal prep marathons, no exotic ingredients. Just real food hitting 120–140g of protein daily.",
     pubDate: "2025-01-05"
+  },
+  {
+    url: "/blog/what-120g-protein-looks-like/",
+    title: "What 120g of Protein Actually Looks Like (A Visual Guide for Men Over 50)",
+    description: "120g of protein sounds like a lot. It's not. Here's exactly what it looks like across a real day of eating — broken down meal by meal with common foods most men already eat.",
+    pubDate: "2025-01-05"
   }
 
 ];
