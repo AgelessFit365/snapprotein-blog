@@ -120,5 +120,12 @@ export const posts = [
     title: "Lose It! Alternative for Men Over 40 (The Wrong App for the Right Goal)",
     description: "Lose It! is built around calorie deficit and weight loss. Most men over 40 need the opposite — more protein to preserve muscle. Here's why the frame matters as much as the features.",
     pubDate: "2025-01-05"
+  },
+  {
+    url: "/blog/7-day-high-protein-meal-plan-men-over-50/",
+    title: "7-Day High-Protein Meal Plan for Men Over 50 (Simple, Real Food)",
+    description: "A practical 7-day high-protein meal plan built for men over 50 — no meal prep marathons, no exotic ingredients. Just real food hitting 120–140g of protein daily.",
+    pubDate: "2025-01-05"
   }
+
 ];
