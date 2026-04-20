@@ -147,6 +147,12 @@ export const posts = [
     title: "Protein Calculator for Men Over 40 (The Right Target, Not the RDA)",
     description: "Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it.",
     pubDate: "2026-04-20"
+  },
+  {
+    url: "/blog/how-to-build-muscle-after-50/",
+    title: "How to Build Muscle After 50 (Simple Plan That Actually Works)",
+    description: "Most men over 50 don't need a new workout. They need a different input. Here's the simple, research-backed plan for building and preserving muscle after 50 — four levers, no fluff.",
+    pubDate: "2026-04-20"
   }
 
 ];
