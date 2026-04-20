@@ -1,412 +1,33 @@
 ---
 export const frontmatter = {
-  title: "Best Protein Tracking App for Men Over 40 (Simple Comparison)",
-  description: "Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?",
+  title: "Best Protein Tracking App for Men Over 40 (Honest Comparison)",
+  description: "Most protein tracking apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change.",
   pubDate: "2026-04-20"
-};
+}
 ---
-<!DOCTYPE html>
+
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Protein Tracking App for Men Over 40 (Simple Comparison) | SnapProtein</title>
-  <meta name="description" content="Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?" />
+  <title>Best Protein Tracking App for Men Over 40 (Honest Comparison) | SnapProtein</title>
+  <meta name="description" content="Most protein tracking apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change." />
   <link rel="canonical" href="https://snapprotein.com/blog/best-protein-tracking-app/" />
-  <meta property="og:title" content="Best Protein Tracking App for Men Over 40 (Simple Comparison)" />
-  <meta property="og:description" content="Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?" />
-  <meta property="og:url" content="https://snapprotein.com/blog/best-protein-tracking-app/" />
+  <meta property="og:title" content="Best Protein Tracking App for Men Over 40 (Honest Comparison)" />
+  <meta property="og:description" content="Most protein tracking apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change." />
   <meta property="og:type" content="article" />
-
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
-
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
-    :root {
-      --charcoal: #1e2124;
-      --green: #3a6b45;
-      --green-light: #4d8c5a;
-      --green-pale: #e8f2ea;
-      --cream: #f9f6f0;
-      --forest-dark: #1e3d2f;
-      --text: #2c2f33;
-      --text-muted: #5a6470;
-    }
-
-    body {
-      font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 19px;
-      line-height: 1.82;
-      color: var(--text);
-      background: #fff;
-    }
-
-    h1, h2, h3, h4 {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 800;
-      color: var(--charcoal);
-      line-height: 1.2;
-    }
-
-    /* NAV */
-    nav {
-      background: var(--charcoal);
-      padding: 16px 24px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-    }
-    .nav-logo {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 800;
-      font-size: 1.25rem;
-      color: #fff;
-      text-decoration: none;
-    }
-    .nav-logo span { color: var(--green-light); }
-    .nav-link {
-      font-family: 'IBM Plex Sans', sans-serif;
-      font-size: 0.9rem;
-      color: #ccc;
-      text-decoration: none;
-    }
-    .nav-link:hover { color: #fff; }
-
-    /* HERO */
-    .hero {
-      background: var(--cream);
-      padding: 64px 24px 48px;
-      text-align: center;
-    }
-    .hero-label {
-      display: inline-block;
-      background: var(--green-pale);
-      color: var(--green);
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 600;
-      font-size: 0.82rem;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 6px 14px;
-      border-radius: 20px;
-      margin-bottom: 20px;
-    }
-    .hero h1 {
-      font-size: clamp(1.75rem, 4vw, 2.6rem);
-      max-width: 720px;
-      margin: 0 auto 16px;
-    }
-    .hero h1 span { color: var(--green-light); }
-    .hero-sub {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      max-width: 580px;
-      margin: 0 auto;
-    }
-
-    /* CONTENT */
-    .content {
-      max-width: 740px;
-      margin: 0 auto;
-      padding: 48px 24px 64px;
-    }
-
-    p { margin-bottom: 1.4rem; }
-
-    /* QUICK ANSWER BOX */
-    .quick-answer {
-      background: var(--green-pale);
-      border-left: 4px solid var(--green-light);
-      border-radius: 8px;
-      padding: 24px 28px;
-      margin-bottom: 40px;
-    }
-    .quick-answer h3 {
-      font-size: 1rem;
-      color: var(--green);
-      margin-bottom: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.06em;
-    }
-    .quick-answer ul {
-      list-style: none;
-      padding: 0;
-    }
-    .quick-answer ul li {
-      padding: 4px 0 4px 24px;
-      position: relative;
-      font-size: 0.97rem;
-    }
-    .quick-answer ul li::before {
-      content: "→";
-      position: absolute;
-      left: 0;
-      color: var(--green-light);
-      font-weight: 700;
-    }
-
-    /* COMPARISON TABLE */
-    .table-wrap {
-      overflow-x: auto;
-      margin: 40px 0;
-      border-radius: 10px;
-      border: 1px solid #e0e0e0;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.94rem;
-    }
-    thead {
-      background: var(--charcoal);
-      color: #fff;
-    }
-    thead th {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 700;
-      padding: 14px 16px;
-      text-align: left;
-    }
-    tbody tr:nth-child(even) { background: var(--cream); }
-    tbody tr:nth-child(odd) { background: #fff; }
-    tbody tr.highlight-row { background: var(--green-pale); }
-    tbody td {
-      padding: 13px 16px;
-      vertical-align: top;
-      border-bottom: 1px solid #e8e8e8;
-    }
-    .verdict-badge {
-      display: inline-block;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 700;
-      font-size: 0.8rem;
-      padding: 3px 10px;
-      border-radius: 12px;
-    }
-    .verdict-overkill { background: #fde8e8; color: #c0392b; }
-    .verdict-misaligned { background: #fef3cd; color: #856404; }
-    .verdict-best { background: var(--green-pale); color: var(--green); }
-
-    /* SECTION HEADS */
-    h2 {
-      font-size: 1.55rem;
-      margin: 48px 0 16px;
-      color: var(--charcoal);
-    }
-    h3 {
-      font-size: 1.15rem;
-      margin: 32px 0 10px;
-    }
-
-    /* APP CARDS */
-    .app-card {
-      border: 1px solid #e0e0e0;
-      border-radius: 10px;
-      padding: 24px;
-      margin-bottom: 20px;
-    }
-    .app-card-header {
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      margin-bottom: 12px;
-    }
-    .app-type-badge {
-      background: var(--charcoal);
-      color: #fff;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 600;
-      font-size: 0.75rem;
-      padding: 3px 10px;
-      border-radius: 12px;
-      text-transform: uppercase;
-      letter-spacing: 0.05em;
-    }
-    .app-card h3 { margin: 0; font-size: 1.1rem; }
-    .app-card p { margin-bottom: 0; font-size: 0.96rem; color: var(--text-muted); }
-    .snap-card {
-      border-color: var(--green-light);
-      background: var(--green-pale);
-    }
-    .snap-card .app-type-badge { background: var(--green); }
-
-    /* DECISION TREE */
-    .decision-tree {
-      background: var(--cream);
-      border-radius: 10px;
-      padding: 32px;
-      margin: 40px 0;
-    }
-    .decision-tree h2 {
-      margin-top: 0;
-      margin-bottom: 24px;
-      font-size: 1.35rem;
-    }
-    .decision-row {
-      display: flex;
-      gap: 16px;
-      padding: 16px 0;
-      border-bottom: 1px solid #ddd;
-      align-items: flex-start;
-    }
-    .decision-row:last-child { border-bottom: none; padding-bottom: 0; }
-    .decision-if {
-      font-size: 0.92rem;
-      color: var(--text-muted);
-      min-width: 260px;
-      flex: 1;
-    }
-    .decision-if strong { color: var(--text); }
-    .decision-arrow { color: var(--green-light); font-weight: 700; padding-top: 2px; }
-    .decision-use {
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 800;
-      font-size: 1rem;
-      color: var(--charcoal);
-      flex: 1;
-    }
-    .decision-row.snap-row .decision-use { color: var(--green); }
-    .decision-close {
-      margin-top: 24px;
-      font-size: 1rem;
-      font-style: italic;
-      color: var(--text-muted);
-    }
-    .decision-tagline {
-      margin-top: 6px;
-      font-size: 0.9rem;
-      color: var(--green);
-      font-weight: 600;
-    }
-
-    /* AUTHOR NOTE */
-    .author-note {
-      display: flex;
-      gap: 16px;
-      align-items: flex-start;
-      background: var(--cream);
-      border-radius: 10px;
-      padding: 24px;
-      margin: 40px 0;
-    }
-    .author-avatar {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      background: var(--green-light);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      color: #fff;
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 800;
-      font-size: 1.1rem;
-      flex-shrink: 0;
-    }
-    .author-note p {
-      margin: 0;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    .author-note strong { color: var(--text); }
-
-    /* CTA BAND */
-    .cta-band {
-      background: var(--forest-dark);
-      padding: 56px 24px;
-      text-align: center;
-    }
-    .cta-band h2 {
-      color: #fff;
-      font-size: clamp(1.4rem, 3vw, 1.9rem);
-      max-width: 560px;
-      margin: 0 auto 12px;
-    }
-    .cta-band h2 span { color: var(--green-light); }
-    .cta-band p {
-      color: rgba(255,255,255,0.72);
-      font-size: 1rem;
-      margin: 0 auto 28px;
-      max-width: 460px;
-    }
-    .cta-btn {
-      display: inline-block;
-      background: #fff;
-      color: var(--forest-dark);
-      font-family: 'Plus Jakarta Sans', sans-serif;
-      font-weight: 800;
-      font-size: 1rem;
-      padding: 15px 34px;
-      border-radius: 8px;
-      text-decoration: none;
-      transition: opacity 0.2s;
-    }
-    .cta-btn:hover { opacity: 0.9; }
-
-    /* INTERNAL LINKS */
-    .related-posts {
-      background: var(--cream);
-      border-radius: 10px;
-      padding: 28px;
-      margin: 48px 0 0;
-    }
-    .related-posts h3 { margin: 0 0 16px; font-size: 1rem; }
-    .related-posts ul { list-style: none; padding: 0; margin: 0; }
-    .related-posts ul li { padding: 6px 0; }
-    .related-posts ul li a {
-      color: var(--green);
-      text-decoration: none;
-      font-size: 0.95rem;
-      font-weight: 600;
-    }
-    .related-posts ul li a:hover { text-decoration: underline; }
-
-    /* FAQ */
-    .faq-section { margin: 48px 0; }
-    .faq-section h2 { margin-bottom: 24px; }
-    .faq-item { border-bottom: 1px solid #e0e0e0; padding: 20px 0; }
-    .faq-item:last-child { border-bottom: none; }
-    .faq-item h3 { font-size: 1rem; margin-bottom: 8px; }
-    .faq-item p { margin: 0; font-size: 0.95rem; color: var(--text-muted); }
-
-    /* FOOTER */
-    footer {
-      background: var(--charcoal);
-      color: rgba(255,255,255,0.55);
-      text-align: center;
-      padding: 32px 24px;
-      font-size: 0.85rem;
-    }
-    footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
-
-    @media (max-width: 600px) {
-      .decision-row { flex-direction: column; gap: 6px; }
-      .decision-if { min-width: unset; }
-      .author-note { flex-direction: column; }
-      thead th, tbody td { padding: 10px 12px; font-size: 0.86rem; }
-    }
-  </style>
+  <meta property="og:url" content="https://snapprotein.com/blog/best-protein-tracking-app/" />
+  <meta property="og:site_name" content="SnapProtein" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best Protein Tracking App for Men Over 40 (Simple Comparison)",
-    "description": "Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?",
-    "url": "https://snapprotein.com/blog/best-protein-tracking-app/",
-    "author": {
-      "@type": "Person",
-      "name": "Robert"
-    },
-    "publisher": {
-      "@type": "Organization",
-      "name": "SnapProtein",
-      "url": "https://snapprotein.com"
-    },
-    "datePublished": "2026-04-20"
+    "headline": "Best Protein Tracking App for Men Over 40 (Honest Comparison)",
+    "description": "Most protein tracking apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change.",
+    "datePublished": "2026-04-20",
+    "author": { "@type": "Person", "name": "Robert" },
+    "publisher": { "@type": "Organization", "name": "SnapProtein", "url": "https://snapprotein.com" }
   }
   </script>
 
@@ -420,248 +41,858 @@ export const frontmatter = {
         "name": "What is the best protein tracking app for men over 40?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "It depends on your goal. If you want to hit a daily protein target consistently without tracking calories or other macros, SnapProtein is the simplest option built specifically for that purpose. If you need full nutrition tracking, MyFitnessPal is the most comprehensive."
+          "text": "For men over 40 whose primary goal is muscle preservation rather than weight loss or bodybuilding, SnapProtein is the most focused option — tracking only protein with a simple 4-shortcut system built around the foods you already eat. For those who want comprehensive nutrition tracking alongside protein, Cronometer is the most accurate full-featured option. MyFitnessPal and Lose It are calorie-first apps that can track protein, but their design prioritizes weight loss over muscle maintenance."
         }
       },
       {
         "@type": "Question",
-        "name": "Is MyFitnessPal good for protein tracking after 40?",
+        "name": "Do men over 40 really need a separate protein tracker?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "MyFitnessPal can track protein, but it's built for comprehensive calorie and macro tracking. For men over 40 whose only goal is hitting a daily protein target, the full feature set creates more complexity than necessary."
+          "text": "Not necessarily a separate app, but a different priority. After 40, muscle protein synthesis becomes less efficient, requiring higher protein intake (1.2g/kg vs the outdated 0.8g/kg RDA) and consistent distribution across meals. Most general nutrition apps treat protein as one of many metrics. Men over 40 benefit from tools that make protein the primary focus rather than a secondary display."
         }
       },
       {
         "@type": "Question",
-        "name": "Do I need to track calories to build muscle after 40?",
+        "name": "Is MyFitnessPal good for tracking protein after 40?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Not necessarily. For most men over 40 whose primary goal is preserving or building muscle mass, hitting a daily protein target (roughly 120–150g depending on body weight) is the highest-leverage variable. Calorie tracking adds friction without proportional benefit for this specific goal."
+          "text": "MyFitnessPal can track protein, but it's built around calorie counting and weight loss — not muscle preservation. The interface buries protein inside a broader macro dashboard, and the 20+ million food database adds complexity most men over 40 don't need. It works, but it's more app than the job requires for someone focused primarily on protein."
         }
       },
       {
         "@type": "Question",
-        "name": "What is the simplest protein tracking app?",
+        "name": "What protein tracking app has no barcode scanner requirement?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "SnapProtein is designed to be the simplest protein tracker available — no food database, no barcode scanning, no calorie counts. You log protein in grams, see your daily total, and know if you hit your target."
+          "text": "SnapProtein is built specifically without a mandatory barcode scanner. The app uses a 4-shortcut grid for the foods you eat most often — typically the same 8-12 foods men rotate through weekly. Logging takes 2-3 taps with no scanning, searching, or database navigation required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much protein do men over 40 need to track daily?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight — roughly 100-140g daily depending on size. This is significantly higher than the outdated RDA of 0.8g/kg. The goal is distributing that total across 3-4 meals at 30g or more per sitting, which is the threshold needed to trigger muscle protein synthesis effectively after 40."
         }
       }
     ]
   }
   </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --charcoal: #1e2124;
+      --green: #3a6b45;
+      --green-light: #4d8c5a;
+      --green-pale: #e8f2ea;
+      --green-dark: #1e3d2f;
+      --cream: #f9f6f0;
+      --body-text: #2d3748;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 19px;
+      line-height: 1.82;
+      color: var(--body-text);
+      background: #fff;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1.25;
+    }
+
+    .site-nav {
+      background: var(--charcoal);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-nav a.logo {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .site-nav a.logo span { color: var(--green-light); }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+    .nav-links a:hover { color: #fff; }
+
+    .hero {
+      background: var(--cream);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--green-pale);
+      color: var(--green);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.9rem);
+      max-width: 780px;
+      margin: 0 auto 1rem;
+    }
+    .hero h1 span { color: var(--green-light); }
+    .hero-sub {
+      font-size: 1.1rem;
+      color: var(--muted);
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .quick-answer {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green);
+      border-radius: 0 10px 10px 0;
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+    .quick-answer-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--green);
+      margin-bottom: 0.6rem;
+    }
+    .quick-answer ul { padding-left: 1.2rem; margin: 0; }
+    .quick-answer li {
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 0.35rem;
+      color: var(--charcoal);
+    }
+    .quick-answer li:last-child { margin-bottom: 0; }
+
+    .article-wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    .article-wrap p { margin-bottom: 1.4rem; }
+    .article-wrap h2 { font-size: 1.6rem; margin: 2.8rem 0 1rem; }
+    .article-wrap h3 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+    strong { color: var(--charcoal); }
+
+    .author-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 0.93rem;
+    }
+    .author-avatar {
+      width: 46px; height: 46px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .author-note p { margin: 0; color: var(--muted); }
+    .author-note strong { color: var(--charcoal); }
+
+    .app-card {
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin-bottom: 2rem;
+    }
+    .app-card.featured { border-color: var(--green); border-width: 2px; }
+    .app-card-header {
+      padding: 1.1rem 1.5rem;
+      background: var(--charcoal);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .app-card.featured .app-card-header { background: var(--green-dark); }
+    .app-name {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.1rem;
+      color: #fff;
+    }
+    .app-verdict {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      padding: 0.25rem 0.8rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .verdict-caution { background: #fbbf24; color: #1e2124; }
+    .verdict-complex { background: #94a3b8; color: #fff; }
+    .verdict-weightloss { background: #60a5fa; color: #fff; }
+    .verdict-built { background: var(--green-light); color: #fff; }
+
+    .app-card-body { padding: 1.25rem 1.5rem; }
+    .app-card-body p { margin-bottom: 1rem; font-size: 0.97rem; }
+    .app-card-body p:last-child { margin-bottom: 0; }
+
+    .pro-con-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0.75rem;
+      margin: 1rem 0;
+    }
+    .pro-col, .con-col {
+      background: var(--cream);
+      border-radius: 8px;
+      padding: 0.9rem 1rem;
+    }
+    .pro-col { border-top: 3px solid #86efac; }
+    .con-col { border-top: 3px solid #fca5a5; }
+    .pro-con-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      margin-bottom: 0.5rem;
+    }
+    .pro-col .pro-con-label { color: #16a34a; }
+    .con-col .pro-con-label { color: #dc2626; }
+    .pro-col ul, .con-col ul {
+      padding-left: 1rem;
+      margin: 0;
+      font-size: 0.85rem;
+      color: var(--charcoal);
+      line-height: 1.6;
+    }
+    .pro-col li, .con-col li { margin-bottom: 0.2rem; }
+
+    .app-bottom-line {
+      background: var(--green-pale);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      font-size: 0.9rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      color: var(--green-dark);
+      margin-top: 1rem;
+    }
+    .app-bottom-line span {
+      font-weight: 400;
+      color: var(--body-text);
+      font-family: 'IBM Plex Sans', sans-serif;
+    }
+    .app-deep-link {
+      display: inline-block;
+      margin-top: 0.75rem;
+      font-size: 0.82rem;
+      color: var(--green);
+      text-decoration: underline;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    .comparison-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.87rem;
+      margin: 2rem 0;
+      overflow-x: auto;
+      display: block;
+    }
+    .comparison-table th {
+      background: var(--charcoal);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      padding: 0.65rem 0.9rem;
+      text-align: left;
+      font-size: 0.78rem;
+      letter-spacing: 0.04em;
+      white-space: nowrap;
+    }
+    .comparison-table th.snap { background: var(--green-dark); }
+    .comparison-table td {
+      padding: 0.6rem 0.9rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--charcoal);
+      vertical-align: top;
+    }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: var(--cream); }
+    .comparison-table td.snap-col {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--green-dark);
+    }
+    .comparison-table td.row-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--charcoal);
+      white-space: nowrap;
+    }
+    .check { color: #16a34a; font-weight: 700; }
+    .cross { color: #dc2626; }
+    .partial { color: #d97706; }
+
+    /* DECISION TREE */
+    .decision-tree {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2.5rem 0;
+    }
+    .decision-tree h2 { margin: 0 0 1.5rem; font-size: 1.35rem; }
+    .decision-row {
+      display: flex;
+      gap: 1rem;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+      align-items: flex-start;
+    }
+    .decision-row:last-of-type { border-bottom: none; padding-bottom: 0; }
+    .decision-if { font-size: 0.95rem; color: var(--muted); flex: 1; }
+    .decision-if strong { color: var(--body-text); }
+    .decision-arrow { color: var(--green-light); font-weight: 700; padding-top: 2px; flex-shrink: 0; }
+    .decision-use {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--charcoal);
+      flex: 1;
+    }
+    .decision-row.snap-row .decision-use { color: var(--green); }
+    .decision-close {
+      margin-top: 1.25rem;
+      font-size: 0.97rem;
+      font-style: italic;
+      color: var(--muted);
+      margin-bottom: 0.25rem;
+    }
+    .decision-tagline {
+      font-size: 0.95rem;
+      color: var(--green);
+      font-weight: 600;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+
+    .who-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2.5rem;
+    }
+    .who-card { border: 1px solid var(--border); border-radius: 10px; padding: 1.1rem 1.25rem; }
+    .who-card-app {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 0.9rem;
+      color: var(--charcoal);
+      margin-bottom: 0.4rem;
+    }
+    .who-card-for { font-size: 0.85rem; color: var(--body-text); line-height: 1.55; }
+
+    .related-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem;
+      margin: 2.5rem 0;
+    }
+    .related-card {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.1rem 1.25rem;
+      text-decoration: none;
+    }
+    .related-card-label {
+      font-size: 0.72rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--green);
+      margin-bottom: 0.4rem;
+    }
+    .related-card-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.92rem;
+      color: var(--charcoal);
+      line-height: 1.35;
+    }
+    .related-card:hover { border-color: var(--green-light); }
+
+    .faq-section { margin: 3rem 0 2rem; }
+    .faq-section h2 { margin-bottom: 1.25rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--charcoal);
+      margin-bottom: 0.5rem;
+    }
+    .faq-a { font-size: 0.95rem; color: var(--body-text); }
+
+    .cta-band {
+      background: var(--green-dark);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    .cta-band h2 {
+      color: #fff;
+      font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      max-width: 620px;
+      margin: 0 auto 0.75rem;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,0.8);
+      font-size: 1rem;
+      margin: 0 auto 1.75rem;
+      max-width: 500px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .cta-btn:hover { background: var(--green-pale); }
+
+    .site-footer {
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.55);
+      text-align: center;
+      font-size: 0.82rem;
+      padding: 2rem 1.5rem;
+    }
+    .site-footer a { color: rgba(255,255,255,0.7); }
+
+    @media (max-width: 580px) {
+      .pro-con-grid { grid-template-columns: 1fr; }
+      .nav-links { display: none; }
+      .app-card-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
+      .decision-row { flex-direction: column; gap: 4px; }
+    }
+  </style>
 </head>
 
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <a href="https://snapprotein.com" class="nav-logo">Snap<span>Protein</span></a>
-    <a href="https://snapprotein.com/blog/" class="nav-link">← Blog</a>
+  <nav class="site-nav">
+    <a href="https://snapprotein.com" class="logo">Snap<span>Protein</span></a>
+    <div class="nav-links">
+      <a href="https://snapprotein.com/blog/">Blog</a>
+      <a href="https://snapprotein.com">Track Protein →</a>
+    </div>
   </nav>
 
-  <!-- HERO -->
   <header class="hero">
-    <div class="hero-label">App Comparison</div>
-    <h1>Best Protein Tracking App<br><span>for Men Over 40</span></h1>
-    <p class="hero-sub">A simple, honest comparison — so you can stop testing apps and start hitting your number.</p>
+    <span class="hero-eyebrow">App Comparison</span>
+    <h1>Best Protein Tracking App <span>for Men Over 40</span></h1>
+    <p class="hero-sub">Most tracking apps were built for 25-year-olds counting every macro. Here's what actually works when your goal shifts from bulking to keeping what you've built.</p>
+    <p style="margin-top:1rem; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1.05rem; color:var(--green-dark);">Most men over 40 aren't low on effort — they're low on protein.</p>
   </header>
 
-  <!-- CONTENT -->
-  <main class="content">
+  <div class="article-wrap">
 
-    <!-- QUICK ANSWER -->
     <div class="quick-answer">
-      <h3>Quick Answer</h3>
+      <div class="quick-answer-label">Quick Answer</div>
       <ul>
-        <li>Most protein tracking apps are built for calorie counting — not protein-first goals</li>
-        <li>MyFitnessPal and Cronometer are powerful, but solve a different problem</li>
-        <li>Lose It is built for weight loss, not muscle preservation</li>
-        <li>If your goal is hitting a daily protein target after 40, SnapProtein is the simplest path</li>
-        <li>The best app is the one that matches your goal — not the one with the most features</li>
+        <li><strong>Best for simplicity (protein only):</strong> SnapProtein — built specifically for men over 40 who want one number, fast</li>
+        <li><strong>Best for comprehensive nutrition tracking:</strong> Cronometer — most accurate full-featured option if you want micronutrients too</li>
+        <li><strong>Best known but wrong fit:</strong> MyFitnessPal — calorie-first design, 20M food database, more complexity than most men over 40 need</li>
+        <li><strong>Weight loss focus, not muscle preservation:</strong> Lose It! — solid app, but the frame is wrong for men trying to maintain muscle</li>
+        <li>The right app depends on what problem you're actually trying to solve</li>
       </ul>
     </div>
 
-    <!-- AUTHOR NOTE -->
+    <p>I'm 64. I tried three of these apps before I built SnapProtein. Not because they were bad apps — they weren't. I stopped using them because they were solving a problem I didn't have. I didn't need to track 84 micronutrients. I didn't need a 20-million-item food database. I needed to know one number before dinner. None of them made that easy.</p>
+
+    <p>They track everything. Which means you track nothing consistently.</p>
+
+    <p>This comparison is written from that experience. The goal isn't to pick a winner for everyone — it's to match the right tool to the right problem for men over 40 whose primary concern is protein and muscle preservation, not weight loss or elite athletic performance.</p>
+
     <div class="author-note">
       <div class="author-avatar">R</div>
-      <p><strong>From Robert, founder of SnapProtein —</strong> I'm 64. I tried most of these apps before building my own. I wasn't looking to track everything. I just needed to know if I hit my protein for the day. That gap is why this post — and this app — exist.</p>
+      <div>
+        <p><strong>Robert, founder of SnapProtein.</strong> I'm 64 and built this app because I needed it. I have no financial relationship with MyFitnessPal, Cronometer, or Lose It. This comparison is as honest as I can make it — including where SnapProtein isn't the right fit.</p>
+      </div>
     </div>
 
-    <p>Most protein tracking apps weren't built for people trying to stay strong after 40. They were built for people trying to lose weight, count every calorie, or optimize every micronutrient. Those are real goals — just not the same goal.</p>
+    <h2>What Most Apps Get Wrong After 40</h2>
 
-    <p>If you're a man over 40 and your primary objective is preserving muscle mass, the app that matters most is the one aligned with that objective. Here's an honest look at four common options.</p>
+    <p>The tracking app market was built around two audiences: people trying to lose weight (calories in vs. calories out) and competitive athletes tracking every macro and micronutrient. Men over 40 who want to preserve muscle as they age don't fit cleanly into either category.</p>
 
-    <p><strong>They track everything. Which means you track nothing consistently.</strong></p>
+    <p>The result is apps that are either too focused on calorie deficit — which frames protein as one of several metrics rather than the primary one — or so comprehensive that the daily friction of using them kills the habit within two weeks. Research backs this up: the majority of fitness app users abandon within two weeks, and complexity is the leading cause.</p>
 
-    <!-- COMPARISON TABLE -->
-    <h2>Quick Comparison</h2>
+    <p>What men over 40 actually need from a tracker is different: a protein target based on 1.2g/kg rather than the outdated 0.8g/kg RDA, a fast way to log the same foods they eat every week, and a clear daily number they can see at a glance. Most apps can technically do this. Very few make it the center of the experience.</p>
+
+    <h2>The Apps: Honest Comparison</h2>
+
+    <div class="app-card">
+      <div class="app-card-header">
+        <span class="app-name">MyFitnessPal</span>
+        <span class="app-verdict verdict-caution">Calorie-First Design</span>
+      </div>
+      <div class="app-card-body">
+        <p>MyFitnessPal is the category leader for a reason — 20+ million foods, barcode scanning, deep integrations with wearables, and a massive user community. If you want the most comprehensive free option available, nothing touches it on breadth.</p>
+        <p>The problem for men over 40 focused on protein isn't what MFP tracks — it's what it emphasizes. The entire interface is organized around calories. Protein appears as one ring in a macro pie chart. Hitting your protein goal while staying under your calorie budget creates competing pressures that don't serve someone whose goal is muscle preservation, not weight loss.</p>
+        <p>The 2022 paywall change also locked macro tracking behind a premium subscription for new users — meaning free users can see calories but lose the detailed protein breakdown that makes the app useful for this specific goal.</p>
+        <div class="pro-con-grid">
+          <div class="pro-col">
+            <div class="pro-con-label">Strengths</div>
+            <ul>
+              <li>Largest food database</li>
+              <li>Barcode scanning</li>
+              <li>Wearable integrations</li>
+              <li>Recipe logging</li>
+              <li>Large community</li>
+            </ul>
+          </div>
+          <div class="con-col">
+            <div class="pro-con-label">Weaknesses for 40+</div>
+            <ul>
+              <li>Calorie-first interface</li>
+              <li>Macro tracking paywalled</li>
+              <li>Complexity drives abandonment</li>
+              <li>Ads in free version</li>
+              <li>Protein buried in dashboard</li>
+            </ul>
+          </div>
+        </div>
+        <div class="app-bottom-line">Best for: <span>Men who want comprehensive tracking and don't mind the calorie-first design</span></div>
+        <a href="https://snapprotein.com/blog/myfitnesspal-alternative/" class="app-deep-link">→ Full MyFitnessPal comparison</a>
+      </div>
+    </div>
+
+    <div class="app-card">
+      <div class="app-card-header">
+        <span class="app-name">Cronometer</span>
+        <span class="app-verdict verdict-complex">Most Accurate, Most Complex</span>
+      </div>
+      <div class="app-card-body">
+        <p>Cronometer is the most accurate nutrition tracker available to consumers — period. It tracks 84 micronutrients using verified database entries (not user-submitted), and the protein data is reliable in a way that user-generated databases simply aren't. If you want to know exactly what's in your food, Cronometer gives you that.</p>
+        <p>The trade-off is complexity. Cronometer is designed for people who want nutritional depth — dietitians, people managing specific health conditions, athletes who need precision across every nutrient. For a man over 40 who wants to know if he hit 120g of protein today, it's like using a scalpel to slice bread. It works. It's just more than the job requires, and that friction compounds over time into abandonment.</p>
+        <div class="pro-con-grid">
+          <div class="pro-col">
+            <div class="pro-con-label">Strengths</div>
+            <ul>
+              <li>Most accurate database</li>
+              <li>84 micronutrients tracked</li>
+              <li>Verified food entries</li>
+              <li>Strong free tier</li>
+              <li>No calorie-loss framing</li>
+            </ul>
+          </div>
+          <div class="con-col">
+            <div class="pro-con-label">Weaknesses for 40+</div>
+            <ul>
+              <li>Interface is dense</li>
+              <li>Learning curve is steep</li>
+              <li>Overkill for protein-only goal</li>
+              <li>Daily logging is slow</li>
+              <li>Designed for power users</li>
+            </ul>
+          </div>
+        </div>
+        <div class="app-bottom-line">Best for: <span>Men who want full nutritional data and are willing to invest time in the interface</span></div>
+        <a href="https://snapprotein.com/blog/cronometer-alternative-men-over-40/" class="app-deep-link">→ Full Cronometer comparison</a>
+      </div>
+    </div>
+
+    <div class="app-card">
+      <div class="app-card-header">
+        <span class="app-name">Lose It!</span>
+        <span class="app-verdict verdict-weightloss">Weight Loss Frame</span>
+      </div>
+      <div class="app-card-body">
+        <p>Lose It! is a genuinely well-designed app for its intended purpose: calorie deficit and weight loss. The interface is cleaner than MyFitnessPal, the free tier is more functional, and the food logging flow is faster. If weight loss is the primary goal, it's a strong option.</p>
+        <p>The issue for men over 40 focused on muscle preservation is the same one that affects every calorie-counting app: the frame is wrong. Lose It! is built to help you eat less. Men trying to preserve muscle after 40 often need to eat more — specifically more protein. An app organized around eating less creates a subtle but real friction with a goal that requires eating more of the right thing.</p>
+        <div class="pro-con-grid">
+          <div class="pro-col">
+            <div class="pro-con-label">Strengths</div>
+            <ul>
+              <li>Cleaner than MFP</li>
+              <li>Functional free tier</li>
+              <li>Fast food logging</li>
+              <li>Good barcode scanner</li>
+              <li>Exercise integration</li>
+            </ul>
+          </div>
+          <div class="con-col">
+            <div class="pro-con-label">Weaknesses for 40+</div>
+            <ul>
+              <li>Weight loss framing</li>
+              <li>Protein is secondary metric</li>
+              <li>Gamification feels juvenile</li>
+              <li>Premium unlocks cost more</li>
+              <li>Wrong goal for muscle focus</li>
+            </ul>
+          </div>
+        </div>
+        <div class="app-bottom-line">Best for: <span>Men whose primary goal is weight loss and who want a cleaner alternative to MyFitnessPal</span></div>
+      </div>
+    </div>
+
+    <div class="app-card featured">
+      <div class="app-card-header">
+        <span class="app-name">SnapProtein</span>
+        <span class="app-verdict verdict-built">Built for This</span>
+      </div>
+      <div class="app-card-body">
+        <p>SnapProtein tracks one thing: protein. That's a deliberate choice, not a limitation. The app is built on a simple observation: most men over 40 eat the same 8–12 foods in rotation every week. You don't need a 20-million-item database. You need your foods, fast, with a number you can see at a glance.</p>
+        <p>The interface is a 2×2 grid of your four most common protein sources. Logging a meal is 2–3 taps, no barcode scanning, no searching, no database navigation. The daily progress ring shows you exactly where you stand. The goal is making the habit frictionless enough that you actually keep it — because a tracker you use at 70% accuracy beats a comprehensive one you abandon in two weeks. Because the habit is the whole game.</p>
+        <p>If you've ever wondered why SnapProtein doesn't have a <a href="https://snapprotein.com/blog/protein-tracker-no-barcode-scanner/" style="color:var(--green);font-weight:600;">barcode scanner</a> — that's intentional too.</p>
+        <p>Where SnapProtein isn't the right fit: if you need micronutrient tracking, calorie management, or integration with a broader health platform, one of the other apps above is a better choice. SnapProtein does one job. For men over 40 whose primary concern is protein and muscle, that's enough.</p>
+        <div class="pro-con-grid">
+          <div class="pro-col">
+            <div class="pro-con-label">Strengths</div>
+            <ul>
+              <li>Protein-only focus</li>
+              <li>2–3 tap logging</li>
+              <li>No barcode scanner needed</li>
+              <li>Built for 40+ use case</li>
+              <li>Local data, no sharing</li>
+            </ul>
+          </div>
+          <div class="con-col">
+            <div class="pro-con-label">Honest Limitations</div>
+            <ul>
+              <li>Tracks protein only</li>
+              <li>No calorie tracking</li>
+              <li>No micronutrients</li>
+              <li>No wearable sync</li>
+              <li>No food database to browse</li>
+            </ul>
+          </div>
+        </div>
+        <div class="app-bottom-line">Best for: <span>Men over 40 whose primary goal is protein and muscle preservation — and who want the simplest possible daily habit</span></div>
+      </div>
+    </div>
+
+    <h2>Side-by-Side: What Each App Actually Does</h2>
     <p>Here's a quick comparison of the best protein tracking apps:</p>
 
-    <div class="table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>App</th>
-            <th>Best For</th>
-            <th>The Trade-off</th>
-            <th>Verdict</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>MyFitnessPal</strong></td>
-            <td>Full nutrition tracking (calories, all macros, micros)</td>
-            <td>Complexity most men over 40 don't need</td>
-            <td><span class="verdict-badge verdict-overkill">Overkill</span></td>
-          </tr>
-          <tr>
-            <td><strong>Cronometer</strong></td>
-            <td>Precision tracking — vitamins, minerals, detailed data</td>
-            <td>Clinical-level detail for a non-clinical goal</td>
-            <td><span class="verdict-badge verdict-overkill">Overkill</span></td>
-          </tr>
-          <tr>
-            <td><strong>Lose It</strong></td>
-            <td>Calorie deficit and weight loss</td>
-            <td>Wrong goal — misaligned with muscle preservation</td>
-            <td><span class="verdict-badge verdict-misaligned">Misaligned</span></td>
-          </tr>
-          <tr class="highlight-row">
-            <td><strong>SnapProtein</strong></td>
-            <td>Hitting a daily protein target consistently</td>
-            <td>No calorie tracking, no database</td>
-            <td><span class="verdict-badge verdict-best">Best for 40+</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-
-    <!-- APP BREAKDOWNS -->
-    <h2>The Breakdown</h2>
-
-    <div class="app-card">
-      <div class="app-card-header">
-        <span class="app-type-badge">Everything Tracker</span>
-        <h3>MyFitnessPal</h3>
-      </div>
-      <p>MFP is the most widely used nutrition app in the world for a reason — it does everything. Calories, macros, micros, meal logging, barcode scanning, a database of millions of foods. If you want to track your entire nutritional picture, it's the most capable tool available.</p>
-      <p>The problem isn't that it's bad. It's that it's solving a different problem. For a man over 40 whose goal is simply hitting 120–150g of protein per day, MFP introduces a level of friction that tends to kill consistency. Add in the barcode scanner paywall they implemented in 2022, and the free version is considerably less useful than it used to be.</p>
-    </div>
-
-    <div class="app-card">
-      <div class="app-card-header">
-        <span class="app-type-badge">Precision / Clinical</span>
-        <h3>Cronometer</h3>
-      </div>
-      <p>Cronometer is the most precise nutrition tracker available. It goes deeper than MFP — amino acid profiles, micronutrient breakdowns, verified food data. If you're working with a dietitian or managing a specific health condition, this level of detail has real value.</p>
-      <p>For most men over 40 with a protein target and a busy life, it's the definition of more data than you need. The interface reflects its precision — there's nothing casual about it. Power tool for a specific user.</p>
-    </div>
-
-    <div class="app-card">
-      <div class="app-card-header">
-        <span class="app-type-badge">Weight Loss / Calorie Focus</span>
-        <h3>Lose It</h3>
-      </div>
-      <p>Lose It is built around one primary idea: eat fewer calories to lose weight. It does that well. The interface is clean, the calorie budget is front and center, and the food logging is straightforward.</p>
-      <p>The issue is goal alignment. Muscle preservation after 40 isn't primarily a calorie problem — it's a protein problem. Lose It can show you protein as a secondary metric, but the entire product experience is oriented around deficit and weight loss. If that's your goal, it's a solid choice. If it's not, you'll be swimming against the current every day you use it.</p>
-    </div>
-
-    <div class="app-card snap-card">
-      <div class="app-card-header">
-        <span class="app-type-badge">Simple / Protein-First</span>
-        <h3>SnapProtein</h3>
-      </div>
-      <p>SnapProtein does one thing: tracks your daily protein. No food database. No barcode scanner. No calorie counts, macros, or micronutrients. You log protein in grams, see your running total, and know at a glance whether you're on track for the day.</p>
-      <p>It was built by a 64-year-old who wanted exactly this — nothing more, nothing less. The simplicity isn't a limitation. Most men over 40 eat the same 8–12 foods each week. You don't need a database of millions. You need a number you can actually hit consistently. Because the habit is the whole game.</p>
-      <p>And if you've ever wondered why SnapProtein doesn't have a <a href="https://snapprotein.com/blog/protein-tracker-no-barcode-scanner/" style="color:var(--green);font-weight:600;">barcode scanner</a> — that's intentional too.</p>
-    </div>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Feature</th>
+          <th>MyFitnessPal</th>
+          <th>Cronometer</th>
+          <th>Lose It!</th>
+          <th class="snap">SnapProtein</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">Primary focus</td>
+          <td>Calories</td>
+          <td>Micronutrients</td>
+          <td>Weight loss</td>
+          <td class="snap-col">Protein</td>
+        </tr>
+        <tr>
+          <td class="row-label">Protein tracking</td>
+          <td><span class="partial">Partial (paywalled)</span></td>
+          <td><span class="check">✓ Full</span></td>
+          <td><span class="partial">Partial (premium)</span></td>
+          <td class="snap-col"><span class="check">✓ Only focus</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Logging speed</td>
+          <td>Medium</td>
+          <td>Slow</td>
+          <td>Medium</td>
+          <td class="snap-col">2–3 taps</td>
+        </tr>
+        <tr>
+          <td class="row-label">Food database</td>
+          <td>20M+ items</td>
+          <td>Verified DB</td>
+          <td>10M+ items</td>
+          <td class="snap-col">Your core foods</td>
+        </tr>
+        <tr>
+          <td class="row-label">Barcode scanner</td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+          <td><span class="check">✓</span></td>
+          <td class="snap-col">Not needed</td>
+        </tr>
+        <tr>
+          <td class="row-label">40+ protein targets</td>
+          <td><span class="cross">✗</span></td>
+          <td><span class="partial">Manual setup</span></td>
+          <td><span class="cross">✗</span></td>
+          <td class="snap-col"><span class="check">✓ Built in</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Data privacy</td>
+          <td>Cloud + ads</td>
+          <td>Cloud</td>
+          <td>Cloud + ads</td>
+          <td class="snap-col">Local only</td>
+        </tr>
+        <tr>
+          <td class="row-label">Free protein tracking</td>
+          <td><span class="cross">✗ Paywalled</span></td>
+          <td><span class="check">✓</span></td>
+          <td><span class="cross">✗ Paywalled</span></td>
+          <td class="snap-col"><span class="check">✓</span></td>
+        </tr>
+      </tbody>
+    </table>
 
     <!-- DECISION TREE -->
     <div class="decision-tree">
-      <h2>Which protein tracker should you use?</h2>
-
+      <h2>Which protein tracking app should you use?</h2>
       <div class="decision-row">
         <div class="decision-if"><strong>If you want to track everything</strong> — calories, all macros, every meal in detail</div>
         <div class="decision-arrow">→</div>
         <div class="decision-use">Use MyFitnessPal</div>
       </div>
-
       <div class="decision-row">
         <div class="decision-if"><strong>If you want detailed nutrition data</strong> — vitamins, minerals, clinical-level precision</div>
         <div class="decision-arrow">→</div>
         <div class="decision-use">Use Cronometer</div>
       </div>
-
       <div class="decision-row">
         <div class="decision-if"><strong>If your primary goal is weight loss</strong> — staying under a calorie budget</div>
         <div class="decision-arrow">→</div>
-        <div class="decision-use">Use Lose It</div>
+        <div class="decision-use">Use Lose It!</div>
       </div>
-
       <div class="decision-row snap-row">
         <div class="decision-if"><strong>If your goal is hitting a daily protein target consistently after 40</strong></div>
         <div class="decision-arrow">→</div>
         <div class="decision-use">Use SnapProtein</div>
       </div>
-
       <p class="decision-close">Most men over 40 fall into the last category.</p>
       <p class="decision-tagline">Because consistency matters more than features.</p>
     </div>
 
-    <!-- CLOSING -->
-    <h2>The Real Question</h2>
-    <p>The right protein tracking app isn't the one with the most features — it's the one you'll actually use tomorrow, and the day after that. These apps are powerful. They're just solving different problems.</p>
+    <h2>Who Each App Is Actually For</h2>
 
-    <p>If your problem is "I need to track everything I eat," MyFitnessPal is your answer. If your problem is "I keep falling short on protein and I don't know why," the solution is simpler than you think. You just need to see the number. And most men never do.</p>
-
-    <!-- RELATED POSTS -->
-    <div class="related-posts">
-      <h3>Continue Reading</h3>
-      <ul>
-        <li><a href="https://snapprotein.com/blog/30-gram-protein-rule/">The 30-Gram Protein Rule: Does It Hold Up After 40?</a></li>
-        <li><a href="https://snapprotein.com/blog/myfitnesspal-alternative/">Why Men Over 50 Are Ditching MyFitnessPal</a></li>
-        <li><a href="https://snapprotein.com/blog/protein-after-50/">How Much Protein Do Men Over 50 Actually Need?</a></li>
-      </ul>
+    <div class="who-grid">
+      <div class="who-card">
+        <div class="who-card-app">MyFitnessPal</div>
+        <div class="who-card-for">Men who want everything tracked — calories, macros, exercise — and don't mind a complex interface or premium subscription.</div>
+      </div>
+      <div class="who-card">
+        <div class="who-card-app">Cronometer</div>
+        <div class="who-card-for">Men managing a specific health condition or who want verified micronutrient data and are willing to invest time in the interface.</div>
+      </div>
+      <div class="who-card">
+        <div class="who-card-app">Lose It!</div>
+        <div class="who-card-for">Men whose primary goal is weight loss and who want a cleaner, simpler calorie counter than MyFitnessPal.</div>
+      </div>
+      <div class="who-card" style="border-color: var(--green);">
+        <div class="who-card-app" style="color: var(--green-dark);">SnapProtein</div>
+        <div class="who-card-for">Men over 40 whose primary goal is protein and muscle preservation — and who want the simplest daily habit that actually sticks.</div>
+      </div>
     </div>
 
-    <!-- FAQ -->
+    <div class="related-posts">
+      <a href="https://snapprotein.com/blog/myfitnesspal-alternative/" class="related-card">
+        <div class="related-card-label">Deep Dive</div>
+        <div class="related-card-title">Why MyFitnessPal Is Too Complicated After 40</div>
+      </a>
+      <a href="https://snapprotein.com/blog/cronometer-alternative-men-over-40/" class="related-card">
+        <div class="related-card-label">Deep Dive</div>
+        <div class="related-card-title">Cronometer Alternative for Men Over 40</div>
+      </a>
+      <a href="https://snapprotein.com/blog/30-gram-protein-rule/" class="related-card">
+        <div class="related-card-label">Related</div>
+        <div class="related-card-title">The 30-Gram Protein Rule: Does It Hold Up After 40?</div>
+      </a>
+    </div>
+
+    <h2>The Real Question</h2>
+
+    <p>Every app on this list can technically track protein. The difference is what the app is designed around — and that design shapes the habit you build around it.</p>
+
+    <p>If the app is built around calories, you'll think about calories. If it's built around weight loss, you'll think about eating less. If it's built around protein — specifically protein — you'll think about protein. For men over 40, that focus is the difference between the app working and the app sitting unused after two weeks.</p>
+
+    <p>The question isn't which app has the most features. It's which app makes the right habit frictionless enough that you actually keep it. You just need to see the number. And most men never do.</p>
+
     <div class="faq-section">
       <h2>Frequently Asked Questions</h2>
-
       <div class="faq-item">
-        <h3>What is the best protein tracking app for men over 40?</h3>
-        <p>It depends on your goal. If you want to hit a daily protein target consistently without tracking calories or other macros, SnapProtein is the simplest option built for that purpose. If you need full nutrition tracking, MyFitnessPal is the most comprehensive.</p>
+        <div class="faq-q">What is the best protein tracking app for men over 40?</div>
+        <div class="faq-a">For men over 40 focused on muscle preservation, SnapProtein is the most purpose-built option — protein only, 2–3 tap logging, no barcode scanner required. For comprehensive nutrition tracking alongside protein, Cronometer is the most accurate. MyFitnessPal and Lose It! are calorie-first and better suited for weight loss goals.</div>
       </div>
-
       <div class="faq-item">
-        <h3>Is MyFitnessPal good for protein tracking after 40?</h3>
-        <p>It can track protein, but it's built for comprehensive calorie and macro tracking. For men over 40 whose only goal is hitting a daily protein target, the full feature set creates more complexity than most people need to sustain long-term.</p>
+        <div class="faq-q">Do men over 40 really need a separate protein tracker?</div>
+        <div class="faq-a">Not necessarily a separate app — but a different priority. After 40, muscle protein synthesis becomes less efficient and requires higher, more consistent protein intake across meals. Most general apps treat protein as one of many metrics. Men over 40 benefit from tools that make protein the primary focus, not a secondary display on a calorie dashboard.</div>
       </div>
-
       <div class="faq-item">
-        <h3>Do I need to track calories to build muscle after 40?</h3>
-        <p>Not necessarily. For most men over 40 focused on preserving or building muscle, hitting a daily protein target is the highest-leverage variable. Calorie tracking adds friction without proportional benefit for this specific goal.</p>
+        <div class="faq-q">Is MyFitnessPal good for tracking protein after 40?</div>
+        <div class="faq-a">It can track protein, but it's built around calorie counting and weight loss — not muscle preservation. Macro tracking including protein detail is also locked behind a premium subscription for most users. It works, but it's more app than the job requires for someone focused primarily on protein.</div>
       </div>
-
       <div class="faq-item">
-        <h3>What is the simplest protein tracking app?</h3>
-        <p>SnapProtein is designed to be the simplest protein tracker available — no food database, no barcode scanning, no calorie counts. You log protein in grams, see your daily total, and know whether you hit your target.</p>
+        <div class="faq-q">What protein tracking app has no barcode scanner requirement?</div>
+        <div class="faq-a">SnapProtein is built without a mandatory barcode scanner. It uses a 4-shortcut grid for the foods you eat most often. Logging takes 2–3 taps — no scanning, searching, or database navigation required.</div>
+      </div>
+      <div class="faq-item">
+        <div class="faq-q">How much protein do men over 40 need to track daily?</div>
+        <div class="faq-a">Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight — roughly 100–140g daily depending on size. This should be distributed across 3–4 meals at 30g or more per sitting, which is the threshold needed to trigger muscle protein synthesis effectively after 40.</div>
       </div>
     </div>
 
-  </main>
+  </div>
 
-  <!-- CTA BAND -->
   <section class="cta-band">
-    <h2>Track Your Protein.<br><span>Everything Else Gets Easier.</span></h2>
+    <h2>Track Your Protein. Everything Else Gets Easier.</h2>
     <p>No database to search. No calories to count. No barcode scanner. Just your number — every day.</p>
-    <a href="https://snapprotein.com" class="cta-btn">Try SnapProtein Free</a>
+    <p style="color:rgba(255,255,255,0.9); font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem; margin-bottom:1.5rem;">The protein tracker you'll actually use.</p>
+    <a href="https://snapprotein.com" class="cta-btn">Start Tracking Free →</a>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <p>© 2026 <a href="https://snapprotein.com">SnapProtein</a>. All rights reserved.</p>
+  <footer class="site-footer">
+    <p>© 2026 SnapProtein &nbsp;·&nbsp; <a href="https://snapprotein.com/terms-privacy.html">Terms &amp; Privacy</a> &nbsp;·&nbsp; <a href="https://snapprotein.com/blog/">Blog</a></p>
+    <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
   </footer>
 
 </body>

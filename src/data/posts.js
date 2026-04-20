@@ -23,12 +23,7 @@ export const posts = [
     description: "By 60, the muscle you still have is harder to keep and harder to rebuild. The protein target changes — and so does the urgency. Here's the number.",
     pubDate: "2026-04-12"
   },
-  {
-    url: "/blog/best-protein-tracking-app-older-adults/",
-    title: "Best Protein Tracking App for Older Adults",
-    description: "Most nutrition apps were built for young athletes counting every macro. Here's what actually works for men over 40 who want one simple number.",
-    pubDate: "2026-04-11"
-  },
+  
   {
     url: "/blog/easiest-way-to-track-protein-intake/",
     title: "Easiest Way to Track Protein Intake (After 40)",
@@ -133,12 +128,7 @@ export const posts = [
     description: "120g of protein sounds like a lot. It's not. Here's exactly what it looks like across a real day of eating — broken down meal by meal with common foods most men already eat.",
     pubDate: "2026-04-18"
   },
-  {
-    url: "/blog/best-protein-tracker-app-men-over-40/",
-    title: "Best Protein Tracker App for Men Over 40 (Honest Comparison)",
-    description: "Most protein tracker apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change.",
-    pubDate: "2026-04-19"
-  },
+ 
 
   {
     url: "/blog/protein-tracker-no-barcode-scanner/",
