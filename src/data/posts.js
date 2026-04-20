@@ -145,6 +145,12 @@ export const posts = [
     title: "Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)",
     description: "Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way.",
     pubDate: "2026-04-19"
+  },
+  {
+    url: "/blog/best-protein-tracking-app/",
+    title: "Best Protein Tracking App for Men Over 40 (Simple Comparison)",
+    description: "Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?",
+    pubDate: "2026-04-20"
   }
 
 ];
