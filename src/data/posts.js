@@ -141,6 +141,12 @@ export const posts = [
     title: "Best Protein Tracking App for Men Over 40 (Simple Comparison)",
     description: "Comparing the four most common protein tracking apps for men over 40. MFP, Cronometer, Lose It, and SnapProtein — which one actually fits your goal?",
     pubDate: "2026-04-20"
+  },
+  {
+    url: "/blog/protein-calculator-men-over-40/",
+    title: "Protein Calculator for Men Over 40 (The Right Target, Not the RDA)",
+    description: "Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it.",
+    pubDate: "2026-04-20"
   }
 
 ];

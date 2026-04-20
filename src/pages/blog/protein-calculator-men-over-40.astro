@@ -1,0 +1,677 @@
+---
+export const frontmatter = {
+  title: "Protein Calculator for Men Over 40 (The Right Target, Not the RDA)",
+  description: "Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it.",
+  pubDate: "2026-04-20"
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protein Calculator for Men Over 40 (The Right Target, Not the RDA) | SnapProtein</title>
+  <meta name="description" content="Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it." />
+  <link rel="canonical" href="https://snapprotein.com/blog/protein-calculator-men-over-40/" />
+  <meta property="og:title" content="Protein Calculator for Men Over 40 (The Right Target, Not the RDA)" />
+  <meta property="og:description" content="Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it." />
+  <meta property="og:url" content="https://snapprotein.com/blog/protein-calculator-men-over-40/" />
+  <meta property="og:type" content="article" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Protein Calculator for Men Over 40 (The Right Target, Not the RDA)",
+    "description": "Most protein calculators use the wrong number for men over 40. This one uses 1.2g/kg — the research-backed target for muscle preservation — and shows you exactly how to hit it.",
+    "datePublished": "2026-04-20",
+    "author": { "@type": "Person", "name": "Robert" },
+    "publisher": { "@type": "Organization", "name": "SnapProtein", "url": "https://snapprotein.com" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How much protein do men over 40 need per day?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight daily — roughly 0.54g per pound. For a 180-pound man, that's about 97g per day. This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why is the standard RDA wrong for men over 40?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The RDA of 0.8g/kg was established to prevent protein deficiency, not to optimize muscle preservation. After 40, a process called anabolic resistance means your muscles respond less efficiently to protein. Research consistently shows men over 40 need 1.2–1.6g/kg to maintain muscle mass — 50–100% more than the RDA."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How should I spread my protein intake across the day?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Research suggests spreading protein across 3–4 meals at 30g or more per sitting is more effective than front- or back-loading. Each meal should hit at least 30g to effectively trigger muscle protein synthesis after 40. A daily target of 120g spread across 4 meals is roughly 30g per meal."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best way to track protein intake after 40?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The best tracker is one you'll actually use consistently. For men over 40 focused on protein only, a simple app like SnapProtein — which tracks just protein in 2–3 taps — tends to outperform comprehensive apps that track everything, because simplicity drives consistency."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --charcoal: #1e2124;
+      --green: #3a6b45;
+      --green-light: #4d8c5a;
+      --green-pale: #e8f2ea;
+      --green-dark: #1e3d2f;
+      --cream: #f9f6f0;
+      --body-text: #2d3748;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 19px;
+      line-height: 1.82;
+      color: var(--body-text);
+      background: #fff;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1.25;
+    }
+
+    .site-nav {
+      background: var(--charcoal);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-nav a.logo {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .site-nav a.logo span { color: var(--green-light); }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+    .nav-links a:hover { color: #fff; }
+
+    .hero {
+      background: var(--cream);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--green-pale);
+      color: var(--green);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.75rem);
+      max-width: 720px;
+      margin: 0 auto 1rem;
+    }
+    .hero h1 span { color: var(--green-light); }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 580px;
+      margin: 0 auto;
+    }
+
+    .article-wrap {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    .article-wrap p { margin-bottom: 1.4rem; }
+    .article-wrap h2 { font-size: 1.5rem; margin: 2.8rem 0 1rem; }
+    .article-wrap h3 { font-size: 1.1rem; margin: 1.8rem 0 0.6rem; }
+
+    .quick-answer {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green);
+      border-radius: 0 10px 10px 0;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+    .quick-answer-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--green);
+      margin-bottom: 0.6rem;
+    }
+    .quick-answer ul { padding-left: 1.2rem; margin: 0; }
+    .quick-answer li {
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 0.35rem;
+      color: var(--charcoal);
+    }
+
+    /* CALCULATOR */
+    .calculator-wrap {
+      background: var(--charcoal);
+      border-radius: 14px;
+      padding: 2rem 2rem 2.25rem;
+      margin: 2.5rem 0;
+    }
+    .calculator-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--green-light);
+      margin-bottom: 1rem;
+    }
+    .calculator-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #fff;
+      margin-bottom: 1.5rem;
+    }
+    .input-row {
+      display: flex;
+      gap: 0.75rem;
+      align-items: flex-end;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .input-group { flex: 1; min-width: 160px; }
+    .input-group label {
+      display: block;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.82rem;
+      color: rgba(255,255,255,0.7);
+      margin-bottom: 0.4rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .input-group input {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      font-size: 1.15rem;
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 600;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: 8px;
+      color: #fff;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .input-group input:focus { border-color: var(--green-light); }
+    .input-group input::placeholder { color: rgba(255,255,255,0.35); }
+    .calc-btn {
+      background: #fff;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.75rem 1.75rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      white-space: nowrap;
+      transition: background 0.2s;
+      flex-shrink: 0;
+    }
+    .calc-btn:hover { background: var(--green-pale); }
+
+    /* OUTPUT */
+    .calc-output {
+      display: none;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.15);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin-top: 0.5rem;
+    }
+    .calc-output.visible { display: block; }
+    .output-daily {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 0.25rem;
+    }
+    .output-daily span { color: var(--green-light); }
+    .output-meals {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.8);
+      margin-bottom: 1rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+    .output-divider {
+      height: 1px;
+      background: rgba(255,255,255,0.12);
+      margin: 1rem 0;
+    }
+    .output-insight {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.75);
+      line-height: 1.65;
+      font-style: italic;
+    }
+    .output-tagline {
+      margin-top: 0.85rem;
+      font-size: 0.88rem;
+      color: var(--green-light);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    /* FORMULA TABLE */
+    .formula-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.9rem;
+      margin: 1.5rem 0;
+    }
+    .formula-table th {
+      background: var(--charcoal);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      padding: 0.6rem 1rem;
+      text-align: left;
+      font-size: 0.8rem;
+    }
+    .formula-table td {
+      padding: 0.6rem 1rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--charcoal);
+    }
+    .formula-table tr:nth-child(even) td { background: var(--cream); }
+    .formula-table tr:last-child td { border-bottom: none; }
+    .formula-table td strong { color: var(--green-dark); }
+
+    /* AUTHOR NOTE */
+    .author-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 0.93rem;
+    }
+    .author-avatar {
+      width: 46px; height: 46px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .author-note p { margin: 0; color: var(--muted); }
+    .author-note strong { color: var(--charcoal); }
+
+    /* RELATED */
+    .related-wrap {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+    .related-wrap p {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--charcoal);
+      margin-bottom: 1rem;
+    }
+    .related-wrap ul { padding: 0; list-style: none; margin: 0; }
+    .related-wrap li { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+    .related-wrap li:last-child { border-bottom: none; }
+    .related-wrap a {
+      color: var(--green-dark);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .related-wrap a:hover { text-decoration: underline; }
+
+    /* FAQ */
+    .faq-section { margin: 3rem 0 2rem; }
+    .faq-section h2 { margin-bottom: 1.25rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--charcoal);
+      margin-bottom: 0.5rem;
+    }
+    .faq-a { font-size: 0.95rem; color: var(--body-text); }
+
+    /* CTA */
+    .cta-band {
+      background: var(--green-dark);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    .cta-band h2 {
+      color: #fff;
+      font-size: clamp(1.5rem, 3.5vw, 2rem);
+      max-width: 560px;
+      margin: 0 auto 0.75rem;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,0.8);
+      font-size: 1rem;
+      margin: 0 auto 1.75rem;
+      max-width: 460px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .cta-btn:hover { background: var(--green-pale); }
+
+    .site-footer {
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.55);
+      text-align: center;
+      font-size: 0.82rem;
+      padding: 2rem 1.5rem;
+    }
+    .site-footer a { color: rgba(255,255,255,0.7); }
+
+    @media (max-width: 540px) {
+      .input-row { flex-direction: column; }
+      .calc-btn { width: 100%; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <a href="https://snapprotein.com" class="logo">Snap<span>Protein</span></a>
+    <div class="nav-links">
+      <a href="https://snapprotein.com/blog/">Blog</a>
+      <a href="https://snapprotein.com">Track Protein →</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="hero-eyebrow">Free Calculator</span>
+    <h1>Protein Calculator<br><span>for Men Over 40</span></h1>
+    <p class="hero-sub">Most calculators use the wrong number. This one uses the research-backed target for muscle preservation — not the outdated RDA.</p>
+  </header>
+
+  <div class="article-wrap">
+
+    <div class="quick-answer">
+      <div class="quick-answer-label">The Short Answer</div>
+      <ul>
+        <li>Most calculators use 0.8g/kg — the RDA, designed to prevent deficiency, not preserve muscle</li>
+        <li>Men over 40 need 1.2g/kg due to a process called anabolic resistance</li>
+        <li>For a 180-lb man, that's ~98g/day — not the 65g most calculators give you</li>
+        <li>Spreading that across 4 meals at ~30g each is the most effective way to hit it</li>
+      </ul>
+    </div>
+
+    <p>I'm 64. When I first looked up how much protein I needed, every calculator I found gave me roughly the same number — somewhere around 65g. I was eating close to that. I thought I was fine.</p>
+
+    <p>I wasn't. The number was wrong. Not wrong because the calculators were broken — wrong because they were built around a standard that was never designed for men over 40 trying to preserve muscle. That gap is what this calculator fixes.</p>
+
+    <div class="author-note">
+      <div class="author-avatar">R</div>
+      <div>
+        <p><strong>Robert, founder of SnapProtein.</strong> I built this calculator because the ones I found gave me a number 40–60g lower than what research actually recommends for men my age. If you're over 40 and focused on muscle, the standard RDA isn't your target.</p>
+      </div>
+    </div>
+
+    <!-- CALCULATOR -->
+    <div class="calculator-wrap">
+      <div class="calculator-label">Your Personal Target</div>
+      <div class="calculator-title">How much protein do you actually need?</div>
+
+      <div class="input-row">
+        <div class="input-group">
+          <label for="weight-input">Your weight (lbs)</label>
+          <input
+            type="number"
+            id="weight-input"
+            placeholder="e.g. 185"
+            min="100"
+            max="400"
+          />
+        </div>
+        <button class="calc-btn" onclick="calculateProtein()">Calculate →</button>
+      </div>
+
+      <div class="calc-output" id="calc-output">
+        <div class="output-daily">Your target: <span id="output-daily-num">—</span>g/day</div>
+        <div class="output-meals" id="output-meals">—</div>
+        <div class="output-divider"></div>
+        <div class="output-insight" id="output-insight">—</div>
+        <div class="output-tagline">You don't need to be perfect. You just need to see it.</div>
+        <div style="margin-top:0.85rem;">
+          <a href="https://snapprotein.com/blog/what-120g-protein-looks-like/" style="color:var(--green-light); font-size:0.88rem; font-family:'Plus Jakarta Sans',sans-serif; font-weight:600; text-decoration:none;">See what 120g of protein actually looks like →</a>
+        </div>
+      </div>
+    </div>
+
+    <h2>Why This Number Is Different</h2>
+
+    <p>The standard RDA for protein is 0.8g per kilogram of bodyweight. It was established to prevent protein deficiency — not to optimize muscle health as you age. For a sedentary person in their 20s, it's adequate. For a man over 40 trying to maintain muscle mass, it falls significantly short.</p>
+
+    <p>After 40, a process called <strong>anabolic resistance</strong> sets in. Your muscles become less efficient at using the protein you eat to build and repair tissue. The response: you need more protein per meal — and more total protein per day — to get the same muscle-preserving effect you'd have gotten easily at 30.</p>
+
+    <p>Research consistently points to 1.2–1.6g/kg as the appropriate range for older adults focused on muscle preservation. This calculator uses 1.2g/kg — the conservative end of that range — as your daily baseline. It's the number most frequently cited in the literature, and it's the number that makes a practical difference.</p>
+
+    <h2>What the Numbers Look Like by Weight</h2>
+
+    <table class="formula-table">
+      <thead>
+        <tr>
+          <th>Your Weight</th>
+          <th>RDA Target (0.8g/kg)</th>
+          <th>40+ Target (1.2g/kg)</th>
+          <th>The Gap</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>150 lbs</td>
+          <td>54g/day</td>
+          <td><strong>82g/day</strong></td>
+          <td>+28g</td>
+        </tr>
+        <tr>
+          <td>170 lbs</td>
+          <td>62g/day</td>
+          <td><strong>93g/day</strong></td>
+          <td>+31g</td>
+        </tr>
+        <tr>
+          <td>185 lbs</td>
+          <td>67g/day</td>
+          <td><strong>101g/day</strong></td>
+          <td>+34g</td>
+        </tr>
+        <tr>
+          <td>200 lbs</td>
+          <td>72g/day</td>
+          <td><strong>109g/day</strong></td>
+          <td>+37g</td>
+        </tr>
+        <tr>
+          <td>220 lbs</td>
+          <td>80g/day</td>
+          <td><strong>120g/day</strong></td>
+          <td>+40g</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>That gap — 28 to 40+ grams per day — is where muscle loss quietly happens. Not because men aren't trying. Because they never saw the right number.</p>
+
+    <h2>How to Actually Hit It</h2>
+
+    <p>The most effective strategy isn't eating more at one meal — it's distributing protein across 3–4 meals at 30g or more per sitting. Research suggests this threshold is required to effectively trigger muscle protein synthesis after 40. A single large protein meal late in the day is less effective than consistent doses throughout.</p>
+
+    <p>In practical terms: if your target is 120g, that's 4 meals at 30g each. Breakfast with eggs and Greek yogurt. Lunch with chicken or tuna. An afternoon snack with cottage cheese or a protein shake. Dinner with a solid protein anchor. You don't need anything exotic — you need consistency with foods you already eat.</p>
+
+    <p>The problem most men run into isn't the eating. It's the visibility. Without tracking, it's nearly impossible to know where you actually land each day. Most men find out they've been hitting 60–80g when they thought they were hitting their target. That gap is the whole problem.</p>
+
+    <div class="related-wrap">
+      <p>Continue Reading</p>
+      <ul>
+        <li><a href="https://snapprotein.com/blog/30-gram-protein-rule/">The 30-Gram Rule: Why Each Meal Matters After 40 →</a></li>
+        <li><a href="https://snapprotein.com/blog/best-protein-tracking-app/">Best Protein Tracking App for Men Over 40 →</a></li>
+        <li><a href="https://snapprotein.com/blog/what-120g-protein-looks-like/">What 120g of Protein Actually Looks Like →</a></li>
+        <li><a href="https://snapprotein.com/blog/high-protein-foods-after-50/">High-Protein Foods for Men Over 50 →</a></li>
+      </ul>
+    </div>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">How much protein do men over 40 need per day?</div>
+        <div class="faq-a">Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight — roughly 0.54g per pound. For a 180-pound man, that's about 98g per day. This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Why is the standard RDA wrong for men over 40?</div>
+        <div class="faq-a">The RDA of 0.8g/kg was established to prevent protein deficiency, not to optimize muscle preservation. After 40, anabolic resistance means your muscles respond less efficiently to protein. Research consistently shows men over 40 need 1.2–1.6g/kg to maintain muscle mass — 50–100% more than the RDA.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How should I spread my protein intake across the day?</div>
+        <div class="faq-a">Spread protein across 3–4 meals at 30g or more per sitting. Each meal should hit at least 30g to effectively trigger muscle protein synthesis after 40. A daily target of 120g spread across 4 meals is roughly 30g per meal — achievable without exotic foods or meal prep marathons.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What is the best way to track protein intake after 40?</div>
+        <div class="faq-a">The best tracker is one you'll actually use consistently. For men over 40 focused on protein only, a simple app like SnapProtein — which tracks just protein in 2–3 taps — tends to outperform comprehensive apps that track everything, because simplicity drives consistency.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="cta-band">
+    <h2>Track Your Protein. Everything Else Gets Easier.</h2>
+    <p>You've got your number. Now track it — in 2–3 taps, no database, no barcode scanner.</p>
+    <a href="https://snapprotein.com" class="cta-btn">Try SnapProtein Free →</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 SnapProtein &nbsp;·&nbsp; <a href="https://snapprotein.com/terms-privacy.html">Terms &amp; Privacy</a> &nbsp;·&nbsp; <a href="https://snapprotein.com/blog/">Blog</a></p>
+    <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
+  </footer>
+
+  <script>
+    function calculateProtein() {
+      var input = document.getElementById('weight-input');
+      var output = document.getElementById('calc-output');
+      var weight = parseFloat(input.value);
+
+      if (!weight || weight < 80 || weight > 450) {
+        input.style.borderColor = '#ef4444';
+        setTimeout(function() { input.style.borderColor = 'rgba(255,255,255,0.2)'; }, 1500);
+        return;
+      }
+
+      // 1.2g/kg — convert lbs to kg first (divide by 2.205)
+      var kg = weight / 2.205;
+      var daily = Math.round(kg * 1.2);
+      var perMeal = Math.round(daily / 4);
+      var perMealHigh = perMeal + 2;
+
+      // Output elements
+      document.getElementById('output-daily-num').textContent = daily;
+      document.getElementById('output-meals').textContent =
+        'That\'s roughly 4 meals × ' + perMeal + '–' + perMealHigh + 'g each';
+
+      // Contextual insight
+      var insight = '';
+      if (daily < 100) {
+        insight = 'Most men your size are hitting 50–65g without realizing it — nearly half what you actually need. That gap is where muscle loss quietly happens, year after year.';
+      } else if (daily <= 130) {
+        insight = 'This is the sweet spot for men over 40 focused on muscle preservation. Most men your size are 30–50g short of this without knowing it. Now you have the number — the next step is seeing it every day.';
+      } else {
+        insight = 'At your size, hitting this consistently is the job. Spreading it across 4–5 meals makes it doable without any single meal feeling like a challenge. Consistency over perfection.';
+      }
+      document.getElementById('output-insight').textContent = insight;
+
+      output.classList.add('visible');
+    }
+
+    // Allow Enter key to trigger calculation
+    document.getElementById('weight-input').addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') calculateProtein();
+    });
+  </script>
+
+</body>
+</html>
