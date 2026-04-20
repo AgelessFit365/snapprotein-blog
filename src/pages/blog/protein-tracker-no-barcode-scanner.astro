@@ -1,0 +1,493 @@
+---
+export const frontmatter = {
+  title: "Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)",
+  description: "Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way.",
+  pubDate: "2026-04-19"
+}
+---
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Protein Tracker Without a Barcode Scanner | SnapProtein</title>
+  <meta name="description" content="Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way." />
+  <link rel="canonical" href="https://snapprotein.com/blog/protein-tracker-no-barcode-scanner/" />
+  <meta property="og:title" content="Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)" />
+  <meta property="og:description" content="Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://snapprotein.com/blog/protein-tracker-no-barcode-scanner/" />
+  <meta property="og:site_name" content="SnapProtein" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)",
+    "description": "Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way.",
+    "datePublished": "2026-04-19",
+    "author": { "@type": "Person", "name": "Robert" },
+    "publisher": { "@type": "Organization", "name": "SnapProtein", "url": "https://snapprotein.com" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Is there a protein tracker app that doesn't require barcode scanning?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. SnapProtein is built specifically without barcode scanning. Instead of scanning packaged foods, you set up a shortcut grid with your most common protein sources — the foods you already eat regularly. Logging takes 2-3 taps with no scanning, searching, or database navigation required."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Why do barcode scanners make protein tracking harder?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Barcode scanners require packaged foods with barcodes. Most high-protein whole foods — eggs, cottage cheese from a container you scooped, rotisserie chicken, ground beef you cooked — don't get scanned. The workaround is manual database searching, which is slow and often inaccurate with user-submitted entries. The friction adds up and breaks the habit."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do you track protein without scanning barcodes?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The most reliable method: memorize the protein content of the 8-10 foods you eat most often, then log grams directly. Most men over 40 eat the same foods in rotation weekly — eggs (6g each), Greek yogurt (17-20g per cup), cottage cheese (25g per cup), canned tuna (26g per can), chicken breast (35g per serving). Once you know those numbers, you don't need a scanner or a database."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are barcode scanner protein apps accurate?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "It depends on the database. Apps using verified databases like Cronometer's USDA-sourced entries are reasonably accurate for packaged foods. Apps with user-submitted databases like MyFitnessPal have documented accuracy issues — entries can vary by 20-30% for the same food. For whole foods cooked at home, scanner accuracy is irrelevant since there's no barcode to scan anyway."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --charcoal: #1e2124;
+      --green: #3a6b45;
+      --green-light: #4d8c5a;
+      --green-pale: #e8f2ea;
+      --green-dark: #1e3d2f;
+      --cream: #f9f6f0;
+      --body-text: #2d3748;
+      --muted: #64748b;
+      --border: #e2e8f0;
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 19px;
+      line-height: 1.82;
+      color: var(--body-text);
+      background: #fff;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1.25;
+    }
+
+    .site-nav {
+      background: var(--charcoal);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-nav a.logo {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.25rem;
+      color: #fff; text-decoration: none;
+    }
+    .site-nav a.logo span { color: var(--green-light); }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none; font-size: 0.9rem;
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 600;
+    }
+    .nav-links a:hover { color: #fff; }
+
+    .hero {
+      background: var(--cream);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--green-pale);
+      color: var(--green);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700; font-size: 0.8rem;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      padding: 0.35rem 0.9rem; border-radius: 999px;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.9rem, 4vw, 2.9rem);
+      max-width: 780px; margin: 0 auto 1rem;
+    }
+    .hero h1 span { color: var(--green-light); }
+    .hero-sub {
+      font-size: 1.1rem; color: var(--muted);
+      max-width: 600px; margin: 0 auto;
+    }
+
+    .quick-answer {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green);
+      border-radius: 0 10px 10px 0;
+      padding: 1.5rem 1.75rem; margin: 2.5rem 0;
+    }
+    .quick-answer-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700; font-size: 0.75rem;
+      text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--green); margin-bottom: 0.6rem;
+    }
+    .quick-answer ul { padding-left: 1.2rem; margin: 0; }
+    .quick-answer li {
+      font-size: 0.97rem; line-height: 1.65;
+      margin-bottom: 0.35rem; color: var(--charcoal);
+    }
+    .quick-answer li:last-child { margin-bottom: 0; }
+
+    .article-wrap {
+      max-width: 760px; margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    .article-wrap p { margin-bottom: 1.4rem; }
+    .article-wrap h2 { font-size: 1.6rem; margin: 2.8rem 0 1rem; }
+    .article-wrap h3 { font-size: 1.15rem; margin: 2rem 0 0.6rem; }
+    strong { color: var(--charcoal); }
+
+    .author-note {
+      display: flex; align-items: flex-start; gap: 1rem;
+      background: var(--cream); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.25rem 1.5rem;
+      margin: 2rem 0; font-size: 0.93rem;
+    }
+    .author-avatar {
+      width: 46px; height: 46px; background: var(--green);
+      border-radius: 50%; display: flex; align-items: center;
+      justify-content: center; color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.1rem; flex-shrink: 0;
+    }
+    .author-note p { margin: 0; color: var(--muted); }
+    .author-note strong { color: var(--charcoal); }
+
+    /* FRICTION STEPS */
+    .friction-steps {
+      counter-reset: step;
+      margin: 1.5rem 0 2rem;
+    }
+    .friction-step {
+      display: flex; gap: 1.1rem; align-items: flex-start;
+      padding: 1rem 0;
+      border-bottom: 1px solid var(--border);
+    }
+    .friction-step:last-child { border-bottom: none; }
+    .step-num {
+      counter-increment: step;
+      width: 32px; height: 32px; border-radius: 50%;
+      background: var(--charcoal); color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 0.85rem;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-top: 0.15rem;
+    }
+    .step-text { font-size: 0.97rem; color: var(--charcoal); line-height: 1.65; }
+    .step-text strong { color: var(--charcoal); }
+
+    /* FOODS REFERENCE */
+    .foods-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.75rem;
+      margin: 1.5rem 0 2rem;
+    }
+    .food-chip {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.75rem 1rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+    .food-chip-name { color: var(--charcoal); font-weight: 500; }
+    .food-chip-grams {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; color: var(--green-dark); font-size: 0.88rem;
+    }
+
+    /* CALLOUT */
+    .callout {
+      background: var(--charcoal); color: #fff;
+      border-radius: 10px; padding: 1.5rem 1.75rem; margin: 2rem 0;
+    }
+    .callout p { margin: 0; font-size: 1.05rem; line-height: 1.65; }
+    .callout strong { color: var(--green-light); }
+
+    /* RELATED */
+    .related-posts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+      gap: 1rem; margin: 2.5rem 0;
+    }
+    .related-card {
+      background: var(--cream); border: 1px solid var(--border);
+      border-radius: 10px; padding: 1.1rem 1.25rem; text-decoration: none;
+    }
+    .related-card-label {
+      font-size: 0.72rem; font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700; text-transform: uppercase; letter-spacing: 0.07em;
+      color: var(--green); margin-bottom: 0.4rem;
+    }
+    .related-card-title {
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
+      font-size: 0.92rem; color: var(--charcoal); line-height: 1.35;
+    }
+    .related-card:hover { border-color: var(--green-light); }
+
+    /* FAQ */
+    .faq-section { margin: 3rem 0 2rem; }
+    .faq-section h2 { margin-bottom: 1.25rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700;
+      font-size: 1rem; color: var(--charcoal); margin-bottom: 0.5rem;
+    }
+    .faq-a { font-size: 0.95rem; color: var(--body-text); }
+
+    /* CTA */
+    .cta-band {
+      background: var(--green-dark);
+      padding: 3rem 1.5rem; text-align: center;
+    }
+    .cta-band h2 {
+      color: #fff; font-size: clamp(1.5rem, 3.5vw, 2.1rem);
+      max-width: 620px; margin: 0 auto 0.75rem;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,0.8); font-size: 1rem;
+      margin: 0 auto 1.25rem; max-width: 500px;
+    }
+    .cta-brand-line {
+      color: rgba(255,255,255,0.95);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700; font-size: 1rem;
+      margin-bottom: 1.75rem;
+    }
+    .cta-btn {
+      display: inline-block; background: #fff;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1rem;
+      padding: 0.9rem 2rem; border-radius: 8px; text-decoration: none;
+    }
+    .cta-btn:hover { background: var(--green-pale); }
+
+    .site-footer {
+      background: var(--charcoal); color: rgba(255,255,255,0.55);
+      text-align: center; font-size: 0.82rem; padding: 2rem 1.5rem;
+    }
+    .site-footer a { color: rgba(255,255,255,0.7); }
+
+    @media (max-width: 580px) {
+      .nav-links { display: none; }
+      .foods-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <a href="https://snapprotein.com" class="logo">Snap<span>Protein</span></a>
+    <div class="nav-links">
+      <a href="https://snapprotein.com/blog/">Blog</a>
+      <a href="https://snapprotein.com">Track Protein →</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="hero-eyebrow">Protein Tracking</span>
+    <h1>Protein Tracker <span>Without a Barcode Scanner</span></h1>
+    <p class="hero-sub">Barcode scanning sounds convenient. In practice, it's the step that breaks the habit. Here's why — and what works instead.</p>
+    <p style="margin-top:1rem; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1.05rem; color:var(--green-dark);">Most men over 40 aren't low on effort — they're low on protein.</p>
+  </header>
+
+  <div class="article-wrap">
+
+    <div class="quick-answer">
+      <div class="quick-answer-label">Quick Answer</div>
+      <ul>
+        <li>Most high-protein whole foods — eggs, cottage cheese, rotisserie chicken, ground beef — <strong>don't have barcodes</strong></li>
+        <li>Scanning packaged foods works only for packaged foods. It breaks down the moment you eat real, cooked food.</li>
+        <li>A better approach: memorize the protein in your 8–10 most common foods, then log grams directly — no scanner, no database, no friction</li>
+        <li><strong>SnapProtein</strong> is built specifically around this approach — 2–3 tap logging using the foods you actually eat</li>
+      </ul>
+    </div>
+
+    <p>I'm 64. When I tried the barcode-scanner apps, the first thing I noticed was how little of what I actually eat has a barcode. Three eggs I scrambled this morning — no barcode. The rotisserie chicken I pulled apart for lunch — no barcode. The ground beef I cooked for dinner — no barcode.</p>
+
+    <p>The scanner was supposed to make tracking easier. Instead it became the thing I had to work around every single meal. That friction compounds. And friction is what kills the habit.</p>
+
+    <div class="author-note">
+      <div class="author-avatar">R</div>
+      <div>
+        <p><strong>Robert, founder of SnapProtein.</strong> I'm 64 and built this app because the existing options created more work than they removed. We didn't build a massive food database on purpose. You eat the same foods. We make them easy to track.</p>
+      </div>
+    </div>
+
+    <h2>Why Barcode Scanners Break the Habit</h2>
+
+    <p>The barcode scanner pitch is compelling: point your phone at a package, get instant nutrition data. It sounds frictionless. The reality is different for anyone eating real food at home.</p>
+
+    <div class="friction-steps">
+      <div class="friction-step">
+        <div class="step-num">1</div>
+        <div class="step-text"><strong>Most whole foods have no barcode.</strong> Eggs, fresh meat, rotisserie chicken, cooked grains — the foods that make up most of a healthy protein-focused diet are unpackaged. The scanner is useless for all of them.</div>
+      </div>
+      <div class="friction-step">
+        <div class="step-num">2</div>
+        <div class="step-text"><strong>The fallback is manual database search.</strong> Which means typing a food name, scrolling through 20 variations of "ground beef 80/20 cooked" with slightly different protein counts, picking one, entering a weight or portion size, and confirming. Every meal. Every day.</div>
+      </div>
+      <div class="friction-step">
+        <div class="step-num">3</div>
+        <div class="step-text"><strong>User-submitted databases are inaccurate.</strong> Apps like MyFitnessPal rely heavily on user-submitted entries. The same food can have wildly different protein counts depending on which entry you pick. You're building a habit around numbers that may be off by 20–30%.</div>
+      </div>
+      <div class="friction-step">
+        <div class="step-num">4</div>
+        <div class="step-text"><strong>One missing scan breaks the day.</strong> If logging requires a scan and the scan fails — wrong food, no barcode, phone camera acting up — the natural response is to skip logging that meal. One skip becomes a pattern. The habit breaks.</div>
+      </div>
+      <div class="friction-step">
+        <div class="step-num">5</div>
+        <div class="step-text"><strong>You only need the number, not the database.</strong> After 40, most men eat the same 8–12 foods in rotation every week. You don't need a 20-million-item database. You need your foods, and you need to log them fast.</div>
+      </div>
+    </div>
+
+    <p>They track everything. Which means you track nothing consistently.</p>
+
+    <div class="callout">
+      <p>The app that gets used is the one that removes friction. <strong>A tracker you use at 80% accuracy beats a comprehensive one you abandon in two weeks.</strong> Every time. That's what works.</p>
+    </div>
+
+    <h2>The Numbers You Actually Need to Know</h2>
+
+    <p>Here's the insight that makes barcode scanning unnecessary: the protein content of common whole foods doesn't change. Three eggs are always roughly 18g. A cup of cottage cheese is always roughly 25g. You don't need to look this up every day — you need to learn it once.</p>
+
+    <p>Most men over 40 eat the same foods in rotation. If your rotation is covered, you're covered.</p>
+
+    <div class="foods-grid">
+      <div class="food-chip"><span class="food-chip-name">3 large eggs</span><span class="food-chip-grams">18g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Greek yogurt (1 cup)</span><span class="food-chip-grams">17–20g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Cottage cheese (1 cup)</span><span class="food-chip-grams">25g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Canned tuna (5oz)</span><span class="food-chip-grams">26g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Canned salmon (5oz)</span><span class="food-chip-grams">29g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Rotisserie chicken (5oz)</span><span class="food-chip-grams">35g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Ground beef 90/10 (5oz)</span><span class="food-chip-grams">35g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Ground turkey (5oz)</span><span class="food-chip-grams">30g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Whey protein (1 scoop)</span><span class="food-chip-grams">25g</span></div>
+      <div class="food-chip"><span class="food-chip-name">Beef jerky (2oz)</span><span class="food-chip-grams">21g</span></div>
+    </div>
+
+    <p>That's the list. If those ten foods cover 80% of your protein intake — which they do for most men in this demographic — you never need a scanner. You need those ten numbers and a fast way to log them. That's enough.</p>
+
+    <h2>What a No-Scanner Tracker Looks Like in Practice</h2>
+
+    <p>SnapProtein is built around this reality. Instead of a scanner or a database, you set up a 2×2 shortcut grid with your four most common protein sources. Logging a meal is two or three taps — tap the food, confirm the portion, done. No camera, no search, no database navigation.</p>
+
+    <p>The approach isn't missing a feature. It's a deliberate design choice based on how men over 40 actually eat. Most of us aren't scanning a different packaged product at every meal. We're eating the same things in rotation, and we need to log them as fast as possible so the habit sticks.</p>
+
+    <p>That's exactly what the 4-slot shortcut system does. Set it up once with your foods. Log in seconds every day after that. Because the habit is the whole game.</p>
+
+    <div class="related-posts">
+      <a href="https://snapprotein.com/blog/best-protein-tracker-app-men-over-40/" class="related-card">
+        <div class="related-card-label">Related</div>
+        <div class="related-card-title">Best Protein Tracker App for Men Over 40 (Full Comparison)</div>
+      </a>
+      <a href="https://snapprotein.com/blog/myfitnesspal-alternative/" class="related-card">
+        <div class="related-card-label">Related</div>
+        <div class="related-card-title">Why MyFitnessPal Is Too Complicated After 40</div>
+      </a>
+      <a href="https://snapprotein.com/blog/high-protein-foods-after-50/" class="related-card">
+        <div class="related-card-label">Related</div>
+        <div class="related-card-title">Best High-Protein Foods After 50 (No Cooking Required)</div>
+      </a>
+    </div>
+
+    <h2>The Habit Is the Whole Game</h2>
+
+    <p>Protein tracking only works if you do it consistently. Consistently means daily. Daily means the tool has to be fast enough that you don't skip it when you're tired, busy, or eating something you cooked from scratch with no packaging in sight.</p>
+
+    <p>A barcode scanner is the right tool for someone eating mostly packaged foods who wants micronutrient precision. It's the wrong tool for a man over 40 eating real food who wants to know one number before dinner.</p>
+
+    <p>The right tracker isn't the one with the most features. It's the one you actually open tomorrow morning. That's the difference.</p>
+
+    <p>If you're searching for a <strong>protein tracker without barcode scanner</strong>, <strong>protein tracking app no scanning</strong>, <strong>simple protein tracker no database</strong>, <strong>easiest way to track protein over 40</strong>, or <strong>protein tracker for whole foods</strong> — SnapProtein was built specifically for this.</p>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">Is there a protein tracker app that doesn't require barcode scanning?</div>
+        <div class="faq-a">Yes. SnapProtein is built without barcode scanning. You set up a shortcut grid with your most common protein sources and log meals in 2–3 taps — no scanning, searching, or database navigation required.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Why do barcode scanners make protein tracking harder?</div>
+        <div class="faq-a">Barcode scanners only work for packaged foods. Most high-protein whole foods — eggs, cottage cheese, rotisserie chicken, cooked ground beef — have no barcode. Every unpackaged meal becomes a manual database search, which is slow, often inaccurate, and adds enough friction to break the logging habit over time.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">How do you track protein without scanning barcodes?</div>
+        <div class="faq-a">Learn the protein content of the 8–10 foods you eat most often and log grams directly. Most men over 40 eat the same foods in weekly rotation — eggs, Greek yogurt, cottage cheese, canned tuna, chicken, ground beef. Once you know those numbers, you don't need a scanner or a database. SnapProtein's shortcut grid is built around exactly this approach.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Are barcode scanner protein apps accurate?</div>
+        <div class="faq-a">For packaged foods with verified database entries, reasonably. For user-submitted databases like MyFitnessPal, accuracy varies — the same food can show different protein counts across entries. For whole foods cooked at home, scanner accuracy is irrelevant since there's no barcode to scan anyway.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="cta-band">
+    <h2>Track Your Protein. Everything Else Gets Easier.</h2>
+    <p>No scanner. No database. No friction. Just your foods, your number, and 2–3 taps.</p>
+    <p class="cta-brand-line">The protein tracker you'll actually use.</p>
+    <a href="https://snapprotein.com" class="cta-btn">Start Tracking Free →</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 SnapProtein &nbsp;·&nbsp; <a href="https://snapprotein.com/terms-privacy.html">Terms &amp; Privacy</a> &nbsp;·&nbsp; <a href="https://snapprotein.com/blog/">Blog</a></p>
+    <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
+  </footer>
+
+</body>
+</html>

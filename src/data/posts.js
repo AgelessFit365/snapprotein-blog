@@ -138,6 +138,13 @@ export const posts = [
     title: "Best Protein Tracker App for Men Over 40 (Honest Comparison)",
     description: "Most protein tracker apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change.",
     pubDate: "2026-04-19"
+  },
+
+  {
+    url: "/blog/protein-tracker-no-barcode-scanner/",
+    title: "Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)",
+    description: "Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way.",
+    pubDate: "2026-04-19"
   }
 
 ];
