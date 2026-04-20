@@ -69,69 +69,75 @@ export const posts = [
     url: "/blog/30-gram-protein-rule/",
     title: "The 30-Gram Protein Rule: The Simplest Way to Hit Your Daily Target After 40",
     description: "Most men over 40 don't fail because they don't care about protein — they fail because the system is too complicated. Here's the one simple rule that works.",
-    pubDate: "2025-01-29"
+    pubDate: "2026-01-10"
   },
   {
     url: "/blog/high-protein-foods-after-50/",
     title: "Best High-Protein Foods After 50 (Simple, No Cooking Required)",
     description: "The easiest high-protein foods for men over 50 — no meal prep, no complicated recipes, no chef skills required.",
-    pubDate: "2025-01-20"
+    pubDate: "2026-01-20"
   },
   {
     url: "/blog/myfitnesspal-alternative/",
     title: "MyFitnessPal Is Great. It's Also Way Too Complicated After 40.",
     description: "MyFitnessPal is a powerful app, but for men over 40 who only need to hit a protein target, its complexity creates more friction than value.",
-    pubDate: "2025-01-15"
+    pubDate: "2026-01-15"
   },
   {
     url: "/blog/muscle-loss-after-40/",
     title: "Why You're Losing Muscle After 40",
     description: "If you're over 40 and losing strength despite working out, the problem isn't your effort. Here's the real reason — and what actually fixes it.",
-    pubDate: "2025-01-10"
+    pubDate: "2026-04-11"
   },
   {
     url: "/blog/protein-after-50/",
     title: "How Much Protein Do Men Over 50 Need?",
     description: "Most men over 50 are eating far less protein than they actually need. Here's what the science says — and the simplest way to fix it.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-12"
   },
 
   {
     url: "/blog/why-men-over-50-dont-get-results/",
     title: "Why Most Men Over 50 Don't Get Results (Even When They Try)",
     description: "Most men over 50 who aren't making progress aren't lazy. They're missing one thing. Here's what the research says is actually behind the plateau — and what actually fixes it.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-13"
   },
   {
     url: "/blog/high-protein-snacks-men-over-50/",
     title: "Best High-Protein Snacks for Men Over 50 (No Cooking Required)",
     description: "Most snacks do nothing for your protein goals. These do. Here are the best high-protein snacks for men over 50 — fast, simple, and built around foods you'll actually eat.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-14"
   },
 
   {
     url: "/blog/cronometer-alternative-men-over-40/",
     title: "Cronometer Alternative for Men Over 40 (When Simple Beats Detailed)",
     description: "Cronometer is one of the most detailed nutrition apps available. That's exactly why it doesn't work for most men over 40 who just need to hit a daily protein target.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-15"
   },
   {
     url: "/blog/lose-it-alternative-men-over-40/",
     title: "Lose It! Alternative for Men Over 40 (The Wrong App for the Right Goal)",
     description: "Lose It! is built around calorie deficit and weight loss. Most men over 40 need the opposite — more protein to preserve muscle. Here's why the frame matters as much as the features.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-16"
   },
   {
     url: "/blog/7-day-high-protein-meal-plan-men-over-50/",
     title: "7-Day High-Protein Meal Plan for Men Over 50 (Simple, Real Food)",
     description: "A practical 7-day high-protein meal plan built for men over 50 — no meal prep marathons, no exotic ingredients. Just real food hitting 120–140g of protein daily.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-17"
   },
   {
     url: "/blog/what-120g-protein-looks-like/",
     title: "What 120g of Protein Actually Looks Like (A Visual Guide for Men Over 50)",
     description: "120g of protein sounds like a lot. It's not. Here's exactly what it looks like across a real day of eating — broken down meal by meal with common foods most men already eat.",
-    pubDate: "2025-01-05"
+    pubDate: "2026-04-18"
+  },
+  {
+    url: "/blog/best-protein-tracker-app-men-over-40/",
+    title: "Best Protein Tracker App for Men Over 40 (Honest Comparison)",
+    description: "Most protein tracker apps were built for 25-year-olds trying to bulk. Here's an honest comparison of the top options for men over 40 — and what actually matters after your goals change.",
+    pubDate: "2026-04-19"
   }
 
 ];
