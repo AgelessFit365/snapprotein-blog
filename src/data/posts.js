@@ -153,6 +153,12 @@ export const posts = [
     title: "How to Build Muscle After 50 (Simple Plan That Actually Works)",
     description: "Most men over 50 don't need a new workout. They need a different input. Here's the simple, research-backed plan for building and preserving muscle after 50 — four levers, no fluff.",
     pubDate: "2026-04-20"
+  },
+  {
+    url: "/blog/sarcopenia-men-over-40/",
+    title: "Most Men Over 40 Are Already Experiencing Sarcopenia (And Don't Know It)",
+    description: "Sarcopenia — age-related muscle loss — starts in your 40s, not your 70s. It's silent, it's gradual, and most men have no idea it's happening. Here's what it is, when it starts, and what actually stops it.",
+    pubDate: "2026-04-21"
   }
 
 ];
