@@ -159,6 +159,12 @@ export const posts = [
     title: "Most Men Over 40 Are Already Experiencing Sarcopenia (And Don't Know It)",
     description: "Sarcopenia — age-related muscle loss — starts in your 40s, not your 70s. It's silent, it's gradual, and most men have no idea it's happening. Here's what it is, when it starts, and what actually stops it.",
     pubDate: "2026-04-21"
+  },
+  {
+    url: "/blog/bmi-wrong-after-50/",
+    title: "BMI Is the Wrong Number After 50 (Here's What Actually Matters)",
+    description: "BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead.",
+    pubDate: "2026-04-21"
   }
 
 ];

@@ -1,0 +1,724 @@
+---
+export const frontmatter = {
+  title: "BMI Is the Wrong Number After 50 (Here's What Actually Matters)",
+  description: "BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead.",
+  pubDate: "2026-04-21"
+}
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BMI Is the Wrong Number After 50 (Here's What Actually Matters) | SnapProtein</title>
+  <meta name="description" content="BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead." />
+  <link rel="canonical" href="https://snapprotein.com/blog/bmi-wrong-after-50/" />
+  <meta property="og:title" content="BMI Is the Wrong Number After 50 (Here's What Actually Matters)" />
+  <meta property="og:description" content="BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead." />
+  <meta property="og:url" content="https://snapprotein.com/blog/bmi-wrong-after-50/" />
+  <meta property="og:type" content="article" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "BMI Is the Wrong Number After 50 (Here's What Actually Matters)",
+    "description": "BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead.",
+    "datePublished": "2026-04-21",
+    "author": { "@type": "Person", "name": "Robert" },
+    "publisher": { "@type": "Organization", "name": "SnapProtein", "url": "https://snapprotein.com" }
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Why is BMI inaccurate for men over 50?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BMI measures total weight relative to height — it cannot distinguish between muscle and fat. For men over 50, this creates two critical failures: muscular men who lift weights register as 'overweight' despite being metabolically healthy, and men losing muscle to sarcopenia register as 'normal' despite gaining fat and losing the tissue that keeps them strong and metabolically active. BMI was designed as a population-level statistical tool, not an individual health assessment."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What should men over 50 track instead of BMI?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For men over 50, muscle mass and daily protein intake are more meaningful indicators than BMI. Muscle mass determines metabolic rate, strength, balance, and long-term health outcomes far more than total weight. A man losing muscle while maintaining his BMI is in a worse position than his number suggests. Tracking protein intake daily ensures you're feeding the tissue that matters most."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is a healthy BMI for men over 50?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "The standard BMI categories (underweight below 18.5, normal 18.5–24.9, overweight 25–29.9, obese 30+) don't account for age-related changes in body composition. Many fit, muscular men over 50 fall in the 'overweight' range not because they're unhealthy, but because muscle weighs more than fat. A better question is not 'what is my BMI?' but 'how much of my weight is muscle, and am I maintaining it?'"
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Who invented BMI and why?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "BMI was created by Adolphe Quetelet, a Belgian mathematician, in the 1830s. It was designed as a statistical tool for describing populations — not for assessing individual health. Quetelet was not a physician. The formula was adopted by the medical community in the 1970s as a convenient screening proxy despite its known limitations for individuals, particularly those with higher muscle mass or those over 50."
+        }
+      }
+    ]
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --charcoal: #1e2124;
+      --green: #3a6b45;
+      --green-light: #4d8c5a;
+      --green-pale: #e8f2ea;
+      --green-dark: #1e3d2f;
+      --cream: #f9f6f0;
+      --body-text: #2d3748;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --red-pale: #fef2f2;
+      --red: #dc2626;
+    }
+
+    body {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-size: 19px;
+      line-height: 1.82;
+      color: var(--body-text);
+      background: #fff;
+    }
+
+    h1, h2, h3 {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      color: var(--charcoal);
+      line-height: 1.25;
+    }
+
+    .site-nav {
+      background: var(--charcoal);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-nav a.logo {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.25rem;
+      color: #fff;
+      text-decoration: none;
+    }
+    .site-nav a.logo span { color: var(--green-light); }
+    .nav-links { display: flex; gap: 1.5rem; }
+    .nav-links a {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+    .nav-links a:hover { color: #fff; }
+
+    .hero {
+      background: var(--cream);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+    .hero-eyebrow {
+      display: inline-block;
+      background: var(--red-pale);
+      color: var(--red);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.8rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-size: clamp(1.75rem, 4vw, 2.7rem);
+      max-width: 760px;
+      margin: 0 auto 1rem;
+    }
+    .hero h1 span { color: var(--green-light); }
+    .hero-sub {
+      font-size: 1.05rem;
+      color: var(--muted);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .article-wrap {
+      max-width: 740px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+    .article-wrap p { margin-bottom: 1.4rem; }
+    .article-wrap h2 { font-size: 1.55rem; margin: 3rem 0 1rem; }
+    .article-wrap h3 { font-size: 1.1rem; margin: 1.8rem 0 0.6rem; }
+    strong { color: var(--charcoal); }
+
+    /* QUICK ANSWER */
+    .quick-answer {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green);
+      border-radius: 0 10px 10px 0;
+      padding: 1.5rem 1.75rem;
+      margin: 2rem 0;
+    }
+    .quick-answer-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--green);
+      margin-bottom: 0.6rem;
+    }
+    .quick-answer ul { padding-left: 1.2rem; margin: 0; }
+    .quick-answer li {
+      font-size: 0.97rem;
+      line-height: 1.65;
+      margin-bottom: 0.35rem;
+      color: var(--charcoal);
+    }
+    .quick-answer li:last-child { margin-bottom: 0; }
+
+    /* AUTHOR NOTE */
+    .author-note {
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 0.93rem;
+    }
+    .author-avatar {
+      width: 46px; height: 46px;
+      background: var(--green);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800; font-size: 1.1rem;
+      flex-shrink: 0;
+    }
+    .author-note p { margin: 0; color: var(--muted); }
+    .author-note strong { color: var(--charcoal); }
+
+    /* BMI EXPLAINER CARD */
+    .bmi-origin {
+      background: var(--charcoal);
+      border-radius: 12px;
+      padding: 1.75rem 2rem;
+      margin: 2rem 0;
+    }
+    .bmi-origin-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.72rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(255,255,255,0.5);
+      margin-bottom: 0.75rem;
+    }
+    .bmi-origin-stat {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 2rem;
+      color: #fff;
+      margin-bottom: 0.35rem;
+      line-height: 1.1;
+    }
+    .bmi-origin-stat span { color: var(--green-light); }
+    .bmi-origin-desc {
+      font-size: 0.93rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.65;
+      margin: 0;
+    }
+
+    /* FAILURE MODES */
+    .failure-cards { margin: 1.5rem 0; }
+    .failure-card {
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1rem;
+      border: 1px solid var(--border);
+    }
+    .failure-card.type-a { border-left: 4px solid #ef4444; background: var(--red-pale); }
+    .failure-card.type-b { border-left: 4px solid #f59e0b; background: #fffbeb; }
+    .failure-card-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.5rem;
+    }
+    .type-a .failure-card-label { color: #dc2626; }
+    .type-b .failure-card-label { color: #b45309; }
+    .failure-card h3 {
+      font-size: 1rem;
+      margin: 0 0 0.4rem;
+      color: var(--charcoal);
+    }
+    .failure-card p { font-size: 0.92rem; color: var(--body-text); margin: 0; line-height: 1.6; }
+
+    /* COMPARISON TABLE */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin: 1.5rem 0;
+      display: block;
+      overflow-x: auto;
+    }
+    .compare-table th {
+      background: var(--charcoal);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      padding: 0.65rem 1rem;
+      text-align: left;
+      font-size: 0.8rem;
+    }
+    .compare-table th.better { background: var(--green-dark); }
+    .compare-table td {
+      padding: 0.65rem 1rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+      color: var(--charcoal);
+    }
+    .compare-table tr:last-child td { border-bottom: none; }
+    .compare-table tr:nth-child(even) td { background: var(--cream); }
+    .compare-table td.row-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .compare-table td.better-col {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--green-dark);
+    }
+    .badge-no { color: #dc2626; font-weight: 700; }
+    .badge-yes { color: #16a34a; font-weight: 700; }
+    .badge-partial { color: #b45309; }
+
+    /* WHAT TO TRACK INSTEAD */
+    .track-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0;
+    }
+    .track-card {
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem;
+      background: #fff;
+    }
+    .track-card-num {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.5rem;
+      color: var(--green-light);
+      line-height: 1;
+      margin-bottom: 0.5rem;
+    }
+    .track-card-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.95rem;
+      color: var(--charcoal);
+      margin-bottom: 0.35rem;
+    }
+    .track-card-desc { font-size: 0.86rem; color: var(--muted); line-height: 1.6; }
+    .track-card-desc a { color: var(--green); font-weight: 600; text-decoration: none; }
+    .track-card-desc a:hover { text-decoration: underline; }
+
+    /* CALLOUT */
+    .callout {
+      background: var(--green-pale);
+      border-left: 4px solid var(--green-light);
+      border-radius: 0 10px 10px 0;
+      padding: 1.1rem 1.5rem;
+      margin: 1.75rem 0;
+      font-size: 0.97rem;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+    }
+
+    /* BOTTOM CTA BLOCK */
+    .bottom-block {
+      background: var(--charcoal);
+      border-radius: 12px;
+      padding: 2rem;
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+    .bottom-block h3 {
+      color: #fff;
+      font-size: 1.25rem;
+      margin-bottom: 0.6rem;
+    }
+    .bottom-block h3 span { color: var(--green-light); }
+    .bottom-block p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.95rem;
+      max-width: 480px;
+      margin: 0 auto 1.5rem;
+    }
+    .bottom-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      justify-content: center;
+    }
+    .bottom-link {
+      display: inline-block;
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 0.6rem 1.1rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .bottom-link:hover { background: rgba(255,255,255,0.18); }
+    .bottom-link.primary {
+      background: #fff;
+      color: var(--green-dark);
+      border-color: #fff;
+    }
+    .bottom-link.primary:hover { background: var(--green-pale); }
+
+    /* RELATED */
+    .related-wrap {
+      background: var(--cream);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      margin: 2.5rem 0;
+    }
+    .related-wrap p {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      color: var(--charcoal);
+      margin-bottom: 1rem;
+    }
+    .related-wrap ul { padding: 0; list-style: none; margin: 0; }
+    .related-wrap li { padding: 0.5rem 0; border-bottom: 1px solid var(--border); }
+    .related-wrap li:last-child { border-bottom: none; }
+    .related-wrap a {
+      color: var(--green-dark);
+      font-weight: 600;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+    .related-wrap a:hover { text-decoration: underline; }
+
+    /* FAQ */
+    .faq-section { margin: 3rem 0 2rem; }
+    .faq-section h2 { margin-bottom: 1.25rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      color: var(--charcoal);
+      margin-bottom: 0.5rem;
+    }
+    .faq-a { font-size: 0.95rem; color: var(--body-text); }
+
+    /* CTA */
+    .cta-band {
+      background: var(--green-dark);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+    .cta-band h2 {
+      color: #fff;
+      font-size: clamp(1.5rem, 3.5vw, 2rem);
+      max-width: 560px;
+      margin: 0 auto 0.75rem;
+    }
+    .cta-band p {
+      color: rgba(255,255,255,0.8);
+      font-size: 1rem;
+      margin: 0 auto 1.75rem;
+      max-width: 460px;
+    }
+    .cta-btn {
+      display: inline-block;
+      background: #fff;
+      color: var(--green-dark);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1rem;
+      padding: 0.9rem 2rem;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+    .cta-btn:hover { background: var(--green-pale); }
+
+    .site-footer {
+      background: var(--charcoal);
+      color: rgba(255,255,255,0.55);
+      text-align: center;
+      font-size: 0.82rem;
+      padding: 2rem 1.5rem;
+    }
+    .site-footer a { color: rgba(255,255,255,0.7); }
+
+    @media (max-width: 580px) {
+      .nav-links { display: none; }
+      .bottom-links { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav class="site-nav">
+    <a href="https://snapprotein.com" class="logo">Snap<span>Protein</span></a>
+    <div class="nav-links">
+      <a href="https://snapprotein.com/blog/">Blog</a>
+      <a href="https://snapprotein.com">Track Protein →</a>
+    </div>
+  </nav>
+
+  <header class="hero">
+    <span class="hero-eyebrow">Unpopular Truth</span>
+    <h1>BMI Is the Wrong Number <span>After 50</span></h1>
+    <p class="hero-sub">It was invented by a mathematician in the 1830s. It can't tell muscle from fat. And for men over 50, it may be giving you a false sense of where you actually stand.</p>
+  </header>
+
+  <div class="article-wrap">
+
+    <div class="quick-answer">
+      <div class="quick-answer-label">Quick Answer</div>
+      <ul>
+        <li>BMI was created in the 1830s as a population statistics tool — not a health assessment for individuals</li>
+        <li>It measures weight divided by height squared — it cannot distinguish muscle from fat</li>
+        <li>Muscular men over 50 who lift regularly often register as "overweight" or "obese" despite being healthy</li>
+        <li>Men losing muscle to sarcopenia can register as "normal" BMI while their body composition deteriorates</li>
+        <li>For men over 50, muscle mass and protein intake are far more meaningful indicators than BMI</li>
+      </ul>
+    </div>
+
+    <p>I'm 64. I've had doctors reference my BMI in the same breath as whether I should "watch my weight." I train consistently, I hit my protein target, and I carry more muscle than most men my age. My BMI says I'm borderline overweight. My body says otherwise.</p>
+
+    <p>Most men asking "is BMI accurate after 50?" are actually asking the wrong question. The real question is: <em>what number should I actually be tracking?</em> BMI isn't just imprecise for older men — it's pointing in the wrong direction entirely.</p>
+
+    <div class="author-note">
+      <div class="author-avatar">R</div>
+      <div>
+        <p><strong>Robert, founder of SnapProtein.</strong> I'm 64 and I've been told to watch my BMI by people who didn't ask how much muscle I was carrying. This post is about what actually matters after 50 — and why the number on most health charts isn't it.</p>
+      </div>
+    </div>
+
+    <h2>Where BMI Came From (This Part Matters)</h2>
+
+    <p>BMI — Body Mass Index — was developed by Adolphe Quetelet, a Belgian mathematician, in the 1830s. Not a physician. A mathematician. He was trying to describe the statistical distribution of body weight across large populations — the kind of work that helps governments understand public health trends in aggregate.</p>
+
+    <p>Quetelet never intended his formula to assess the health of individual people. He said as much. The index was designed to describe the average man statistically — not to evaluate whether any particular man was healthy.</p>
+
+    <div class="bmi-origin">
+      <div class="bmi-origin-label">BMI by the numbers</div>
+      <div class="bmi-origin-stat">190 years <span>old</span></div>
+      <p class="bmi-origin-desc">The BMI formula hasn't changed since the 1830s. It was adopted by the medical community in the 1970s as a convenient screening proxy — not because it accurately assessed individual health, but because it was simple. Weight divided by height squared. No equipment required. No distinction between muscle and fat. No adjustment for age.</p>
+    </div>
+
+    <p>For a broad population survey, this is fine. For telling a 58-year-old man who lifts three times a week whether he's healthy — it's the wrong tool entirely.</p>
+
+    <h2>The Two Ways BMI Fails Men Over 50</h2>
+
+    <p>The failure isn't random. For men over 50, BMI breaks down in two specific and opposite directions — and both are dangerous.</p>
+
+    <div class="failure-cards">
+      <div class="failure-card type-a">
+        <div class="failure-card-label">Failure Mode A — The False Alarm</div>
+        <h3>Muscular men flagged as overweight</h3>
+        <p>Muscle is denser than fat. A man who lifts consistently carries more muscle mass than a sedentary man of the same height and weight — and will have a higher BMI as a result. Many fit, active men over 50 fall in the "overweight" (25–29.9) or even "obese" (30+) BMI range not because they're unhealthy, but because muscle is heavy. BMI reads this as a problem. It isn't.</p>
+      </div>
+      <div class="failure-card type-b">
+        <div class="failure-card-label">Failure Mode B — The False Reassurance</div>
+        <h3>Men losing muscle register as "normal"</h3>
+        <p>This one is more dangerous. As men over 50 experience sarcopenia — the gradual loss of muscle mass — their weight often stays relatively stable because fat replaces muscle. The scale doesn't move. BMI stays "normal." But body composition is deteriorating quietly. A man in this situation gets a clean bill of health from his BMI while the tissue that determines his metabolic health, strength, and longevity is eroding. BMI misses this entirely.</p>
+      </div>
+    </div>
+
+    <div class="callout">The man who needs to worry isn't always the one with the high BMI. He's often the one with the "normal" BMI who hasn't lifted a weight in five years.</div>
+
+    <h2>BMI vs. What Actually Predicts Health After 50</h2>
+
+    <p>Research on aging and health outcomes consistently points to muscle mass — not weight, not BMI — as one of the strongest predictors of longevity, metabolic health, and functional capacity in older adults. Higher muscle mass is associated with better insulin sensitivity, lower cardiovascular risk, stronger bones, and better outcomes from illness and surgery.</p>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>What It Measures</th>
+          <th>BMI</th>
+          <th class="better">Muscle Mass + Protein Intake</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="row-label">Distinguishes muscle from fat</td>
+          <td><span class="badge-no">✗ No</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Yes</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Accounts for age-related changes</td>
+          <td><span class="badge-no">✗ No</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Yes</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Predicts sarcopenia risk</td>
+          <td><span class="badge-no">✗ No</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Yes</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Reflects metabolic health</td>
+          <td><span class="badge-partial">Weakly</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Strongly</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Actionable — you can change it</td>
+          <td><span class="badge-partial">Indirectly</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Directly</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Relevant to men who lift</td>
+          <td><span class="badge-no">✗ Often misleading</span></td>
+          <td class="better-col"><span class="badge-yes">✓ Accurate</span></td>
+        </tr>
+        <tr>
+          <td class="row-label">Invented by a doctor</td>
+          <td><span class="badge-no">✗ Mathematician, 1830s</span></td>
+          <td class="better-col">—</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>What to Track Instead</h2>
+
+    <p>This isn't an argument for ignoring your health or your weight. It's an argument for tracking the right things — the inputs that actually determine how your body ages. You can't change your BMI directly. You can change your protein intake today.</p>
+
+    <div class="track-grid">
+      <div class="track-card">
+        <div class="track-card-num">01</div>
+        <div class="track-card-title">Daily protein intake</div>
+        <div class="track-card-desc">The most direct lever for muscle preservation after 50. Most men are 40–60g short of their target without knowing it. <a href="https://snapprotein.com/blog/protein-calculator-men-over-40/">Find your target →</a></div>
+      </div>
+      <div class="track-card">
+        <div class="track-card-num">02</div>
+        <div class="track-card-title">Strength over time</div>
+        <div class="track-card-desc">Are you getting stronger, holding steady, or gradually declining? Strength trend is a more honest proxy for muscle health than any scale number.</div>
+      </div>
+      <div class="track-card">
+        <div class="track-card-num">03</div>
+        <div class="track-card-title">Body composition</div>
+        <div class="track-card-desc">If you have access to a DEXA scan or body composition assessment, the muscle-to-fat ratio tells you far more than BMI. Not essential, but more meaningful.</div>
+      </div>
+      <div class="track-card">
+        <div class="track-card-num">04</div>
+        <div class="track-card-title">Waist circumference</div>
+        <div class="track-card-desc">A simpler alternative to BMI that better reflects visceral fat — the type most linked to metabolic risk. Doesn't penalize you for being muscular.</div>
+      </div>
+    </div>
+
+    <p>Of these four, daily protein intake is the one you can act on starting today. It directly feeds the tissue BMI can't see. And it's the variable most men over 50 are getting wrong — not through laziness, but through not having the right number in front of them.</p>
+
+    <p>The <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/" style="color:var(--green);font-weight:600;">muscle you're losing to sarcopenia</a> doesn't show up on a BMI chart. It shows up years later — in your strength, your metabolism, your balance, and your resilience. By then, BMI will still say you're fine.</p>
+
+    <!-- BOTTOM CTA BLOCK -->
+    <div class="bottom-block">
+      <h3>BMI can't see your muscle.<br><span>Your protein target can fix it.</span></h3>
+      <p>Stop tracking the wrong number. Start with what you're actually eating — and whether it's enough to protect the tissue that matters.</p>
+      <div class="bottom-links">
+        <a href="https://snapprotein.com/blog/protein-calculator-men-over-40/" class="bottom-link primary">Find your protein target →</a>
+        <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/" class="bottom-link">What is sarcopenia? →</a>
+        <a href="https://snapprotein.com" class="bottom-link">Try SnapProtein free →</a>
+      </div>
+    </div>
+
+    <div class="related-wrap">
+      <p>Continue Reading</p>
+      <ul>
+        <li><a href="https://snapprotein.com/blog/sarcopenia-men-over-40/">Most Men Over 40 Are Already Experiencing Sarcopenia →</a></li>
+        <li><a href="https://snapprotein.com/blog/protein-calculator-men-over-40/">Protein Calculator for Men Over 40 (The Right Target) →</a></li>
+        <li><a href="https://snapprotein.com/blog/how-to-build-muscle-after-50/">How to Build Muscle After 50 (Simple Plan) →</a></li>
+        <li><a href="https://snapprotein.com/blog/muscle-loss-after-40/">Muscle Loss After 40: What's Actually Happening →</a></li>
+        <li><a href="https://snapprotein.com/blog/best-protein-tracking-app/">Best Protein Tracking App for Men Over 40 →</a></li>
+      </ul>
+    </div>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+
+      <div class="faq-item">
+        <div class="faq-q">Why is BMI inaccurate for men over 50?</div>
+        <div class="faq-a">BMI measures total weight relative to height — it cannot distinguish between muscle and fat. For men over 50, this creates two critical failures: muscular men who lift weights register as "overweight" despite being metabolically healthy, and men losing muscle to sarcopenia register as "normal" despite their body composition deteriorating. BMI was designed as a population-level statistical tool, not an individual health assessment.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What should men over 50 track instead of BMI?</div>
+        <div class="faq-a">For men over 50, muscle mass and daily protein intake are more meaningful indicators than BMI. Muscle mass determines metabolic rate, strength, balance, and long-term health outcomes far more than total weight. Tracking protein intake daily ensures you're feeding the tissue that matters most. Strength trend over time and waist circumference are also more useful than BMI.</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">What is a healthy BMI for men over 50?</div>
+        <div class="faq-a">The standard BMI categories don't account for age-related changes in body composition. Many fit, muscular men over 50 fall in the "overweight" range not because they're unhealthy, but because muscle weighs more than fat. A better question is not "what is my BMI?" but "how much of my weight is muscle, and am I maintaining it?"</div>
+      </div>
+
+      <div class="faq-item">
+        <div class="faq-q">Who invented BMI and why?</div>
+        <div class="faq-a">BMI was created by Adolphe Quetelet, a Belgian mathematician, in the 1830s. It was designed as a statistical tool for describing populations — not for assessing individual health. Quetelet was not a physician. The formula was adopted by the medical community in the 1970s as a convenient screening proxy despite its known limitations for individuals, particularly those with higher muscle mass or those over 50.</div>
+      </div>
+    </div>
+
+  </div>
+
+  <section class="cta-band">
+    <h2>Track Your Protein. Everything Else Gets Easier.</h2>
+    <p>BMI can't see your muscle. Your daily protein number can. Start there.</p>
+    <p style="color:rgba(255,255,255,0.9); font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem; margin-bottom:1.5rem; margin-top:-1rem;">The protein tracker you'll actually use.</p>
+    <a href="https://snapprotein.com" class="cta-btn">Try SnapProtein Free →</a>
+  </section>
+
+  <footer class="site-footer">
+    <p>© 2026 SnapProtein &nbsp;·&nbsp; <a href="https://snapprotein.com/terms-privacy.html">Terms &amp; Privacy</a> &nbsp;·&nbsp; <a href="https://snapprotein.com/blog/">Blog</a></p>
+    <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
+  </footer>
+
+</body>
+</html>
