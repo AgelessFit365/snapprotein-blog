@@ -165,6 +165,12 @@ export const posts = [
     title: "BMI Is the Wrong Number After 50 (Here's What Actually Matters)",
     description: "BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead.",
     pubDate: "2026-04-21"
+  },
+  {
+    url: "/blog/protein-powder-after-40/",
+    title: "Do You Need Protein Powder After 40? (Honest Answer)",
+    description: "Protein powder is a tool, not a solution. For men over 40, the real question isn't which powder to buy — it's whether you actually need it. Here's how to know.",
+    pubDate: "2026-04-21"
   }
 
 ];
