@@ -183,6 +183,12 @@ export const posts = [
     title: "Anabolic Resistance Explained (Why Protein Needs Change After 40)",
     description: "Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site.",
     pubDate: "2026-04-21"
+  },
+  {
+    url: "/blog/protein-per-day-after-40/",
+    title: "How Much Protein Per Day After 40? (Simple Answer + Real Example)",
+    description: "Most men over 40 are eating about half the protein they actually need. Here's the real number, what it looks like in practice, and why 90 grams still isn't enough.",
+    pubDate: "2026-04-22"
   }
 
 ];
