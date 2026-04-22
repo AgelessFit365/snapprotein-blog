@@ -177,6 +177,12 @@ export const posts = [
     title: "Best Protein Powder for Men Over 40 (If You Actually Need One)",
     description: "Not a brand comparison. Not a top-10 list. Just the honest breakdown of which type of protein powder makes sense for men over 40 — and what actually matters when choosing one.",
     pubDate: "2026-04-21"
+  },
+  {
+    url: "/blog/anabolic-resistance-after-40/",
+    title: "Anabolic Resistance Explained (Why Protein Needs Change After 40)",
+    description: "Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site.",
+    pubDate: "2026-04-21"
   }
 
 ];
