@@ -171,6 +171,12 @@ export const posts = [
     title: "Do You Need Protein Powder After 40? (Honest Answer)",
     description: "Protein powder is a tool, not a solution. For men over 40, the real question isn't which powder to buy — it's whether you actually need it. Here's how to know.",
     pubDate: "2026-04-21"
+  },
+  {
+    url: "/blog/best-protein-powder-men-over-40/",
+    title: "Best Protein Powder for Men Over 40 (If You Actually Need One)",
+    description: "Not a brand comparison. Not a top-10 list. Just the honest breakdown of which type of protein powder makes sense for men over 40 — and what actually matters when choosing one.",
+    pubDate: "2026-04-21"
   }
 
 ];
