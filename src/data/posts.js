@@ -189,6 +189,12 @@ export const posts = [
     title: "How Much Protein Per Day After 40? (Simple Answer + Real Example)",
     description: "Most men over 40 are eating about half the protein they actually need. Here's the real number, what it looks like in practice, and why 90 grams still isn't enough.",
     pubDate: "2026-04-22"
+  },
+  {
+    url: "/blog/high-protein-meals-men-over-40/",
+    title: "High-Protein Meal Ideas for Men Over 40 (That Actually Hit 30g+)",
+    description: "Knowing your protein target is step one. Hitting it every day is where most men fail. Here are the meals that reliably get you there — no recipes, no complexity.",
+    pubDate: "2026-04-22"
   }
 
 ];
