@@ -290,6 +290,12 @@ export const frontmatter = {
       overflow: hidden;
       display: grid;
       grid-template-columns: 1fr auto;
+      transition: transform 0.15s ease, box-shadow 0.15s ease, border-color 0.15s ease;
+    }
+    .meal-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+      border-color: var(--green-light);
     }
     .meal-card-body { padding: 1.25rem 1.5rem; }
     .meal-card-tag {
