@@ -195,6 +195,12 @@ export const posts = [
     title: "High-Protein Meal Ideas for Men Over 40 (That Actually Hit 30g+)",
     description: "Knowing your protein target is step one. Hitting it every day is where most men fail. Here are the meals that reliably get you there — no recipes, no complexity.",
     pubDate: "2026-04-22"
+  },
+  {
+    url: "/blog/high-protein-breakfast-men-over-40/",
+    title: "High-Protein Breakfast for Men Over 40 (7 Options, No Cooking Required)",
+    description: "Breakfast is where most men over 40 lose the day before it starts. Here are 7 high-protein breakfasts that hit 30g+ — fast, repeatable, no cooking skill required.",
+    pubDate: "2026-04-22"
   }
 
 ];
