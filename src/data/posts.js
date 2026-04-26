@@ -201,6 +201,12 @@ export const posts = [
     title: "High-Protein Breakfast for Men Over 40 (7 Options, No Cooking Required)",
     description: "Breakfast is where most men over 40 lose the day before it starts. Here are 7 high-protein breakfasts that hit 30g+ — fast, repeatable, no cooking skill required.",
     pubDate: "2026-04-22"
+  },
+  {
+    url: "/blog/hard-to-hit-protein-goal-after-40/",
+    title: "Why It's So Hard to Hit 120g of Protein After 40 (And How to Fix It)"",
+    description: "Most men over 40 know they need more protein. Most still aren't hitting it. Here's exactly why — and the specific fixes that actually work.",
+    pubDate: "2026-04-22"
   }
 
 ];
