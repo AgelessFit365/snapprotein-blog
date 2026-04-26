@@ -206,7 +206,13 @@ export const posts = [
     url: "/blog/hard-to-hit-protein-goal-after-40/",
     title: "Why It's So Hard to Hit 120g of Protein After 40 (And How to Fix It)",
     description: "Most men over 40 know they need more protein. Most still aren't hitting it. Here's exactly why — and the specific fixes that actually work.",
-    pubDate: "2026-04-22"
+    pubDate: "2026-04-26"
+  },
+  {
+    url: "/blog/is-120g-protein-enough-after-40/",
+    title: "Is 120g of Protein Enough After 40?",
+    description: "For most men over 40, 120g of protein per day is the right target. Here's how to know if it's enough for your weight and goals — and when you might need more.",
+    pubDate: "2026-04-26"
   }
 
 ];
