@@ -204,7 +204,7 @@ export const posts = [
   },
   {
     url: "/blog/hard-to-hit-protein-goal-after-40/",
-    title: "Why It's So Hard to Hit 120g of Protein After 40 (And How to Fix It)"",
+    title: "Why It's So Hard to Hit 120g of Protein After 40 (And How to Fix It)",
     description: "Most men over 40 know they need more protein. Most still aren't hitting it. Here's exactly why — and the specific fixes that actually work.",
     pubDate: "2026-04-22"
   }
