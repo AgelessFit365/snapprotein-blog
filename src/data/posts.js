@@ -213,6 +213,12 @@ export const posts = [
     title: "Is 120g of Protein Enough After 40?",
     description: "For most men over 40, 120g of protein per day is the right target. Here's how to know if it's enough for your weight and goals — and when you might need more.",
     pubDate: "2026-04-26"
+  },
+  {
+    url: "/blog/high-protein-grocery-list-men-over-40/",
+    title: "High-Protein Grocery List for Men Over 40 (The Short List That Actually Works)",
+    description: "You don't need 50 foods to hit 120g of protein. You need the right 15. Here's the high-protein grocery list built for men over 40 — simple foods, real amounts, no guessing.",
+    pubDate: "2026-04-26"
   }
 
 ];
