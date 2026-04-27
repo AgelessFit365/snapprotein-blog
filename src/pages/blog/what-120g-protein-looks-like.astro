@@ -18,6 +18,7 @@ export const frontmatter = {
   <meta property="og:type" content="article" />
   <meta property="og:url" content="https://snapprotein.com/blog/what-120g-protein-looks-like/" />
   <meta property="og:site_name" content="SnapProtein" />
+  <meta property="og:image" content="https://snapprotein.com/blog/what-120g-protein-looks-like/og-preview.png" />
 
   <script type="application/ld+json">
   {
@@ -234,10 +235,24 @@ export const frontmatter = {
     .author-note p { margin: 0; color: var(--muted); }
     .author-note strong { color: var(--charcoal); }
 
-    /* MEAL BREAKDOWN CARDS */
-    .meal-breakdown {
+    /* INFOGRAPHIC FIGURE */
+    .infographic-wrap {
       margin: 2rem 0;
+      border-radius: 14px;
+      overflow: hidden;
+      box-shadow: 0 8px 40px rgba(0,0,0,0.15);
     }
+    .infographic-wrap svg { display: block; width: 100%; height: auto; }
+    .infographic-caption {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 0.6rem;
+      font-style: italic;
+    }
+
+    /* MEAL BREAKDOWN CARDS */
+    .meal-breakdown { margin: 2rem 0; }
     .meal-block {
       border: 1px solid var(--border);
       border-radius: 12px;
@@ -268,9 +283,7 @@ export const frontmatter = {
       padding: 0.2rem 0.7rem;
       border-radius: 999px;
     }
-    .meal-block-body {
-      padding: 1rem 1.25rem;
-    }
+    .meal-block-body { padding: 1rem 1.25rem; }
     .food-line {
       display: flex;
       justify-content: space-between;
@@ -320,7 +333,6 @@ export const frontmatter = {
       height: 100%;
       background: var(--green-light);
       border-radius: 999px;
-      transition: width 0.3s;
     }
     .rt-number {
       font-family: 'Plus Jakarta Sans', sans-serif;
@@ -330,7 +342,7 @@ export const frontmatter = {
       white-space: nowrap;
     }
 
-    /* DAILY TOTALS COMPARISON */
+    /* COMPARISON GRID */
     .comparison-grid {
       display: grid;
       grid-template-columns: 1fr 1fr;
@@ -364,11 +376,7 @@ export const frontmatter = {
     }
     .compare-card.gap .compare-big { color: #dc2626; }
     .compare-card.hit .compare-big { color: var(--green-dark); }
-    .compare-sub {
-      font-size: 0.82rem;
-      color: var(--muted);
-      line-height: 1.4;
-    }
+    .compare-sub { font-size: 0.82rem; color: var(--muted); line-height: 1.4; }
 
     /* RELATED */
     .related-posts {
@@ -402,7 +410,7 @@ export const frontmatter = {
     }
     .related-card:hover { border-color: var(--green-light); }
 
-    /* SIMPLE TABLE */
+    /* TABLES */
     .protein-table {
       width: 100%;
       border-collapse: collapse;
@@ -431,9 +439,7 @@ export const frontmatter = {
       font-weight: 700;
       color: var(--green-dark);
     }
-    .protein-table td.red {
-      color: #dc2626;
-    }
+    .protein-table td.red { color: #dc2626; }
 
     /* CALLOUT */
     .callout {
@@ -443,11 +449,7 @@ export const frontmatter = {
       padding: 1.5rem 1.75rem;
       margin: 2rem 0;
     }
-    .callout p {
-      margin: 0;
-      font-size: 1.05rem;
-      line-height: 1.65;
-    }
+    .callout p { margin: 0; font-size: 1.05rem; line-height: 1.65; }
     .callout strong { color: var(--green-light); }
 
     /* FAQ */
@@ -597,6 +599,148 @@ export const frontmatter = {
     <p>This is a real day. Every food below is something you can buy at any grocery store, most in under 5 minutes of prep. The running total after each meal shows you where you stand in real time — the same feedback loop the app provides.</p>
 
     <p><strong>Don't copy this exactly — understand the pattern.</strong> The specific foods are interchangeable. The structure is what matters.</p>
+
+    <!-- INFOGRAPHIC — indexed by Google, shareable, image pack eligible -->
+    <figure class="infographic-wrap" role="img" aria-label="What 120g of protein looks like in a day — visual meal plan for men over 40: Breakfast 35g with 3 eggs and Greek yogurt, Lunch 50g with canned tuna and cottage cheese, Dinner 35g with 5oz ground beef, daily total 120g hit with whole foods">
+      <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="ig-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:#1e2124"/>
+            <stop offset="100%" style="stop-color:#23272b"/>
+          </linearGradient>
+          <linearGradient id="ig-card" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" style="stop-color:#2a2e35"/>
+            <stop offset="100%" style="stop-color:#252830"/>
+          </linearGradient>
+        </defs>
+
+        <!-- Background -->
+        <rect width="800" height="500" fill="url(#ig-bg)"/>
+        <rect x="0" y="0" width="800" height="4" fill="#4d8c5a"/>
+
+        <!-- HEADER -->
+        <text x="400" y="38" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="11" fill="#4d8c5a" text-anchor="middle" letter-spacing="3">VISUAL GUIDE · SNAPPROTEIN.COM</text>
+        <text x="400" y="68" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="28" fill="#ffffff" text-anchor="middle">What 120g of Protein Looks Like</text>
+        <text x="400" y="90" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="13" fill="rgba(255,255,255,0.45)" text-anchor="middle">A full day for men over 40 · Real food · No supplements required</text>
+        <line x1="60" y1="106" x2="740" y2="106" stroke="#4d8c5a" stroke-width="1" stroke-opacity="0.35"/>
+
+        <!-- COL 1: BREAKFAST -->
+        <rect x="28" y="118" width="228" height="270" rx="12" fill="url(#ig-card)"/>
+        <rect x="28" y="118" width="228" height="46" rx="12" fill="#1e3d2f"/>
+        <rect x="28" y="146" width="228" height="18" fill="#1e3d2f"/>
+        <text x="142" y="141" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="2">BREAKFAST</text>
+        <text x="142" y="164" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="24" fill="#4d8c5a" text-anchor="middle">35g</text>
+
+        <line x1="44" y1="182" x2="240" y2="182" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="36" y="188" width="4" height="34" rx="2" fill="#4d8c5a" opacity="0.6"/>
+        <text x="48" y="202" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="12" fill="#ffffff">3 Large Eggs</text>
+        <text x="48" y="216" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="10.5" fill="rgba(255,255,255,0.45)">scrambled or any style</text>
+        <text x="240" y="206" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">18g</text>
+
+        <line x1="44" y1="230" x2="240" y2="230" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="36" y="236" width="4" height="34" rx="2" fill="#4d8c5a" opacity="0.6"/>
+        <text x="48" y="250" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="12" fill="#ffffff">Greek Yogurt</text>
+        <text x="48" y="264" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="10.5" fill="rgba(255,255,255,0.45)">1 cup, plain</text>
+        <text x="240" y="254" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">17g</text>
+
+        <line x1="44" y1="278" x2="240" y2="278" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="36" y="284" width="4" height="28" rx="2" fill="#4d8c5a" opacity="0.25"/>
+        <text x="48" y="296" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="11.5" fill="rgba(255,255,255,0.5)">Coffee + whole milk</text>
+        <text x="240" y="296" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="rgba(77,140,90,0.55)" text-anchor="end">~4g</text>
+
+        <rect x="36" y="344" width="212" height="28" rx="7" fill="rgba(77,140,90,0.1)"/>
+        <text x="48" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="10.5" fill="rgba(255,255,255,0.4)">Running total</text>
+        <text x="232" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="#4d8c5a" text-anchor="end">35 / 120g</text>
+
+        <!-- COL 2: LUNCH -->
+        <rect x="286" y="118" width="228" height="270" rx="12" fill="url(#ig-card)"/>
+        <rect x="286" y="118" width="228" height="46" rx="12" fill="#1e3d2f"/>
+        <rect x="286" y="146" width="228" height="18" fill="#1e3d2f"/>
+        <text x="400" y="141" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="2">LUNCH</text>
+        <text x="400" y="164" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="24" fill="#4d8c5a" text-anchor="middle">50g</text>
+
+        <line x1="302" y1="182" x2="498" y2="182" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="294" y="188" width="4" height="34" rx="2" fill="#4d8c5a" opacity="0.6"/>
+        <text x="306" y="202" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="12" fill="#ffffff">Canned Tuna</text>
+        <text x="306" y="216" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="10.5" fill="rgba(255,255,255,0.45)">5 oz can, drained</text>
+        <text x="498" y="206" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">26g</text>
+
+        <line x1="302" y1="230" x2="498" y2="230" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="294" y="236" width="4" height="34" rx="2" fill="#4d8c5a" opacity="0.6"/>
+        <text x="306" y="250" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="12" fill="#ffffff">Cottage Cheese</text>
+        <text x="306" y="264" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="10.5" fill="rgba(255,255,255,0.45)">1 cup, 2%</text>
+        <text x="498" y="254" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">25g</text>
+
+        <line x1="302" y1="278" x2="498" y2="278" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="294" y="284" width="4" height="28" rx="2" fill="#4d8c5a" opacity="0.25"/>
+        <text x="306" y="296" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="11.5" fill="rgba(255,255,255,0.5)">Crackers or whole grain</text>
+        <text x="498" y="296" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="rgba(77,140,90,0.55)" text-anchor="end">~3g</text>
+
+        <rect x="294" y="344" width="212" height="28" rx="7" fill="rgba(77,140,90,0.1)"/>
+        <text x="306" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="10.5" fill="rgba(255,255,255,0.4)">Running total</text>
+        <text x="490" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="#4d8c5a" text-anchor="end">85 / 120g</text>
+
+        <!-- COL 3: DINNER -->
+        <rect x="544" y="118" width="228" height="270" rx="12" fill="url(#ig-card)"/>
+        <rect x="544" y="118" width="228" height="46" rx="12" fill="#1e3d2f"/>
+        <rect x="544" y="146" width="228" height="18" fill="#1e3d2f"/>
+        <text x="658" y="141" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="10" fill="rgba(255,255,255,0.5)" text-anchor="middle" letter-spacing="2">DINNER</text>
+        <text x="658" y="164" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="24" fill="#4d8c5a" text-anchor="middle">35g</text>
+
+        <line x1="560" y1="182" x2="756" y2="182" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="552" y="188" width="4" height="34" rx="2" fill="#4d8c5a" opacity="0.6"/>
+        <text x="564" y="202" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="12" fill="#ffffff">Ground Beef 90/10</text>
+        <text x="564" y="216" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="10.5" fill="rgba(255,255,255,0.45)">5 oz, pan-cooked</text>
+        <text x="756" y="206" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">35g</text>
+
+        <line x1="560" y1="230" x2="756" y2="230" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <rect x="552" y="236" width="4" height="28" rx="2" fill="#4d8c5a" opacity="0.25"/>
+        <text x="564" y="250" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="11.5" fill="rgba(255,255,255,0.5)">Roasted vegetables</text>
+        <text x="756" y="250" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="rgba(77,140,90,0.55)" text-anchor="end">2–4g</text>
+
+        <!-- Target hit badge -->
+        <rect x="552" y="274" width="208" height="50" rx="10" fill="rgba(77,140,90,0.15)" stroke="#4d8c5a" stroke-width="1" stroke-opacity="0.5"/>
+        <text x="656" y="296" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="12" fill="#4d8c5a" text-anchor="middle">TARGET HIT ✓</text>
+        <text x="656" y="314" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="10.5" fill="rgba(255,255,255,0.35)" text-anchor="middle">No supplements needed</text>
+
+        <rect x="552" y="344" width="212" height="28" rx="7" fill="rgba(77,140,90,0.22)" stroke="#4d8c5a" stroke-width="1" stroke-opacity="0.4"/>
+        <text x="564" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="600" font-size="10.5" fill="rgba(255,255,255,0.6)">Daily total</text>
+        <text x="756" y="362" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="13" fill="#4d8c5a" text-anchor="end">120g ✓</text>
+
+        <!-- PROGRESS BAR -->
+        <line x1="60" y1="408" x2="740" y2="408" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+        <text x="60" y="426" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="700" font-size="9.5" fill="rgba(255,255,255,0.35)" letter-spacing="1.5">DAILY PROGRESS</text>
+
+        <!-- Bar track -->
+        <rect x="60" y="435" width="680" height="10" rx="5" fill="rgba(255,255,255,0.08)"/>
+        <!-- Breakfast: 35/120 = 29% = 197px -->
+        <rect x="60" y="435" width="197" height="10" rx="5" fill="#3a6b45"/>
+        <!-- Lunch: 50/120 = 42% = 284px -->
+        <rect x="257" y="435" width="284" height="10" fill="#4d8c5a"/>
+        <rect x="257" y="435" width="3" height="10" fill="#3a6b45"/>
+        <!-- Dinner: 35/120 = 29% = 199px -->
+        <rect x="541" y="435" width="199" height="10" rx="5" fill="#5ea870"/>
+        <rect x="541" y="435" width="3" height="10" fill="#4d8c5a"/>
+
+        <line x1="257" y1="431" x2="257" y2="449" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+        <line x1="541" y1="431" x2="541" y2="449" stroke="rgba(255,255,255,0.15)" stroke-width="1"/>
+
+        <text x="60" y="464" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.35)">0g</text>
+        <text x="257" y="464" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.45)" text-anchor="middle">35g</text>
+        <text x="541" y="464" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.45)" text-anchor="middle">85g</text>
+        <text x="740" y="464" font-family="'Plus Jakarta Sans',Arial,sans-serif" font-weight="800" font-size="10" fill="#4d8c5a" text-anchor="end">120g ✓</text>
+
+        <!-- Legend -->
+        <circle cx="296" cy="481" r="4" fill="#3a6b45"/>
+        <text x="304" y="485" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.4)">Breakfast</text>
+        <circle cx="368" cy="481" r="4" fill="#4d8c5a"/>
+        <text x="376" y="485" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.4)">Lunch</text>
+        <circle cx="428" cy="481" r="4" fill="#5ea870"/>
+        <text x="436" y="485" font-family="'IBM Plex Sans',Arial,sans-serif" font-size="9.5" fill="rgba(255,255,255,0.4)">Dinner</text>
+
+      </svg>
+    </figure>
+    <p class="infographic-caption">Save or screenshot this — it's the full day at a glance.</p>
 
     <!-- BREAKFAST -->
     <div class="meal-breakdown">
