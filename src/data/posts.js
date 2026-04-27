@@ -219,6 +219,12 @@ export const posts = [
     title: "High-Protein Grocery List for Men Over 40 (The Short List That Actually Works)",
     description: "You don't need 50 foods to hit 120g of protein. You need the right 15. Here's the high-protein grocery list built for men over 40 — simple foods, real amounts, no guessing.",
     pubDate: "2026-04-26"
+  },
+  {
+    url: "/blog/best-time-to-eat-protein-after-40/",
+    title: "Best Time to Eat Protein After 40 (What Actually Matters vs. What Doesn't)",
+    description: "Forget the anabolic window. Forget eating every 2 hours. Here's what protein timing actually does after 40 — ranked by real impact, not gym mythology.",
+    pubDate: "2026-04-27"
   }
 
 ];
