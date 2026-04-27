@@ -225,6 +225,12 @@ export const posts = [
     title: "Best Time to Eat Protein After 40 (What Actually Matters vs. What Doesn't)",
     description: "Forget the anabolic window. Forget eating every 2 hours. Here's what protein timing actually does after 40 — ranked by real impact, not gym mythology.",
     pubDate: "2026-04-27"
+  },
+  {
+    url: "/blog/protein-weight-loss-after-40/",
+    title: "Protein and Weight Loss After 40 (Why Your Target Goes Up, Not Down)",
+    description: "Most men over 40 cut calories and lose muscle instead of fat. Here's why protein is the variable that determines which one you lose — and why your target actually increases when you're trying to drop weight.",
+    pubDate: "2026-04-27"
   }
 
-];
+];   
