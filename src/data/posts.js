@@ -231,6 +231,12 @@ export const posts = [
     title: "Protein and Weight Loss After 40 (Why Your Target Goes Up, Not Down)",
     description: "Most men over 40 cut calories and lose muscle instead of fat. Here's why protein is the variable that determines which one you lose — and why your target actually increases when you're trying to drop weight.",
     pubDate: "2026-04-27"
+  },
+  {
+    url: "/blog/ozempic-muscle-loss-after-40/",
+    title: "Ozempic and Muscle Loss After 40: What Men Need to Know",
+    description: "GLP-1 drugs like Ozempic cause 25–40% of weight loss to come from lean muscle — a serious problem for men over 40. Here's how protein protects you.",
+    pubDate: "2026-04-28"
   }
 
 ];   
