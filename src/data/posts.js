@@ -249,6 +249,12 @@ export const posts = [
     title: "Is 100g of Protein Enough for a 200lb Man?",
     description: "100g of protein sounds like a solid target. For a 200lb man over 40, the math says otherwise. Here's what the research actually shows — and what your number should be.",
     pubDate: "2026-04-28"
+  },
+  {
+    url: "/blog/protein-pacing-strategy-men-over-40/",
+    title: "The Protein Pacing Strategy: How to Stay Anabolic All Day",
+    description: "Most men over 40 spend 18+ hours a day in a catabolic state — not because they don't care about protein, but because of when they eat it. Here's how to fix the timing.",
+    pubDate: "2026-04-29"
   }
 
 ];   
