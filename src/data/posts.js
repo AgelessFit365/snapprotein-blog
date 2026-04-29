@@ -243,6 +243,12 @@ export const posts = [
     title: "How to Get 50g of Protein for Breakfast (Without a Shake)",
     description: "Most men over 40 start the day 30g short before lunch. Here are real-food breakfast combos that hit 50g of protein — no blender required.",
     pubDate: "2026-04-28"
+  },
+  {
+    url: "/blog/is-100g-protein-enough-200lb-man/",
+    title: "Is 100g of Protein Enough for a 200lb Man?",
+    description: "100g of protein sounds like a solid target. For a 200lb man over 40, the math says otherwise. Here's what the research actually shows — and what your number should be.",
+    pubDate: "2026-04-28"
   }
 
 ];   
