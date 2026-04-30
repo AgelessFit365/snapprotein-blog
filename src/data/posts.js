@@ -255,7 +255,7 @@ export const posts = [
     title: "The Protein Pacing Strategy: How to Stay Anabolic All Day",
     description: "Most men over 40 spend 18+ hours a day in a catabolic state — not because they don't care about protein, but because of when they eat it. Here's how to fix the timing.",
     pubDate: "2026-04-29"
-  }
+  },
   {
     url: "/blog/whey-vs-casein-vs-collagen-men-over-40/",
     title: "Whey vs. Casein vs. Collagen: Which Protein Actually Matters After 40?",
