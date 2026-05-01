@@ -261,6 +261,12 @@ export const posts = [
     title: "Whey vs. Casein vs. Collagen: Which Protein Actually Matters After 40?",
     description: "Collagen is everywhere right now. But for men over 40 trying to preserve muscle, it's the wrong supplement. Here's what whey, casein, and collagen actually do — and what your priority order should be.",
     pubDate: "2026-04-30"
+  },
+  {
+    url: "/blog/high-protein-travel-men-over-40/",
+    title: "How to Hit Your Protein Goals While Traveling (A Real-World Guide for Men Over 40)",
+    description: "Traveling is where protein habits go to die. Airport food, hotel breakfasts, client dinners — here's how to hit your number on the road without overthinking it.",
+    pubDate: "2026-05-01"
   }
 
 ];   
