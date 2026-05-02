@@ -281,7 +281,7 @@ export const posts = [
     pubDate: "2026-05-03"
   },
   {
-    url: "/blog/social-eating-protein-men-over-40.astro/",
+    url: "/blog/social-eating-protein-men-over-40/",
     title: "The Social Protein Dilemma: How to Hit Your Numbers Without Making It Weird",
     description: "Client dinners, pizza nights, backyard cookouts — social eating is the #1 consistency killer for men over 40. Here's how to stay on track without becoming 'that guy.",
     pubDate: "2026-05-03"
