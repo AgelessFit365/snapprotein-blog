@@ -267,6 +267,12 @@ export const posts = [
     title: "Why You're Sore for 3 Days After a Workout (It's Not Just Your Age)",
     description: "Lingering soreness after 40 isn't an inevitable sign of aging — it's usually a protein problem. Here's the biology behind slow recovery and what actually fixes it.",
     pubDate: "2026-05-01"
+  },
+  {
+    url: "/blog/anabolic-resistance-overcome-after-40/",
+    title: "How to Overcome Anabolic Resistance After 40 (The Leucine Threshold Explained)",
+    description: "After 40, your muscles stop responding to protein the way they used to. This isn't aging — it's anabolic resistance. Here's the science, the specific threshold that fixes it, and what to do about it.",
+    pubDate: "2026-05-02"
   }
 
 
