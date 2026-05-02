@@ -274,10 +274,16 @@ export const posts = [
     description: "After 40, your muscles stop responding to protein the way they used to. This isn't aging — it's anabolic resistance. Here's the science, the specific threshold that fixes it, and what to do about it.",
     pubDate: "2026-05-02"
   },
-{
+  {
     url: "/blog/alcohol-muscle-loss-after-40/",
     title: "Alcohol and Muscle Loss After 40: What Two Drinks Actually Costs You",
     description: "You don't have to be a monk. But you should know the actual cost. Here's what alcohol does to muscle protein synthesis after 40 — and how to minimize the damage without giving up your social life.",
+    pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/social-eating-protein-men-over-40.astro/",
+    title: "The Social Protein Dilemma: How to Hit Your Numbers Without Making It Weird",
+    description: "Client dinners, pizza nights, backyard cookouts — social eating is the #1 consistency killer for men over 40. Here's how to stay on track without becoming 'that guy.",
     pubDate: "2026-05-03"
   }
 
