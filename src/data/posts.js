@@ -263,10 +263,11 @@ export const posts = [
     pubDate: "2026-04-30"
   },
   {
-    url: "/blog/high-protein-travel-men-over-40/",
-    title: "How to Hit Your Protein Goals While Traveling (A Real-World Guide for Men Over 40)",
-    description: "Traveling is where protein habits go to die. Airport food, hotel breakfasts, client dinners — here's how to hit your number on the road without overthinking it.",
+    url: "/blog/sore-after-workout-men-over-40/",
+    title: "Why You're Sore for 3 Days After a Workout (It's Not Just Your Age)",
+    description: "Lingering soreness after 40 isn't an inevitable sign of aging — it's usually a protein problem. Here's the biology behind slow recovery and what actually fixes it.",
     pubDate: "2026-05-01"
   }
+
 
 ];   
