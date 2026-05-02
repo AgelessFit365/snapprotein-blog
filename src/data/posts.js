@@ -285,6 +285,12 @@ export const posts = [
     title: "The Social Protein Dilemma: How to Hit Your Numbers Without Making It Weird",
     description: "Client dinners, pizza nights, backyard cookouts — social eating is the #1 consistency killer for men over 40. Here's how to stay on track without becoming 'that guy.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/protein-absorption-per-meal-men-over-40/",
+    title: "How Much Protein Can You Actually Absorb Per Meal? (The Real Answer)",
+    description: "You've heard you can only absorb 30g of protein per meal. That's not quite right — and the actual science matters more for men over 40 than anyone else.",
+    pubDate: "2026-05-03"
   }
 
 ];   
