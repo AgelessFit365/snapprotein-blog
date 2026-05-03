@@ -309,6 +309,12 @@ export const posts = [
     title: "How to Hit Your Protein Goals While Traveling (Real-World Strategies for Men Over 40)",
     description: "Travel doesn't have to derail your protein intake. Here's how men over 40 stay on track at restaurants, hotels, and airports — without meal prep or becoming 'that guy.'",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/30-30-30-rule-men-over-40/",
+    title: "The 30-30-30 Rule for Men Over 40: Does It Actually Work?",
+    description: "The 30-30-30 rule is everywhere right now. 30g of protein, 30 minutes after waking, then 30 minutes of movement. Here's what the science actually says — and what smart men over 40 should do with it.",
+    pubDate: "2026-05-03"
   }
 
 ];   
