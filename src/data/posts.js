@@ -303,6 +303,12 @@ export const posts = [
     title: "Should You Eat Protein Before Bed? What Men Over 40 Need to Know",
     description: "For decades, experts told us not to eat after 7pm. That advice made sense once — but it wasn't designed for men over 40 trying to hold onto muscle. Here's what actually happens while you sleep.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/protein-while-traveling-men-over-40/",
+    title: "How to Hit Your Protein Goals While Traveling (Real-World Strategies for Men Over 40)",
+    description: "Travel doesn't have to derail your protein intake. Here's how men over 40 stay on track at restaurants, hotels, and airports — without meal prep or becoming 'that guy.'",
+    pubDate: "2026-05-03"
   }
 
 ];   
