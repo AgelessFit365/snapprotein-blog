@@ -321,6 +321,12 @@ export const posts = [
     title: "The Easiest Way to Track Protein After 40 (And Why Everything Else Feels Like a Second Job)",
     description: "If tracking protein on MyFitnessPal feels exhausting, it's not you — it's the tool. Here's why men over 40 need a simpler system, and what actually works long-term.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/what-160g-protein-looks-like/",
+    title: "What 160g of Protein Looks Like for Men Over 40 (Real Food, Not Supplements)",
+    description: "120g of protein protects muscle. 160g rebuilds it. Here's exactly what a 160g protein day looks like in real meals for men over 40.",
+    pubDate: "2026-05-03"
   }
 
 ];   
