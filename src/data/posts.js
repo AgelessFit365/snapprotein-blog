@@ -291,6 +291,12 @@ export const posts = [
     title: "How Much Protein Can You Actually Absorb Per Meal? (The Real Answer)",
     description: "You've heard you can only absorb 30g of protein per meal. That's not quite right — and the actual science matters more for men over 40 than anyone else.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/creatine-for-men-over-40/",
+    title: "Creatine for Men Over 40: What It Does, What It Doesn't, and What Most Guys Get Wrong",
+    description: "Creatine is one of the most research-backed supplements available. But for men over 40 under-eating protein, it's solving the wrong problem first.",
+    pubDate: "2026-05-03"
   }
 
 ];   
