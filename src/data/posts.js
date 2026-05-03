@@ -297,6 +297,12 @@ export const posts = [
     title: "Creatine for Men Over 40: What It Does, What It Doesn't, and What Most Guys Get Wrong",
     description: "Creatine is one of the most research-backed supplements available. But for men over 40 under-eating protein, it's solving the wrong problem first.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/protein-before-bed-men-over-40/",
+    title: "Should You Eat Protein Before Bed? What Men Over 40 Need to Know",
+    description: "For decades, experts told us not to eat after 7pm. That advice made sense once — but it wasn't designed for men over 40 trying to hold onto muscle. Here's what actually happens while you sleep.",
+    pubDate: "2026-05-03"
   }
 
 ];   
