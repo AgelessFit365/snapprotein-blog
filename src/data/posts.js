@@ -327,6 +327,12 @@ export const posts = [
     title: "What 160g of Protein Looks Like for Men Over 40 (Real Food, Not Supplements)",
     description: "120g of protein protects muscle. 160g rebuilds it. Here's exactly what a 160g protein day looks like in real meals for men over 40.",
     pubDate: "2026-05-03"
+  },
+  {
+    url: "/blog/what-100g-protein-looks-like/",
+    title: "What 100g of Protein Looks Like for Men Over 40 (The Starting Point Most Men Miss)",
+    description: "100g of protein is the realistic starting point for men over 40 who aren't there yet. Here's exactly what it looks like in real meals — no supplements required.",
+    pubDate: "2026-05-04"
   }
 
 ];   
