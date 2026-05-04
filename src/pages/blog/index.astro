@@ -1,8 +1,8 @@
 ---
 import { posts } from '../../data/posts.js';
 const sorted = [...posts].sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
-const featured = posts.find(p => p.url.includes('what-does-120g-of-protein-look-like'));
-const rest = sorted.filter(p => !p.url.includes('what-does-120g-of-protein-look-like'));
+const featured = posts.find(p => p.url.includes('what-120g-of-protein-look-like'));
+const rest = sorted.filter(p => !p.url.includes('what-120g-of-protein-look-like'));
 ---
 <html lang="en">
 <head>
