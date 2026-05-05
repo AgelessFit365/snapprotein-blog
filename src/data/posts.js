@@ -333,6 +333,11 @@ export const posts = [
     title: "What 100g of Protein Looks Like for Men Over 40 (The Starting Point Most Men Miss)",
     description: "100g of protein is the realistic starting point for men over 40 who aren't there yet. Here's exactly what it looks like in real meals — no supplements required.",
     pubDate: "2026-05-04"
+  },
+{
+    url: "/blog/what-130g-protein-looks-like/",
+    title: "What 130 Grams of Protein Looks Like for Men Over 40",
+    description: "130 grams of protein is the sweet spot for most active men over 40. Here's exactly what it looks like in real meals — no guesswork, no supplements required.",
+    pubDate: "2026-05-04"
   }
-
 ];   
