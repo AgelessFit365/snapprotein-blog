@@ -1,7 +1,7 @@
 ---
 export const frontmatter = {
   title: "Anabolic Resistance Explained (Why Protein Needs Change After 40)",
-  description: "Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site.",
+  description: "Anabolic resistance is the biological reason older men need more protein per meal — and the leucine threshold that explains exactly how much. Here's what it is, why it matters, and what to do about it.",
   pubDate: "2026-04-21"
 };
 ---
@@ -12,24 +12,26 @@ export const frontmatter = {
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Anabolic Resistance Explained (Why Protein Needs Change After 40) | SnapProtein</title>
-  <meta name="description" content="Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site." />
+  <meta name="description" content="Anabolic resistance is the biological reason older men need more protein per meal — and the leucine threshold that explains exactly how much. Here's what it is, why it matters, and what to do about it." />
   <link rel="canonical" href="https://snapprotein.com/blog/anabolic-resistance-after-40/" />
   <meta property="og:title" content="Anabolic Resistance Explained (Why Protein Needs Change After 40)" />
-  <meta property="og:description" content="Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site." />
+  <meta property="og:description" content="Anabolic resistance is the biological reason older men need more protein per meal — and the leucine threshold that explains exactly how much. Here's what it is, why it matters, and what to do about it." />
   <meta property="og:url" content="https://snapprotein.com/blog/anabolic-resistance-after-40/" />
   <meta property="og:type" content="article" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
 
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
     "headline": "Anabolic Resistance Explained (Why Protein Needs Change After 40)",
-    "description": "Anabolic resistance is the biological reason older men need more protein per meal. Here's what it is, why it matters, and why it explains everything on this site.",
+    "description": "Anabolic resistance is the biological reason older men need more protein per meal — and the leucine threshold that explains exactly how much. Here's what it is, why it matters, and what to do about it.",
     "url": "https://snapprotein.com/blog/anabolic-resistance-after-40/",
+    "datePublished": "2026-04-21",
+    "author": { "@type": "Person", "name": "Robert" },
     "publisher": {
       "@type": "Organization",
       "name": "SnapProtein",
@@ -49,6 +51,14 @@ export const frontmatter = {
         "acceptedAnswer": {
           "@type": "Answer",
           "text": "Anabolic resistance is the reduced ability of older muscle to respond to protein and produce new muscle tissue. After around age 40, the same protein dose that once triggered muscle protein synthesis becomes less effective — meaning you need more protein, delivered in larger per-meal doses, to get the same anabolic response."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How much leucine do men over 40 need per meal to overcome anabolic resistance?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Research suggests men over 40 need approximately 3.5–4g of leucine per meal to reliably trigger muscle protein synthesis — compared to approximately 2–2.5g for younger adults. This higher leucine threshold is the primary reason older men need 30–40g of complete protein per meal rather than the 20–25g that younger men can get away with."
         }
       },
       {
@@ -98,7 +108,13 @@ export const frontmatter = {
       --green-dark: #1e3d2f;
       --cream: #f9f6f0;
       --text: #2d2d2d;
+      --text-mid: #444;
       --muted: #666;
+      --border: #e2e8f0;
+      --red-bg: #fde8e8;
+      --red-text: #922;
+      --amber-bg: #fef3c7;
+      --amber-text: #92400e;
     }
 
     body {
@@ -142,6 +158,19 @@ export const frontmatter = {
       text-decoration: none;
     }
     .nav-logo span { color: var(--green-light); }
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .nav-link {
+      color: rgba(255,255,255,0.75);
+      text-decoration: none;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.88rem;
+    }
+    .nav-link:hover { color: #fff; }
     .nav-cta {
       background: var(--green-light);
       color: #fff;
@@ -152,32 +181,66 @@ export const frontmatter = {
       font-weight: 700;
       font-size: 0.9rem;
     }
+    .nav-cta:hover { background: var(--green); color: #fff; }
 
     /* HERO */
     .hero {
-      background: var(--cream);
+      background: var(--charcoal);
+      color: #fff;
       padding: 64px 0 52px;
-      border-bottom: 3px solid var(--green-pale);
     }
     .hero-label {
+      display: inline-block;
+      background: rgba(77,140,90,0.18);
+      color: var(--green-light);
       font-family: 'Plus Jakarta Sans', sans-serif;
       font-weight: 700;
-      font-size: 0.8rem;
-      letter-spacing: 0.12em;
+      font-size: 0.78rem;
+      letter-spacing: 0.1em;
       text-transform: uppercase;
-      color: var(--green);
-      margin-bottom: 16px;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      border: 1px solid rgba(77,140,90,0.3);
     }
     .hero h1 {
       font-size: clamp(2rem, 5vw, 2.9rem);
-      color: var(--charcoal);
+      color: #fff;
       margin-bottom: 20px;
     }
     .hero h1 .green { color: var(--green-light); }
     .hero-sub {
-      font-size: 1.15rem;
-      color: var(--muted);
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.72);
       max-width: 640px;
+    }
+
+    /* STAT ROW IN HERO */
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-top: 40px;
+    }
+    .stat-box {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 12px;
+      padding: 20px 16px;
+      text-align: center;
+    }
+    .stat-num {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.9rem;
+      color: var(--green-light);
+      line-height: 1;
+    }
+    .stat-label {
+      font-size: 0.78rem;
+      color: rgba(255,255,255,0.6);
+      margin-top: 6px;
+      line-height: 1.4;
     }
 
     /* QUICK ANSWER BOX */
@@ -197,9 +260,7 @@ export const frontmatter = {
       text-transform: uppercase;
       letter-spacing: 0.06em;
     }
-    .quick-answer ul {
-      padding-left: 20px;
-    }
+    .quick-answer ul { padding-left: 20px; }
     .quick-answer ul li {
       margin-bottom: 8px;
       font-size: 1rem;
@@ -209,10 +270,11 @@ export const frontmatter = {
     /* AUTHOR NOTE */
     .author-note {
       display: flex;
-      align-items: center;
+      align-items: flex-start;
       gap: 16px;
-      padding: 20px 0 8px;
-      border-top: 1px solid #e0e0e0;
+      background: var(--cream);
+      border-radius: 10px;
+      padding: 20px 22px;
       margin-bottom: 48px;
     }
     .author-avatar {
@@ -232,8 +294,10 @@ export const frontmatter = {
     .author-note p {
       font-size: 0.9rem;
       color: var(--muted);
-      line-height: 1.5;
+      line-height: 1.65;
+      margin: 0;
     }
+    .author-note strong { color: var(--charcoal); }
 
     /* ARTICLE BODY */
     .article-body {
@@ -249,16 +313,12 @@ export const frontmatter = {
       color: var(--charcoal);
       margin: 36px 0 12px;
     }
-    .article-body p {
-      margin-bottom: 24px;
-    }
+    .article-body p { margin-bottom: 24px; }
     .article-body ul, .article-body ol {
       padding-left: 24px;
       margin-bottom: 24px;
     }
-    .article-body li {
-      margin-bottom: 10px;
-    }
+    .article-body li { margin-bottom: 10px; }
 
     /* CALLOUT */
     .callout {
@@ -274,26 +334,246 @@ export const frontmatter = {
       color: var(--green-dark);
       margin-bottom: 6px;
     }
+    .callout p { margin: 0; color: var(--text); line-height: 1.7; }
 
-    /* RESEARCH SECTION */
-    .research-box {
-      background: #f4f4f4;
-      border-radius: 10px;
-      padding: 28px 32px;
+    /* LEUCINE THRESHOLD BLOCK */
+    .leucine-block {
+      background: var(--charcoal);
+      border-radius: 14px;
+      padding: 36px 28px;
       margin: 40px 0;
-      border-left: 4px solid var(--charcoal);
+      text-align: center;
     }
-    .research-box h3 {
+    .lb-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--green-light);
+      font-weight: 700;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      margin-bottom: 12px;
+    }
+    .lb-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 28px;
+    }
+    .lb-compare {
+      display: grid;
+      grid-template-columns: 1fr auto 1fr;
+      gap: 16px;
+      align-items: center;
+      max-width: 520px;
+      margin: 0 auto 28px;
+    }
+    .lb-col { text-align: center; }
+    .lb-age {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: rgba(255,255,255,0.5);
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+    .lb-num {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+      font-size: 2.4rem;
+      line-height: 1;
+    }
+    .lb-col.young .lb-num { color: rgba(255,255,255,0.45); }
+    .lb-col.older .lb-num { color: var(--green-light); }
+    .lb-unit { font-size: 0.8rem; color: rgba(255,255,255,0.4); margin-top: 6px; }
+    .lb-arrow { font-size: 1.5rem; color: var(--green-light); }
+    .lb-insight {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.65);
+      line-height: 1.6;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    .lb-insight strong { color: var(--green-light); font-family: 'Plus Jakarta Sans', sans-serif; }
+
+    /* SCIENCE STRIP */
+    .science-strip {
+      background: var(--charcoal);
+      border-radius: 14px;
+      padding: 30px 28px;
+      margin: 40px 0;
+    }
+    .science-strip h3 {
+      color: #fff;
+      font-size: 1.05rem;
+      margin-bottom: 20px;
+    }
+    .science-item {
+      display: flex;
+      gap: 14px;
+      margin-bottom: 18px;
+      align-items: flex-start;
+    }
+    .science-item:last-child { margin-bottom: 0; }
+    .science-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--green-light);
+      flex-shrink: 0;
+      margin-top: 8px;
+    }
+    .science-text {
+      font-size: 0.9rem;
+      color: rgba(255,255,255,0.78);
+      line-height: 1.65;
+    }
+    .science-text strong { color: #fff; font-family: 'Plus Jakarta Sans', sans-serif; }
+
+    /* LEUCINE TABLE */
+    .leucine-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 28px 0;
+      font-size: 0.91rem;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    }
+    .leucine-table th {
+      background: var(--charcoal);
+      color: #fff;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      padding: 13px 18px;
+      text-align: left;
+      font-size: 0.83rem;
+    }
+    .leucine-table td {
+      padding: 12px 18px;
+      border-bottom: 1px solid #eee;
+      color: var(--text-mid);
+      vertical-align: middle;
+    }
+    .leucine-table tr:nth-child(even) td { background: var(--cream); }
+    .leucine-table tr:last-child td { border-bottom: none; }
+    .leucine-table tr.threshold-row td {
+      background: rgba(77,140,90,0.08);
+      font-weight: 600;
+    }
+    .leucine-table tr.threshold-row td:first-child {
+      border-left: 3px solid var(--green-light);
+    }
+    .g-green {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--green);
+    }
+    .tag-hits {
+      display: inline-block;
+      background: var(--green-pale);
+      color: var(--green);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    .tag-short {
+      display: inline-block;
+      background: var(--red-bg);
+      color: var(--red-text);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+    .tag-borderline {
+      display: inline-block;
+      background: var(--amber-bg);
+      color: var(--amber-text);
+      font-size: 0.72rem;
+      font-weight: 700;
+      padding: 2px 8px;
+      border-radius: 10px;
+      text-transform: uppercase;
+    }
+
+    /* MEAL EXAMPLE */
+    .meal-example {
+      background: var(--charcoal);
+      border-radius: 14px;
+      padding: 28px;
+      margin: 36px 0;
+    }
+    .me-label {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--green-light);
+      font-weight: 700;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      margin-bottom: 6px;
+    }
+    .me-title {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
       font-size: 1.1rem;
-      color: var(--charcoal);
-      margin: 0 0 12px;
+      color: #fff;
+      margin-bottom: 20px;
     }
-    .research-box p {
-      font-size: 0.97rem;
-      color: #444;
-      margin: 0;
-      line-height: 1.75;
+    .me-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 0;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+      font-size: 0.9rem;
     }
+    .me-row:last-of-type { border-bottom: none; }
+    .me-food { color: rgba(255,255,255,0.8); }
+    .me-stats { text-align: right; flex-shrink: 0; }
+    .me-protein {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      color: var(--green-light);
+      font-size: 0.9rem;
+    }
+    .me-leucine { font-size: 0.75rem; color: rgba(255,255,255,0.4); margin-top: 1px; }
+    .me-total {
+      display: flex;
+      justify-content: space-between;
+      border-top: 2px solid rgba(255,255,255,0.15);
+      padding-top: 12px;
+      margin-top: 6px;
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 800;
+    }
+    .me-total-label { color: #fff; font-size: 0.9rem; }
+    .me-total-nums { text-align: right; }
+    .me-total-protein { color: var(--green-light); font-size: 1rem; }
+    .me-total-leucine { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
+
+    /* WARNING BOX */
+    .warning-box {
+      background: var(--amber-bg);
+      border-left: 4px solid #f59e0b;
+      border-radius: 8px;
+      padding: 20px 24px;
+      margin: 36px 0;
+    }
+    .warning-label {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--amber-text);
+      margin-bottom: 8px;
+    }
+    .warning-box p { font-size: 0.97rem; color: #78350f; line-height: 1.65; margin: 0; }
 
     /* FAQ SECTION */
     .faq-section {
@@ -325,7 +605,7 @@ export const frontmatter = {
 
     /* CTA BAND */
     .cta-band {
-      background: #1e3d2f;
+      background: var(--green-dark);
       padding: 64px 0;
       text-align: center;
     }
@@ -342,7 +622,7 @@ export const frontmatter = {
     .cta-btn {
       display: inline-block;
       background: #fff;
-      color: #1e3d2f;
+      color: var(--green-dark);
       font-family: 'Plus Jakarta Sans', sans-serif;
       font-weight: 800;
       font-size: 1.05rem;
@@ -350,10 +630,18 @@ export const frontmatter = {
       border-radius: 8px;
       text-decoration: none;
     }
-    .cta-btn:hover {
-      background: var(--green-pale);
-      color: #1e3d2f;
+    .cta-btn:hover { background: var(--green-pale); color: var(--green-dark); }
+
+    /* BOTTOM NAV */
+    .bottom-nav {
+      border-top: 1px solid var(--border);
+      padding: 1.25rem 1.5rem;
+      text-align: center;
+      font-size: 0.83rem;
+      color: var(--muted);
     }
+    .bottom-nav a { color: var(--green); text-decoration: none; margin: 0 0.5rem; }
+    .bottom-nav a:hover { text-decoration: underline; }
 
     /* FOOTER */
     .site-footer {
@@ -367,10 +655,14 @@ export const frontmatter = {
 
     @media (max-width: 600px) {
       .hero { padding: 48px 0 40px; }
+      .stat-row { grid-template-columns: 1fr; gap: 12px; }
       .quick-answer { padding: 22px 20px; }
-      .research-box { padding: 22px 20px; }
+      .leucine-block { padding: 28px 20px; }
+      .lb-compare { gap: 8px; }
+      .lb-num { font-size: 1.8rem; }
     }
   </style>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-FX274TDD3B"></script>
 <script>
@@ -386,7 +678,10 @@ export const frontmatter = {
   <nav class="site-nav">
     <div class="container">
       <a href="https://snapprotein.com" class="nav-logo">Snap<span>Protein</span></a>
-      <a href="https://snapprotein.com" class="nav-cta">Track Your Protein</a>
+      <div class="nav-right">
+        <a href="https://snapprotein.com/blog/" class="nav-link">Blog</a>
+        <a href="https://snapprotein.com" class="nav-cta">Track Your Protein</a>
+      </div>
     </div>
   </nav>
 
@@ -396,6 +691,20 @@ export const frontmatter = {
       <p class="hero-label">Protein Science · Men Over 40</p>
       <h1>Anabolic Resistance Explained<br><span class="green">(Why Protein Needs Change After 40)</span></h1>
       <p class="hero-sub">This is the biological mechanism behind every recommendation on this site — and why the advice you followed at 30 no longer produces the same results.</p>
+      <div class="stat-row">
+        <div class="stat-box">
+          <div class="stat-num">3.5–4g</div>
+          <div class="stat-label">leucine per meal needed<br>to trigger MPS after 40</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">2–2.5g</div>
+          <div class="stat-label">leucine that was enough<br>at age 25</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num">30–40g</div>
+          <div class="stat-label">complete protein per meal<br>to hit that leucine threshold</div>
+        </div>
+      </div>
     </div>
   </section>
 
@@ -408,9 +717,9 @@ export const frontmatter = {
         <h2>The Short Answer</h2>
         <ul>
           <li>Anabolic resistance means aging muscle becomes less responsive to protein — the same dose triggers less muscle-building activity.</li>
-          <li>This is why men over 40 need more protein per meal (30–40g), not just more protein overall.</li>
+          <li>The specific mechanism: the mTOR pathway requires more leucine per meal to fire after 40 — approximately 3.5–4g versus 2–2.5g for younger adults.</li>
+          <li>This is why men over 40 need 30–40g of protein per meal, not just more protein overall.</li>
           <li>It's also why the RDA of 0.8g/kg per day is insufficient for older men trying to maintain muscle.</li>
-          <li>Leucine — found in highest concentrations in whey protein — is the amino acid most affected by this blunted response.</li>
           <li>Anabolic resistance is the mechanism. Sarcopenia — progressive muscle loss — is what happens when it goes unaddressed.</li>
         </ul>
       </div>
@@ -418,7 +727,7 @@ export const frontmatter = {
       <!-- AUTHOR NOTE -->
       <div class="author-note">
         <div class="author-avatar">R</div>
-        <p>I'm 64. I built SnapProtein because I was training hard and still losing ground — and I couldn't figure out why. This page is the explanation I wish someone had handed me years ago.</p>
+        <p><strong>Robert, age 64 — founder of SnapProtein.</strong> I built SnapProtein because I was training hard and still losing ground — and I couldn't figure out why. Anabolic resistance is the explanation I wish someone had handed me years ago. Once you understand the threshold, hitting it becomes straightforward.</p>
       </div>
 
       <!-- ARTICLE BODY -->
@@ -432,16 +741,41 @@ export const frontmatter = {
 
         <p>At the most basic level, anabolic resistance is this: the older you get, the less your muscles respond to protein.</p>
 
-        <p>When you eat protein, your body breaks it down into amino acids. Those amino acids enter the bloodstream and signal your muscles to start building new tissue — a process called <strong>muscle protein synthesis (MPS)</strong>. In younger adults, this system is highly sensitive. A modest protein dose — even 15 or 20 grams — can trigger a meaningful MPS response.</p>
+        <p>When you eat protein, your body breaks it down into amino acids. Those amino acids enter the bloodstream and trigger the mTOR pathway — the molecular switch that initiates muscle protein synthesis (MPS). In younger adults, this system is highly sensitive. A modest protein dose — even 15 or 20 grams — can trigger a meaningful MPS response.</p>
 
-        <p>In older adults, that sensitivity decreases. The same 20 grams of protein that sent a clear "build" signal at 28 might barely register at 52. Your muscles have become resistant to the anabolic signal. They need a stronger dose to respond.</p>
+        <p>In older adults, that sensitivity decreases. The same 20 grams of protein that sent a clear "build" signal at 28 might barely register at 52. Your muscles have become resistant to the anabolic signal. They need a stronger dose — specifically more leucine — to respond.</p>
 
         <div class="callout">
           <strong>Plain-English version:</strong>
-          Think of it like a thermostat. The system still works — it just doesn't respond until you push it harder. Your muscles now require a higher protein signal before they start building.
+          <p>Think of it like a radio losing reception. The broadcast is still happening — protein is still arriving, exercise is still creating the stimulus. But the receiver needs a stronger signal to pick it up. Anabolic resistance is that loss of reception. The fix isn't changing the broadcast — it's amplifying the signal.</p>
         </div>
 
         <p><strong>After 40, the rules didn't change. The threshold did.</strong></p>
+
+        <h2>The Leucine Threshold — The Specific Number That Changed</h2>
+
+        <p>Leucine is the amino acid that most directly triggers MPS. Think of it as the key that starts the ignition. Of all the amino acids, leucine has the strongest anabolic signal — and older muscle needs a higher leucine concentration per meal to fire that signal reliably.</p>
+
+        <div class="leucine-block">
+          <div class="lb-label">The Anabolic Trigger Point</div>
+          <div class="lb-title">How Much Leucine Your Muscles Need Per Meal</div>
+          <div class="lb-compare">
+            <div class="lb-col young">
+              <div class="lb-age">Age 25</div>
+              <div class="lb-num">2–2.5g</div>
+              <div class="lb-unit">leucine per meal</div>
+            </div>
+            <div class="lb-arrow">→</div>
+            <div class="lb-col older">
+              <div class="lb-age">Age 40+</div>
+              <div class="lb-num">3.5–4g</div>
+              <div class="lb-unit">leucine per meal</div>
+            </div>
+          </div>
+          <div class="lb-insight">That extra <strong>1.5–2g of leucine per meal</strong> is the difference between triggering muscle protein synthesis and missing the threshold entirely — regardless of how much protein you ate that day.</div>
+        </div>
+
+        <p>This is the foundation of the <a href="https://snapprotein.com/blog/30-gram-protein-rule/">30-gram rule</a>. The target isn't arbitrary. It's calibrated to the leucine threshold that aging muscle actually requires. Hitting 30–40 grams of protein per meal — three or four times a day — is the pattern that consistently clears the leucine threshold in men over 40.</p>
 
         <h2>What This Changes (Starting With Your Next Meal)</h2>
 
@@ -449,7 +783,10 @@ export const frontmatter = {
 
         <p>For a younger man, spreading protein across five or six small servings — 15 grams here, 20 grams there — might work fine. Each dose clears the threshold and triggers MPS. For a man over 40, many of those smaller doses simply don't reach the level needed to stimulate a meaningful response. They're below the bar.</p>
 
-        <p>This is the foundation of the <a href="https://snapprotein.com/blog/30-gram-protein-rule/">30-gram rule</a>. The target isn't arbitrary. It's calibrated to the anabolic threshold that aging muscle actually requires. Hitting 30–40 grams of protein per meal — three or four times a day — is the pattern that consistently produces MPS in older men. Sprinkling protein throughout the day in small amounts often doesn't.</p>
+        <div class="warning-box">
+          <div class="warning-label">What Doesn't Work</div>
+          <p>Spreading 120g of daily protein across 6 small meals of 20g each does not overcome anabolic resistance — it multiplies the missed-threshold problem. Six meals at 20g each means six meals below the leucine threshold. Six missed MPS windows. More frequent eating is not the fix. Higher per-meal dose is the fix.</p>
+        </div>
 
         <p>If you've been getting 80 grams of protein a day across six meals and wondering why you're still losing ground, this is likely why. Total intake isn't the only variable. Per-meal dose matters — possibly more than it ever did before.</p>
 
@@ -457,27 +794,150 @@ export const frontmatter = {
 
         <p>The recommended dietary allowance for protein — 0.8 grams per kilogram of body weight per day — is frequently cited as the protein target for adults. It wasn't designed to support muscle maintenance in aging men. It was designed to prevent deficiency in young, healthy adults.</p>
 
-        <p>The RDA was established to keep the average person from experiencing nitrogen imbalance — essentially, to prevent the body from going into a protein deficit. That's a useful floor. It's not a useful target for a man over 40 trying to preserve muscle mass, function, and metabolic health.</p>
-
-        <p>When you layer anabolic resistance on top of an already low baseline recommendation, the gap becomes significant. A 180-pound man at the RDA would target about 65 grams per day. Research consistently points to something closer to 130–150 grams per day as the range that supports active muscle maintenance in older men — and that assumes those grams are distributed in meaningful per-meal doses, not spread across small servings throughout the day.</p>
+        <p>When you layer anabolic resistance on top of an already low baseline recommendation, the gap becomes significant. A 180-pound man at the RDA would target about 65 grams per day. Research consistently points to 130–150 grams per day as the range that supports active muscle maintenance in older men — and that assumes those grams are distributed in meaningful per-meal doses.</p>
 
         <p>The <a href="https://snapprotein.com/blog/protein-calculator-men-over-40/">protein calculator</a> on this site uses 1.2–1.6g/kg as the working range specifically because of this gap. The RDA isn't wrong for what it was designed to do. It's just not designed for what you're trying to do.</p>
 
-        <h2>The Leucine Connection</h2>
+        <h2>What Leucine Thresholds Look Like in Real Food</h2>
 
-        <p>Not all protein sources respond to anabolic resistance the same way. This is where leucine becomes important.</p>
+        <p>Leucine content isn't on nutrition labels, which makes this feel abstract. But the translation is simple: hit 30–40g of complete protein from high-quality animal sources per meal and you will clear the threshold. Here's the leucine math by food source:</p>
 
-        <p>Leucine is the amino acid that most directly triggers muscle protein synthesis. Think of it as the key that starts the ignition on the MPS process. Of all the amino acids, leucine has the strongest anabolic signal — and research suggests that older muscle needs a higher leucine concentration to fire that signal reliably.</p>
+        <table class="leucine-table">
+          <thead>
+            <tr>
+              <th>Food</th>
+              <th>Serving</th>
+              <th>Protein</th>
+              <th>Leucine</th>
+              <th>Threshold</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Chicken breast</td>
+              <td>4oz (113g)</td>
+              <td class="g-green">35g</td>
+              <td>2.8g</td>
+              <td><span class="tag-borderline">Borderline</span></td>
+            </tr>
+            <tr class="threshold-row">
+              <td><strong>Chicken breast</strong></td>
+              <td><strong>5oz (142g)</strong></td>
+              <td class="g-green"><strong>44g</strong></td>
+              <td><strong>3.5g</strong></td>
+              <td><span class="tag-hits">✓ Hits threshold</span></td>
+            </tr>
+            <tr>
+              <td>Whey protein</td>
+              <td>1 scoop (25g)</td>
+              <td class="g-green">24g</td>
+              <td>2.7g</td>
+              <td><span class="tag-borderline">Borderline</span></td>
+            </tr>
+            <tr class="threshold-row">
+              <td><strong>Whey protein</strong></td>
+              <td><strong>1.5 scoops (37g)</strong></td>
+              <td class="g-green"><strong>36g</strong></td>
+              <td><strong>4.0g</strong></td>
+              <td><span class="tag-hits">✓ Hits threshold</span></td>
+            </tr>
+            <tr>
+              <td>Cottage cheese</td>
+              <td>1 cup (226g)</td>
+              <td class="g-green">25g</td>
+              <td>2.6g</td>
+              <td><span class="tag-borderline">Borderline</span></td>
+            </tr>
+            <tr>
+              <td>Eggs (whole)</td>
+              <td>3 large</td>
+              <td class="g-green">18g</td>
+              <td>1.4g</td>
+              <td><span class="tag-short">Short</span></td>
+            </tr>
+            <tr class="threshold-row">
+              <td><strong>Eggs + Greek yogurt</strong></td>
+              <td><strong>3 eggs + 1 cup yogurt</strong></td>
+              <td class="g-green"><strong>35g</strong></td>
+              <td><strong>3.5g</strong></td>
+              <td><span class="tag-hits">✓ Hits threshold</span></td>
+            </tr>
+            <tr>
+              <td>Tuna (canned)</td>
+              <td>1 can (5oz)</td>
+              <td class="g-green">26g</td>
+              <td>2.1g</td>
+              <td><span class="tag-short">Short</span></td>
+            </tr>
+            <tr class="threshold-row">
+              <td><strong>Tuna + cottage cheese</strong></td>
+              <td><strong>1 can + 1 cup</strong></td>
+              <td class="g-green"><strong>51g</strong></td>
+              <td><strong>4.2g</strong></td>
+              <td><span class="tag-hits">✓ Hits threshold</span></td>
+            </tr>
+            <tr class="threshold-row">
+              <td><strong>Sirloin steak</strong></td>
+              <td><strong>6oz (170g)</strong></td>
+              <td class="g-green"><strong>42g</strong></td>
+              <td><strong>3.5g</strong></td>
+              <td><span class="tag-hits">✓ Hits threshold</span></td>
+            </tr>
+          </tbody>
+        </table>
 
-        <p>This is why whey protein comes up repeatedly in the context of protein for men over 40. Whey is one of the richest dietary sources of leucine available. A 30-gram serving of whey typically delivers 2.5–3 grams of leucine — a dose that consistently clears the anabolic threshold in older adults.</p>
+        <p>The pattern: single moderate-protein foods often fall short on their own. Combinations — eggs plus yogurt, tuna plus cottage cheese — reliably clear it. <a href="https://snapprotein.com/blog/what-120g-protein-looks-like/">Here's what a full day of threshold-clearing meals looks like in real food.</a></p>
 
-        <p>Plant-based proteins generally deliver less leucine per serving. That doesn't make them ineffective — it means you may need a higher total dose to achieve a comparable leucine load. If you're relying primarily on plant protein sources, understanding this helps you calibrate correctly. The <a href="https://snapprotein.com/blog/best-protein-powder-men-over-40/">protein powder comparison</a> covers this in detail.</p>
+        <!-- MEAL EXAMPLE -->
+        <div class="meal-example">
+          <div class="me-label">Sample Breakfast — Men Over 40</div>
+          <div class="me-title">Designed to Clear the Leucine Threshold</div>
+          <div class="me-row">
+            <div class="me-food">3 whole eggs + 3 egg whites, scrambled</div>
+            <div class="me-stats">
+              <div class="me-protein">24g protein</div>
+              <div class="me-leucine">~1.9g leucine</div>
+            </div>
+          </div>
+          <div class="me-row">
+            <div class="me-food">1 cup plain Greek yogurt (2%)</div>
+            <div class="me-stats">
+              <div class="me-protein">17g protein</div>
+              <div class="me-leucine">~1.7g leucine</div>
+            </div>
+          </div>
+          <div class="me-total">
+            <div class="me-total-label">Meal total</div>
+            <div class="me-total-nums">
+              <div class="me-total-protein">41g protein</div>
+              <div class="me-total-leucine">~3.6g leucine ✓ Threshold cleared</div>
+            </div>
+          </div>
+        </div>
 
-        <p>The mechanism is straightforward: anabolic resistance raises the leucine threshold. Whey's leucine density makes it easier to clear that threshold with a single meal-sized dose. That's the reason it keeps appearing in the research — not marketing, biology.</p>
+        <h2>The Research Behind This</h2>
+
+        <div class="science-strip">
+          <h3>The Science — Key Findings</h3>
+          <div class="science-item">
+            <div class="science-dot"></div>
+            <div class="science-text"><strong>The Leucine Threshold Discovery.</strong> Research from Dr. Donald Layman at the University of Illinois established that leucine acts as the primary mTOR trigger, with a threshold effect — below a critical concentration, MPS is not meaningfully activated. Subsequent work from Dr. Stuart Phillips at McMaster University confirmed this threshold is higher in older adults due to reduced mTOR sensitivity.</div>
+          </div>
+          <div class="science-item">
+            <div class="science-dot"></div>
+            <div class="science-text"><strong>3.5–4g Leucine for Older Adults.</strong> A 2016 review by Churchward-Venne et al. in the Journal of Physiology found that older adults required approximately 3.5–4g of leucine per meal to achieve maximal mTOR stimulation — roughly 40–75% more than younger adults. This is the specific threshold that informs the 30–40g per meal recommendation for men over 40.</div>
+          </div>
+          <div class="science-item">
+            <div class="science-dot"></div>
+            <div class="science-text"><strong>The Dose-Response Curve Shifts.</strong> A 2015 study by Moore et al. in the American Journal of Clinical Nutrition demonstrated that the dose of protein required to maximally stimulate MPS is significantly higher in older versus younger men. At the doses younger men use effectively, older men show a blunted and incomplete anabolic response — not absent, but insufficient for meaningful muscle maintenance.</div>
+          </div>
+          <div class="science-item">
+            <div class="science-dot"></div>
+            <div class="science-text"><strong>Exercise Partially Restores Sensitivity.</strong> Research consistently shows that resistance training maintains mTOR pathway sensitivity better than any dietary intervention alone. Men over 40 who train regularly show less severe anabolic resistance than sedentary peers — one of the primary mechanisms by which resistance training protects muscle mass with age.</div>
+          </div>
+        </div>
 
         <h2>Anabolic Resistance and Sarcopenia</h2>
-
-        <p>These two terms often get used interchangeably. They're not the same thing, and keeping them distinct is useful.</p>
 
         <p><strong>Anabolic resistance is the mechanism.</strong> It's the reduced sensitivity of aging muscle to protein signals. It begins gradually — research suggests the process starts as early as the mid-30s and accelerates through the 40s and 50s.</p>
 
@@ -485,29 +945,16 @@ export const frontmatter = {
 
         <p>This is why the window between 40 and 60 matters so much. Anabolic resistance is present but not yet catastrophic. Intervention at this stage — more protein, smarter distribution, resistance training — can significantly slow or offset what would otherwise be an accelerating decline. The <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/">sarcopenia deep dive</a> covers the timeline and downstream consequences in full.</p>
 
-        <p>The important point for this page: if you understand anabolic resistance, you understand why sarcopenia is preventable in a way that most men never realize until it's already progressing.</p>
-
-        <h2>What the Research Shows</h2>
-
-        <div class="research-box">
-          <h3>The Science Behind This</h3>
-          <p>Research groups including those at McMaster University — particularly work led by Dr. Stuart Phillips — along with findings published in journals like <em>The American Journal of Clinical Nutrition</em> and the <em>Journal of Gerontology</em> consistently show that older adults require higher per-meal protein doses to stimulate muscle protein synthesis. The anabolic blunting seen in aging muscle is well-documented, reproducible, and the basis for current evidence-based recommendations that place older adults' optimal protein intake well above the standard RDA. This page reflects that scientific consensus, not a fringe position.</p>
-        </div>
-
         <h2>What to Actually Do With This</h2>
 
         <p>Anabolic resistance isn't a sentence. It's a calibration problem — and calibration problems have solutions.</p>
 
-        <p>The practical response to anabolic resistance is not complicated:</p>
-
         <ul>
           <li><strong>Raise your daily protein target.</strong> Something in the range of 1.2–1.6g/kg of body weight per day gives aging muscle enough raw material to work with. Use the <a href="https://snapprotein.com/blog/protein-calculator-men-over-40/">calculator</a> to find your number.</li>
-          <li><strong>Prioritize per-meal dose over total servings.</strong> Three or four meals at 30–40 grams each outperforms six meals at 15–20 grams, even if the daily totals are identical.</li>
-          <li><strong>Prioritize leucine-rich sources.</strong> Whey, eggs, chicken, Greek yogurt — foods that deliver a concentrated leucine load alongside their protein content.</li>
-          <li><strong>Track it.</strong> Most men over 40 are running 40–60 grams per day short of where they need to be. The shortfall isn't obvious until you start measuring. That's the entire reason <a href="https://snapprotein.com">SnapProtein</a> exists.</li>
+          <li><strong>Prioritize per-meal dose over total servings.</strong> Three or four meals at 30–40 grams each outperforms six meals at 15–20 grams, even if the daily totals are identical. Each meal is either triggering MPS or missing the window.</li>
+          <li><strong>Prioritize leucine-rich sources.</strong> Whey, eggs, chicken, Greek yogurt — foods that deliver a concentrated leucine load. Combinations reliably clear the threshold where single foods fall short.</li>
+          <li><strong>Track it.</strong> Most men over 40 are running 40–60 grams per day short of where they need to be — and they have no idea. The shortfall isn't obvious until you start measuring. That's the entire reason <a href="https://snapprotein.com">SnapProtein</a> exists.</li>
         </ul>
-
-        <p>You don't need more information. You need the right number — and to actually hit it.</p>
 
         <p>If you want to go deeper on the muscle-building side, <a href="https://snapprotein.com/blog/how-to-build-muscle-after-50/">how to build muscle after 50</a> covers the full framework — training, protein, recovery, and how they interact at this stage of life.</p>
 
@@ -526,13 +973,18 @@ export const frontmatter = {
         </div>
 
         <div class="faq-item">
+          <h3>How much leucine do men over 40 need per meal?</h3>
+          <p>Research suggests approximately 3.5–4g of leucine per meal to reliably trigger muscle protein synthesis in men over 40 — compared to 2–2.5g for younger adults. In practical terms this means 30–40g of complete protein per meal from high-quality sources. You don't need to track leucine directly — adequate complete protein grams per meal is the reliable proxy.</p>
+        </div>
+
+        <div class="faq-item">
           <h3>How much protein per meal do men over 40 need because of anabolic resistance?</h3>
           <p>Most research points to 30–40 grams of protein per meal for men over 40 to reliably trigger muscle protein synthesis. Smaller doses — say 15–20 grams — that worked fine in your 20s are often no longer enough to clear the anabolic threshold as you age.</p>
         </div>
 
         <div class="faq-item">
           <h3>Why does anabolic resistance happen?</h3>
-          <p>The exact mechanisms are still being studied, but the leading factors include reduced sensitivity to leucine (the amino acid that acts as the trigger for muscle protein synthesis), slower digestion and amino acid uptake, and declining hormonal signals. The result is a higher protein dose required to get the same muscle-building signal.</p>
+          <p>The leading factors include reduced sensitivity of the mTOR pathway to leucine (the amino acid that triggers muscle protein synthesis), slower digestion and amino acid uptake, and declining hormonal signals like testosterone and IGF-1. The result is a higher protein dose required to get the same muscle-building signal.</p>
         </div>
 
         <div class="faq-item">
@@ -542,38 +994,49 @@ export const frontmatter = {
 
         <div class="faq-item">
           <h3>Can you reverse anabolic resistance?</h3>
-          <p>You cannot fully reverse the biological changes of aging, but you can compensate effectively. The primary strategies are increasing total daily protein (targeting around 1.2g/kg of body weight), ensuring each meal delivers a meaningful dose (30+ grams), prioritizing leucine-rich sources like whey, and combining protein intake with resistance training.</p>
+          <p>You cannot fully reverse the biological changes of aging, but you can compensate effectively. The primary strategies are increasing total daily protein (targeting around 1.2g/kg of body weight), ensuring each meal delivers 30–40g of complete protein to clear the leucine threshold, and combining protein intake with consistent resistance training.</p>
         </div>
 
       </div>
     </section>
 
     <!-- CONTINUE READING -->
-<section style="background:#1e2124; padding:48px 0;">
-  <div class="container">
-    <p style="font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:#4d8c5a; margin-bottom:20px;">Continue Reading</p>
-    <div style="display:grid; gap:16px;">
-      <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">Sarcopenia in Men Over 40 — What It Is and How to Fight It →</a>
-      <a href="https://snapprotein.com/blog/30-gram-protein-rule/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">The 30-Gram Protein Rule — Why Per-Meal Dose Matters →</a>
-      <a href="https://snapprotein.com/blog/how-to-build-muscle-after-50/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">How to Build Muscle After 50 — The Four Levers →</a>
-    </div>
-  </div>
-</section>
+    <section style="background:#1e2124; padding:48px 0;">
+      <div class="container">
+        <p style="font-family:'Plus Jakarta Sans',sans-serif; font-weight:800; font-size:0.8rem; letter-spacing:0.12em; text-transform:uppercase; color:#4d8c5a; margin-bottom:20px;">Continue Reading</p>
+        <div style="display:grid; gap:16px;">
+          <a href="https://snapprotein.com/blog/what-120g-protein-looks-like/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">What 120g of Protein Actually Looks Like in a Day →</a>
+          <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">Sarcopenia in Men Over 40 — What It Is and How to Fight It →</a>
+          <a href="https://snapprotein.com/blog/30-gram-protein-rule/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">The 30-Gram Protein Rule — Why Per-Meal Dose Matters →</a>
+          <a href="https://snapprotein.com/blog/how-to-build-muscle-after-50/" style="display:block; background:#2a2d31; border-radius:8px; padding:20px 24px; text-decoration:none; color:#fff; font-family:'Plus Jakarta Sans',sans-serif; font-weight:700; font-size:1rem;">How to Build Muscle After 50 — The Four Levers →</a>
+        </div>
+      </div>
+    </section>
 
     <!-- CTA BAND -->
     <section class="cta-band">
       <div class="container">
-        <h2>Track Your Protein.<br>Everything Else Gets Easier.</h2>
-        <p>Now you know the biology. The next step is seeing your number — every day, without the complexity.</p>
+        <h2>Every Meal Is Either Triggering Muscle Building or Missing the Window.</h2>
+        <p>Track your per-meal protein. Know when you're clearing the threshold and when you're not. That's the whole game after 40.</p>
         <a href="https://snapprotein.com" class="cta-btn">Start Tracking Free →</a>
       </div>
     </section>
 
   </main>
 
+  <!-- BOTTOM NAV -->
+  <nav class="bottom-nav">
+    <a href="https://snapprotein.com/">Home</a> |
+    <a href="https://snapprotein.com/blog/">Blog</a> |
+    <a href="https://snapprotein.com/blog/protein-per-day-after-40/">How Much Protein</a> |
+    <a href="https://snapprotein.com/blog/best-protein-tracking-app/">Best Tracker</a> |
+    <a href="https://snapprotein.com/">Start Tracking</a>
+  </nav>
+
   <!-- FOOTER -->
   <footer class="site-footer">
-    <p>© 2026 SnapProtein. <a href="https://snapprotein.com">snapprotein.com</a> · Not medical advice.</p>
+    <p>© 2026 SnapProtein &nbsp;·&nbsp; <a href="https://snapprotein.com/terms-privacy.html">Terms &amp; Privacy</a> &nbsp;·&nbsp; <a href="https://snapprotein.com/blog/">Blog</a></p>
+    <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
   </footer>
 
 </body>
