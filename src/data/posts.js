@@ -345,5 +345,11 @@ export const posts = [
     title: "What 150 Grams of Protein Looks Like for Men Over 40",
     description: "150 grams of protein bridges the gap between maintenance and serious recomposition. Here's exactly what a 150 gram protein day looks like in real meals for men over 40.",
     pubDate: "2026-05-05"
+  },
+  {
+    url: "/blog/what-80g-protein-looks-like/",
+    title: "What 80 Grams of Protein Looks Like for Men Over 40 (And Why It's Not Enough)",
+    description: "What 80 Grams of Protein Looks Like for Men Over 40 (And Why It's Not Enough)",
+    pubDate: "2026-05-05"
   }
 ];   
