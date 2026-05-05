@@ -339,5 +339,11 @@ export const posts = [
     title: "What 130 Grams of Protein Looks Like for Men Over 40",
     description: "130 grams of protein is the sweet spot for most active men over 40. Here's exactly what it looks like in real meals — no guesswork, no supplements required.",
     pubDate: "2026-05-04"
+  },
+  {
+    url: "/blog/what-150g-protein-looks-like/",
+    title: "What 150 Grams of Protein Looks Like for Men Over 40",
+    description: "150 grams of protein bridges the gap between maintenance and serious recomposition. Here's exactly what a 150 gram protein day looks like in real meals for men over 40.",
+    pubDate: "2026-05-05"
   }
 ];   
