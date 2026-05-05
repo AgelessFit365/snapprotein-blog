@@ -351,5 +351,11 @@ export const posts = [
     title: "What 80 Grams of Protein Looks Like for Men Over 40 (And Why It's Not Enough)",
     description: "What 80 Grams of Protein Looks Like for Men Over 40 (And Why It's Not Enough)",
     pubDate: "2026-05-05"
+  },
+  {
+    url: "/blog/7-day-protein-tracking-challenge-men-over-40/",
+    title: "Track Your Protein for 7 Days: What Most Men Over 40 Discover by Day 3",
+    description: "Most men over 40 think they're hitting their protein target. One week of honest tracking shows a different story. Here's the simple 7-day system — and what you'll likely find.",
+    pubDate: "2026-05-05"
   }
 ];   
