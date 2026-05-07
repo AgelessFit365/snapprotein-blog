@@ -363,5 +363,11 @@ export const posts = [
     title: "Collagen in Your Coffee Is a Good Start — But It's Not Enough (What Men Over 40 Actually Need)",
     description: "Collagen coffee is everywhere on social media. But if you're a man over 40, it's not hitting your protein target. Here's what to add — and why it matters for muscle.",
     pubDate: "2026-05-06"
+  },
+  {
+    url: "/blog/peptides-muscle-growth-foundation-men-over-40/",
+    title: "Before You Spend Another Dollar on Peptides, Fix This First (The Foundation That Actually Builds Muscle After 40)",
+    description: "Peptides are everywhere right now. But whether you're taking the latest supplement or nothing at all, the foundation is the same — and most men over 40 are missing it.",
+    pubDate: "2026-05-07"
   }
 ];   
