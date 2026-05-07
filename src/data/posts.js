@@ -357,5 +357,11 @@ export const posts = [
     title: "Track Your Protein for 7 Days: What Most Men Over 40 Discover by Day 3",
     description: "Most men over 40 think they're hitting their protein target. One week of honest tracking shows a different story. Here's the simple 7-day system — and what you'll likely find.",
     pubDate: "2026-05-05"
+  },
+  {
+    url: "/blog/collagen-coffee-not-enough-men-over-40/",
+    title: "Collagen in Your Coffee Is a Good Start — But It's Not Enough (What Men Over 40 Actually Need)",
+    description: "Collagen coffee is everywhere on social media. But if you're a man over 40, it's not hitting your protein target. Here's what to add — and why it matters for muscle.",
+    pubDate: "2026-05-06"
   }
 ];   
