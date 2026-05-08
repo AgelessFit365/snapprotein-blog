@@ -375,6 +375,12 @@ export const posts = [
     title: "Sleep and Muscle Loss After 40: Why Poor Sleep Is Undoing Your Gains",
     description: "You can hit your protein every day, train consistently, and still lose muscle. If your sleep is poor, the repair window your body depends on is closing before the work gets done.",
     pubDate: "2026-05-08"
+  },
+  {
+    url: "/blog/beef-liver-vs-organ-supplements-men-over-40/",
+    title: "Real Liver vs. Liver Pills vs. Beef Organ Supplements: What Men Over 40 Actually Need to Know",
+    description: "The beef organ supplement market is exploding. But what's actually different between eating real liver, taking liver capsules, and buying a multi-organ blend? Here's the honest breakdown — no brand recommendations, just the facts.",
+    pubDate: "2026-05-08"
   }
   
 ];   
