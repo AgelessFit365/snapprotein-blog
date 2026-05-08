@@ -369,5 +369,12 @@ export const posts = [
     title: "Before You Spend Another Dollar on Peptides, Fix This First (The Foundation That Actually Builds Muscle After 40)",
     description: "Peptides are everywhere right now. But whether you're taking the latest supplement or nothing at all, the foundation is the same — and most men over 40 are missing it.",
     pubDate: "2026-05-07"
+  },
+  {
+    url: "/blog/sleep-muscle-loss-after-40/",
+    title: "Sleep and Muscle Loss After 40: Why Poor Sleep Is Undoing Your Gains",
+    description: "You can hit your protein every day, train consistently, and still lose muscle. If your sleep is poor, the repair window your body depends on is closing before the work gets done.",
+    pubDate: "2026-05-08"
   }
+  
 ];   
