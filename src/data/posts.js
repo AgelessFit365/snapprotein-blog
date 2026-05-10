@@ -386,6 +386,6 @@ export const posts = [
     url: "/blog/fibermaxxing-men-over-40/",
     title: "Fibermaxxing for Men Over 40: What's Real, What's Hype, and Why High-Protein Diets Need a Fiber Fix",
     description: "97% of men don't hit their daily fiber target. If you're running a high-protein diet and skipping fiber-rich foods, your gut is probably paying the price. Here's the honest breakdown — facts, myths, and what men over 40 actually need.",
-    pubDate: "2026-05-08"
+    pubDate: "2026-05-09"
   }
 ];   
