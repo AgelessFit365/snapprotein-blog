@@ -30,12 +30,7 @@ export const posts = [
     description: "Most protein tracking apps are built for 25-year-olds training for bodybuilding competitions. Here's what actually works if you're over 40.",
     pubDate: "2026-04-10"
   },
-  {
-    url: "/blog/how-much-protein-men-over-40/",
-    title: "How Much Protein Do Men Over 40 Need Per Day?",
-    description: "Men over 40 need more protein than the standard RDA — not because something is wrong, but because your window to protect muscle is right now.",
-    pubDate: "2026-04-09"
-  },
+ 
   {
     url: "/blog/protein-per-meal-after-50/",
     title: "How Much Protein Per Meal After 50? (The Per-Meal Target That Actually Works)",
