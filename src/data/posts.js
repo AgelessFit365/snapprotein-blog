@@ -382,5 +382,11 @@ export const posts = [
     title: "Fibermaxxing for Men Over 40: What's Real, What's Hype, and Why High-Protein Diets Need a Fiber Fix",
     description: "97% of men don't hit their daily fiber target. If you're running a high-protein diet and skipping fiber-rich foods, your gut is probably paying the price. Here's the honest breakdown — facts, myths, and what men over 40 actually need.",
     pubDate: "2026-05-09"
+  },
+  {
+    url: "/blog/how-much-protein-absorb-per-meal/",
+    title: "How Much Protein Can Your Body Absorb in One Meal? (The Answer Changes After 40)",
+    description: "Your body can absorb more protein per meal than you've been told. But how much it can use for muscle building is a different question — and the answer is higher for men over 40 than for younger men.",
+    pubDate: "2026-05-09"
   }
 ];   
