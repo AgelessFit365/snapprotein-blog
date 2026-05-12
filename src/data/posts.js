@@ -39,9 +39,9 @@ export const posts = [
   },
   {
     url: "/blog/protein-timing-after-40/",
-    title: "Does Protein Timing Matter After 40? (What Actually Makes a Difference)",
+    title: "Does Protein Timing Matter After 40? (What Actually Builds Muscle)",
     description: "Eat every 2 hours. Hit the anabolic window. Most of it is noise. Here's what actually matters for protein after 40 — ranked in order of impact.",
-    pubDate: "2026-04-07"
+    pubDate: "2026-04-20"
   },
   {
     url: "/blog/signs-not-enough-protein-after-50/",
