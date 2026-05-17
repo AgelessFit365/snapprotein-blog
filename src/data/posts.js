@@ -311,12 +311,7 @@ export const posts = [
     description: "The 30-30-30 rule is everywhere right now. 30g of protein, 30 minutes after waking, then 30 minutes of movement. Here's what the science actually says — and what smart men over 40 should do with it.",
     pubDate: "2026-05-03"
   },
-  {
-    url: "/blog/easiest-way-to-track-protein-after-40/",
-    title: "The Easiest Way to Track Protein After 40 (And Why Everything Else Feels Like a Second Job)",
-    description: "If tracking protein on MyFitnessPal feels exhausting, it's not you — it's the tool. Here's why men over 40 need a simpler system, and what actually works long-term.",
-    pubDate: "2026-05-03"
-  },
+  
   {
     url: "/blog/what-160g-protein-looks-like/",
     title: "What 160g of Protein Looks Like for Men Over 40 (Real Food, Not Supplements)",
