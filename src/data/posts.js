@@ -7,7 +7,7 @@ export const posts = [
   },
   {
     url: "/blog/best-exercises-prevent-muscle-loss-after-50/",
-    title: "Best Exercises to Prevent Muscle Loss After 50",
+    title: "7 Best Exercises to Prevent Muscle Loss After 50 (No Gym Required)",
     description: "Protein is lever one. Resistance training is lever two. Here are the specific exercises that preserve muscle after 50 — no gym required.",
     pubDate: "2026-04-14"
   },
