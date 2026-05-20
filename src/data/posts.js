@@ -157,7 +157,7 @@ export const posts = [
   },
   {
     url: "/blog/bmi-wrong-after-50/",
-    title: "BMI Is the Wrong Number After 50 (Here's What Actually Matters)",
+    title: "Why BMI Is Wrong for Men After 50 — And What to Track Instead",
     description: "BMI was invented in the 1830s by a mathematician — not a doctor. For men over 50, it misses the one thing that matters most: how much of your weight is muscle. Here's what to track instead.",
     pubDate: "2026-04-21"
   },
