@@ -556,6 +556,13 @@ export const frontmatter = {
     .me-total-protein { color: var(--green-light); font-size: 1rem; }
     .me-total-leucine { font-size: 0.78rem; color: rgba(255,255,255,0.5); margin-top: 2px; }
 
+    /* STRATEGY CARDS */
+    .strategy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 18px; margin: 28px 0 40px; }
+    .strategy-card { background: #fff; border: 1px solid var(--border); border-radius: 12px; padding: 22px 20px; }
+    .strategy-card .sc-num { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 800; font-size: 1.8rem; color: var(--green-light); line-height: 1; margin-bottom: 8px; }
+    .strategy-card h4 { font-family: 'Plus Jakarta Sans', sans-serif; font-weight: 700; font-size: 0.97rem; color: var(--charcoal); margin-bottom: 8px; }
+    .strategy-card p { font-size: 0.88rem; color: var(--muted); line-height: 1.6; margin: 0; }
+
     /* WARNING BOX */
     .warning-box {
       background: var(--amber-bg);
@@ -944,6 +951,26 @@ export const frontmatter = {
         <p><strong>Sarcopenia is the outcome.</strong> It's the measurable, progressive loss of muscle mass and strength that results — in large part — from anabolic resistance going unaddressed over years. By the time sarcopenia is clinically diagnosed, meaningful muscle tissue has already been lost.</p>
 
         <p>This is why the window between 40 and 60 matters so much. Anabolic resistance is present but not yet catastrophic. Intervention at this stage — more protein, smarter distribution, resistance training — can significantly slow or offset what would otherwise be an accelerating decline. The <a href="https://snapprotein.com/blog/sarcopenia-men-over-40/">sarcopenia deep dive</a> covers the timeline and downstream consequences in full.</p>
+
+        <h2>Three Ways to Overcome Anabolic Resistance</h2>
+
+        <div class="strategy-grid">
+          <div class="strategy-card">
+            <div class="sc-num">1</div>
+            <h4>Hit 30–40g of Complete Protein Per Meal</h4>
+            <p>This is the non-negotiable. Below 30g from complete protein sources, most men over 40 won't reliably clear the leucine threshold. Every meal needs a high-quality protein anchor — not a side serving.</p>
+          </div>
+          <div class="strategy-card">
+            <div class="sc-num">2</div>
+            <h4>Distribute Across 3–4 Meals — Not 1–2</h4>
+            <p>Each meal triggers an independent MPS episode lasting 4–5 hours. Missing a meal's threshold doesn't get compensated by eating more at dinner — that window is closed. Even distribution across the day means 3–4 threshold-clearing events daily.</p>
+          </div>
+          <div class="strategy-card">
+            <div class="sc-num">3</div>
+            <h4>Maintain Consistent Resistance Training</h4>
+            <p>Training preserves mTOR pathway sensitivity — making your muscles more responsive to the protein signal. Men who train regularly show significantly less severe anabolic resistance than sedentary peers at the same age.</p>
+          </div>
+        </div>
 
         <h2>What to Actually Do With This</h2>
 
