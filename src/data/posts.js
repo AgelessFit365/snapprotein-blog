@@ -192,12 +192,6 @@ export const posts = [
     pubDate: "2026-04-22"
   },
   {
-    url: "/blog/high-protein-breakfast-men-over-40/",
-    title: "High-Protein Breakfast for Men Over 40 (7 Options, No Cooking Required)",
-    description: "Breakfast is where most men over 40 lose the day before it starts. Here are 7 high-protein breakfasts that hit 30g+ — fast, repeatable, no cooking skill required.",
-    pubDate: "2026-04-22"
-  },
-  {
     url: "/blog/hard-to-hit-protein-goal-after-40/",
     title: "Why It's So Hard to Hit 120g of Protein After 40 (And How to Fix It)",
     description: "Most men over 40 know they need more protein. Most still aren't hitting it. Here's exactly why — and the specific fixes that actually work.",
@@ -214,12 +208,6 @@ export const posts = [
     title: "High-Protein Grocery List for Men Over 40 (The Short List That Actually Works)",
     description: "You don't need 50 foods to hit 120g of protein. You need the right 15. Here's the high-protein grocery list built for men over 40 — simple foods, real amounts, no guessing.",
     pubDate: "2026-04-26"
-  },
-  {
-    url: "/blog/best-time-to-eat-protein-after-40/",
-    title: "Best Time to Eat Protein After 40 (What Actually Matters vs. What Doesn't)",
-    description: "Forget the anabolic window. Forget eating every 2 hours. Here's what protein timing actually does after 40 — ranked by real impact, not gym mythology.",
-    pubDate: "2026-04-27"
   },
   {
     url: "/blog/protein-weight-loss-after-40/",
@@ -264,12 +252,6 @@ export const posts = [
     pubDate: "2026-05-01"
   },
   {
-    url: "/blog/anabolic-resistance-overcome-after-40/",
-    title: "How to Overcome Anabolic Resistance After 40 (The Leucine Threshold Explained)",
-    description: "After 40, your muscles stop responding to protein the way they used to. This isn't aging — it's anabolic resistance. Here's the science, the specific threshold that fixes it, and what to do about it.",
-    pubDate: "2026-05-02"
-  },
-  {
     url: "/blog/alcohol-muscle-loss-after-40/",
     title: "Alcohol and Muscle Loss After 40: What Two Drinks Actually Costs You",
     description: "You don't have to be a monk. But you should know the actual cost. Here's what alcohol does to muscle protein synthesis after 40 — and how to minimize the damage without giving up your social life.",
@@ -282,6 +264,12 @@ export const posts = [
     pubDate: "2026-05-03"
   },
   {
+    url: "/blog/high-protein-travel-men-over-40/",
+    title: "How to Hit Your Protein Goals While Traveling (Real-World Strategies for Men Over 40)",
+    description: "Traveling is where protein habits go to die. Airport food, hotel breakfasts, client dinners — here's how to hit your number on the road without overthinking it.",
+    pubDate: "2026-04-30"
+  },
+  {
     url: "/blog/creatine-for-men-over-40/",
     title: "Creatine for Men Over 40: What It Does, What It Doesn't, and What Most Guys Get Wrong",
     description: "Creatine is one of the most research-backed supplements available. But for men over 40 under-eating protein, it's solving the wrong problem first.",
@@ -291,12 +279,6 @@ export const posts = [
     url: "/blog/protein-before-bed-men-over-40/",
     title: "Should You Eat Protein Before Bed? What Men Over 40 Need to Know",
     description: "For decades, experts told us not to eat after 7pm. That advice made sense once — but it wasn't designed for men over 40 trying to hold onto muscle. Here's what actually happens while you sleep.",
-    pubDate: "2026-05-03"
-  },
-  {
-    url: "/blog/protein-while-traveling-men-over-40/",
-    title: "How to Hit Your Protein Goals While Traveling (Real-World Strategies for Men Over 40)",
-    description: "Travel doesn't have to derail your protein intake. Here's how men over 40 stay on track at restaurants, hotels, and airports — without meal prep or becoming 'that guy.'",
     pubDate: "2026-05-03"
   },
   {
