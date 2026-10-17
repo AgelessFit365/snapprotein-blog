@@ -43,7 +43,7 @@ export const frontmatter = {
         "name": "How much protein do men over 40 need per day?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight daily — roughly 0.54g per pound. For a 180-pound man, that's about 97g per day. This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age."
+          "text": "Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight daily — roughly 0.54g per pound. For a 180-pound man, that's about 97g per day — or about 130g if he lifts (1.6g/kg, roughly 0.7g per pound). This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age."
         }
       },
       {
@@ -288,6 +288,14 @@ export const frontmatter = {
       margin-bottom: 0.25rem;
     }
     .output-daily span { color: var(--green-light); }
+    .output-lift {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+      font-weight: 700;
+      font-size: 1.15rem;
+      color: #fff;
+      margin-bottom: 0.5rem;
+    }
+    .output-lift span { color: var(--green-light); }
     .output-meals {
       font-size: 1rem;
       color: rgba(255,255,255,0.8);
@@ -484,7 +492,7 @@ export const frontmatter = {
       <div class="quick-answer-label">The Short Answer</div>
       <ul>
         <li>Most calculators use 0.8g/kg — the RDA, designed to prevent deficiency, not preserve muscle</li>
-        <li>Men over 40 need 1.2g/kg due to a process called anabolic resistance</li>
+        <li>Men over 40 need at least 1.2g/kg due to a process called anabolic resistance — and about 1.6g/kg if they lift</li>
         <li>For a 180-lb man, that's ~98g/day — not the 65g most calculators give you</li>
         <li>Spreading that across 4 meals at ~30g each is the most effective way to hit it</li>
       </ul>
@@ -521,7 +529,8 @@ export const frontmatter = {
       </div>
 
       <div class="calc-output" id="calc-output">
-        <div class="output-daily">Your target: <span id="output-daily-num">—</span>g/day</div>
+        <div class="output-daily">Your floor: <span id="output-daily-num">—</span>g/day</div>
+        <div class="output-lift">If you lift or are losing weight: <span id="output-lift-num">—</span>g/day</div>
         <div class="output-meals" id="output-meals">—</div>
         <div class="output-divider"></div>
         <div class="output-insight" id="output-insight">—</div>
@@ -538,7 +547,7 @@ export const frontmatter = {
 
     <p>After 40, a process called <strong>anabolic resistance</strong> sets in. Your muscles become less efficient at using the protein you eat to build and repair tissue. The response: you need more protein per meal — and more total protein per day — to get the same muscle-preserving effect you'd have gotten easily at 30.</p>
 
-    <p>Research consistently points to 1.2–1.6g/kg as the appropriate range for older adults focused on muscle preservation. This calculator uses 1.2g/kg — the conservative end of that range — as your daily baseline. It's the number most frequently cited in the literature, and it's the number that makes a practical difference.</p>
+    <p>Research consistently points to 1.2–1.6g/kg as the appropriate range for older adults focused on muscle preservation. This calculator gives you both ends: 1.2g/kg (about 0.55g per pound) as your daily floor for protecting muscle, and 1.6g/kg (about 0.7g per pound) if you lift or are losing weight — the point where the largest meta-analysis on protein and strength training found muscle gains level off. The gym-floor "1 gram per pound" (2.2g/kg) is safe for healthy men, but it's a ceiling, not a requirement.</p>
 
     <h2>What the Numbers Look Like by Weight</h2>
 
@@ -547,8 +556,9 @@ export const frontmatter = {
         <tr>
           <th>Your Weight</th>
           <th>RDA Target (0.8g/kg)</th>
-          <th>40+ Target (1.2g/kg)</th>
-          <th>The Gap</th>
+          <th>40+ Floor (1.2g/kg)</th>
+          <th>If You Lift (1.6g/kg)</th>
+          <th>Floor vs. RDA</th>
         </tr>
       </thead>
       <tbody>
@@ -556,30 +566,35 @@ export const frontmatter = {
           <td>150 lbs</td>
           <td>54g/day</td>
           <td><strong>82g/day</strong></td>
+          <td>109g/day</td>
           <td>+28g</td>
         </tr>
         <tr>
           <td>170 lbs</td>
           <td>62g/day</td>
           <td><strong>93g/day</strong></td>
+          <td>123g/day</td>
           <td>+31g</td>
         </tr>
         <tr>
           <td>185 lbs</td>
           <td>67g/day</td>
           <td><strong>101g/day</strong></td>
+          <td>134g/day</td>
           <td>+34g</td>
         </tr>
         <tr>
           <td>200 lbs</td>
           <td>72g/day</td>
           <td><strong>109g/day</strong></td>
+          <td>145g/day</td>
           <td>+37g</td>
         </tr>
         <tr>
           <td>220 lbs</td>
           <td>80g/day</td>
           <td><strong>120g/day</strong></td>
+          <td>160g/day</td>
           <td>+40g</td>
         </tr>
       </tbody>
@@ -611,7 +626,7 @@ export const frontmatter = {
 
       <div class="faq-item">
         <div class="faq-q">How much protein do men over 40 need per day?</div>
-        <div class="faq-a">Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight — roughly 0.54g per pound. For a 180-pound man, that's about 98g per day. This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age.</div>
+        <div class="faq-a">Men over 40 should target approximately 1.2g of protein per kilogram of bodyweight — roughly 0.54g per pound. For a 180-pound man, that's about 98g per day — or about 130g if he lifts (1.6g/kg, roughly 0.7g per pound). This is significantly higher than the outdated RDA of 0.8g/kg, which was designed to prevent deficiency, not preserve muscle as you age.</div>
       </div>
 
       <div class="faq-item">
@@ -643,7 +658,7 @@ export const frontmatter = {
     <p style="margin-top:0.5rem;">Content is for informational purposes only and does not constitute medical advice.</p>
   </footer>
 
-  <script>
+  <script is:inline>
     function calculateProtein() {
       var input = document.getElementById('weight-input');
       var output = document.getElementById('calc-output');
@@ -658,11 +673,14 @@ export const frontmatter = {
       // 1.2g/kg — convert lbs to kg first (divide by 2.205)
       var kg = weight / 2.205;
       var daily = Math.round(kg * 1.2);
+      // 1.6g/kg — where muscle gains level off for lifters (Morton 2018)
+      var lift = Math.round(kg * 1.6);
       var perMeal = Math.round(daily / 4);
       var perMealHigh = perMeal + 2;
 
       // Output elements
       document.getElementById('output-daily-num').textContent = daily;
+      document.getElementById('output-lift-num').textContent = lift;
       document.getElementById('output-meals').textContent =
         'That\'s roughly 4 meals × ' + perMeal + '–' + perMealHigh + 'g each';
 
