@@ -383,5 +383,11 @@ export const posts = [
     title: "How Much Protein Can Your Body Absorb in One Meal? (The Answer Changes After 40)",
     description: "Your body can absorb more protein per meal than you've been told. But how much it can use for muscle building is a different question — and the answer is higher for men over 40 than for younger men.",
     pubDate: "2026-05-09"
+  },
+  {
+    url: "/blog/plant-vs-animal-protein-after-50/",
+    title: "Plant vs. Animal Protein After 50: What Two New Studies Actually Show",
+    description: "Two 2026 trials tested plant-based diets in adults over 55. Here's what happened to their protein and muscle — and how to plan your protein if you eat more plants.",
+    pubDate: "2026-10-16"
   }
-];   
+];
