@@ -128,7 +128,7 @@ export const posts = [
   {
     url: "/blog/protein-tracker-no-barcode-scanner/",
     title: "Protein Tracker Without a Barcode Scanner (Why That's Actually Better After 40)",
-    description: "Barcode scanning sounds convenient. In practice, it's the reason most men over 40 quit tracking within two weeks. Here's a better way.",
+    description: "Barcode scanning sounds convenient. But a barcode tells you what's in the package, not how much you ate. For men who eat real, home-cooked food, here's a faster way to track protein.",
     pubDate: "2026-04-19"
   },
   {
