@@ -248,7 +248,7 @@ export const posts = [
   {
     url: "/blog/sore-after-workout-men-over-40/",
     title: "Why You're Sore for 3 Days After a Workout (It's Not Just Your Age)",
-    description: "Lingering soreness after 40 isn't an inevitable sign of aging — it's usually a protein problem. Here's the biology behind slow recovery and what actually fixes it.",
+    description: "Lingering soreness after 40 usually isn't your age. Research shows older men don't get more sore than younger men. Here's what really causes 3-day soreness, what speeds recovery, and where protein fits.",
     pubDate: "2026-05-01"
   },
   {
